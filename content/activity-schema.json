@@ -1,0 +1,149 @@
+{
+  "title": "Схема данных для активности",
+  "description": "Структура JSON объекта для каждой активности в приложении",
+  "version": "1.0",
+  "schema": {
+    "activity": {
+      "id": {
+        "type": "string",
+        "description": "Уникальный идентификатор активности",
+        "format": "category_number",
+        "example": "creativity_001"
+      },
+      "title": {
+        "type": "string",
+        "description": "Название активности",
+        "max_length": 100,
+        "example": "Полоса препятствий"
+      },
+      "category": {
+        "type": "string",
+        "description": "Категория активности",
+        "enum": [
+          "active_games",
+          "creativity", 
+          "learn_new",
+          "cooking",
+          "gifts",
+          "experiments",
+          "reading_stories"
+        ]
+      },
+      "age_groups": {
+        "type": "array",
+        "description": "Подходящие возрастные группы",
+        "items": {
+          "type": "string",
+          "enum": ["3-5", "6-8", "9-12", "13-16", "17+", "adult"]
+        },
+        "example": ["3-5", "6-8"]
+      },
+      "duration_minutes": {
+        "type": "integer",
+        "description": "Длительность в минутах",
+        "minimum": 5,
+        "maximum": 180,
+        "example": 15
+      },
+      "difficulty": {
+        "type": "string",
+        "description": "Уровень сложности",
+        "enum": ["easy", "medium", "hard"],
+        "default": "easy"
+      },
+      "materials": {
+        "type": "array",
+        "description": "Необходимые материалы",
+        "items": {
+          "type": "string",
+          "max_length": 50
+        },
+        "example": ["стулья", "табуретки", "подушки"]
+      },
+      "instructions": {
+        "type": "array",
+        "description": "Пошаговые инструкции",
+        "items": {
+          "type": "string",
+          "max_length": 200
+        },
+        "min_items": 3,
+        "max_items": 8,
+        "example": [
+          "Поставь предметы мебели в ряд друг за другом",
+          "Попробуй пройти по ним. Будь аккуратен. Попроси подстраховать тебя, если не уверен",
+          "Можно усложнить: под некоторыми предметами надо проползти. Другие, которые поменьше, перепрыгнуть",
+          "Используй свою фантазию на полную: может, в конце твоей полосы препятствий тебя ждет принцесса, которую надо спасти от дракона? Или ты пробираешься по джунглям, чтобы вызволить бедных животных из клеток, в которые их посадили браконьеры?"
+        ]
+      },
+      "skills_developed": {
+        "type": "array",
+        "description": "Развиваемые навыки",
+        "items": {
+          "type": "string"
+        },
+        "example": ["крупная моторика", "творческое мышление", "равновесие", "фантазия"]
+      },
+      "season": {
+        "type": "string",
+        "description": "Подходящий сезон",
+        "enum": ["spring", "summer", "autumn", "winter", "any"],
+        "default": "any"
+      },
+      "location": {
+        "type": "string", 
+        "description": "Место проведения",
+        "enum": ["indoor", "outdoor", "any"],
+        "default": "indoor"
+      },
+      "premium": {
+        "type": "boolean",
+        "description": "Премиум контент",
+        "default": false
+      },
+      "tags": {
+        "type": "array",
+        "description": "Теги для поиска",
+        "items": {
+          "type": "string"
+        },
+        "example": ["движение". "активные игры"]
+      },
+      "rating": {
+        "type": "number",
+        "description": "Средний рейтинг",
+        "minimum": 0,
+        "maximum": 5,
+        "default": 0
+      },
+      "times_completed": {
+        "type": "integer",
+        "description": "Количество выполнений",
+        "minimum": 0,
+        "default": 0
+      }
+    }
+  },
+  "example_activity": {
+    "id": "creativity_001",
+    "title": "Полоса препятствий",
+    "category": "creativity",
+    "age_groups": ["3-5", "6-8"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["стулья", "табуретки", "подушки"],
+    "instructions": [
+        "Поставь предметы мебели в ряд друг за другом",
+        "Попробуй пройти по ним. Будь аккуратен. Попроси подстраховать тебя, если не уверен",
+        "Можно усложнить: под некоторыми предметами надо проползти. Другие, которые поменьше, перепрыгнуть",
+        "Используй свою фантазию на полную: может, в конце твоей полосы препятствий тебя ждет принцесса, которую надо спасти от дракона? Или ты пробираешься по джунглям, чтобы вызволить бедных животных из клеток, в которые их посадили браконьеры?"
+        ],
+    "skills_developed": ["крупная моторика", "творческое мышление", "равновесие", "фантазия"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["движение". "активные игры"],
+    "rating": 0,
+    "times_completed": 0
+  }
+} 
