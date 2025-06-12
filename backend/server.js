@@ -469,11 +469,7 @@ ${activity.instructions.map((inst, i) => `${i + 1}. ${inst}`).join('\n')}
 async function startServer() {
   await connectToDatabase();
   
-  app.listen(PORT, '127.0.0.1', () => {
-    async function startServer() {
-  await connectToDatabase();
-  
-  app.listen(PORT, '127.0.0.1', () => {
+  app.listen(PORT, '0.0.0.0', () => {
     console.log('🗄️ Database: MongoDB Atlas connected');
     console.log('📊 API Endpoints:');
     console.log('   === ACTIVITIES ===');
@@ -493,13 +489,17 @@ async function startServer() {
     console.log('   - GET /api/stats');
     console.log('🎯 "Мама, мне скучно!" - Backend API');
     console.log('🌟 Тысяча и одна идея против скуки!');
-    console.log('🚀 Server running on http://127.0.0.1:3000');
-    console.log('🗄️ Database: MongoDB Atlas connected');
+    console.log(`🚀 Server running on port ${PORT}`);
     console.log('🤖 Bot: @ne_skuchno_bot');
     console.log('📊 API готов для Telegram Mini App');
     console.log('Ready for testing!');
   });
 }
+
+startServer().catch(error => {
+  console.error('❌ Failed to start server:', error);
+  process.exit(1);
+});
 
 startServer().catch(error => {
   console.error('❌ Failed to start server:', error);
