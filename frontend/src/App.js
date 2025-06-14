@@ -124,7 +124,7 @@ function App() {
             onBack={handleBack}
             onStartOver={handleStartOver}
           />
-        )
+        )}
         
         {/* Debug info */}
         <div style={{ 
