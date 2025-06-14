@@ -3,344 +3,259 @@ import React, { useState } from 'react';
 const ActivityDetails = ({ activity, onBack, onStartOver }) => {
   const [rating, setRating] = useState(0);
   const [hasRated, setHasRated] = useState(false);
-  const [isFavorite, setIsFavorite] = useState(false);
 
-  const getDurationText = (minutes) => {
-    if (minutes <= 20) return `${minutes} минут`;
-    if (minutes <= 45) return `${minutes} минут`;
-    return `${Math.round(minutes / 60 * 10) / 10} часа`;
-  };
-
-  const getDifficultyEmoji = (difficulty) => {
-    switch (difficulty) {
-      case 'easy': return '😊';
-      case 'medium': return '🤔'; 
-      case 'hard': return '😤';
-      default: return '😊';
-    }
-  };
-
-  const getDifficultyText = (difficulty) => {
-    switch (difficulty) {
-      case 'easy': return 'Легко';
-      case 'medium': return 'Средне';
-      case 'hard': return 'Сложно';
-      default: return 'Легко';
-    }
-  };
-
-  const handleRating = async (newRating) => {
+  const handleRating = (newRating) => {
     if (hasRated) return;
-    
     setRating(newRating);
     setHasRated(true);
-    
-    // Здесь будет вызов API
-    console.log('Rating activity:', activity.id, newRating);
+    // Здесь можно добавить отправку рейтинга на сервер
   };
 
-  const handleAddToFavorites = () => {
-    setIsFavorite(!isFavorite);
-    console.log('Toggle favorite:', activity.id);
-  };
+  if (!activity) {
+    return (
+      <div className="details-screen">
+        <div style={{
+          background: 'rgba(255, 255, 255, 0.05)',
+          backdropFilter: 'blur(10px)',
+          border: '1px solid rgba(255, 255, 255, 0.1)',
+          borderRadius: '16px',
+          padding: '40px 20px',
+          textAlign: 'center'
+        }}>
+          <div style={{ fontSize: '48px', marginBottom: '16px' }}>😔</div>
+          <div style={{ color: '#ffffff', fontSize: '18px' }}>
+            Активность не найдена
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
-    <div style={{ padding: '20px', paddingBottom: '100px' }}>
+    <div className="details-screen">
       {/* Header */}
       <div style={{ 
         display: 'flex', 
         alignItems: 'center', 
-        justifyContent: 'space-between',
-        marginBottom: '20px'
+        marginBottom: '24px' 
       }}>
-        <button 
+        <div 
+          className="back-button"
           onClick={onBack}
-          style={{
-            background: 'transparent',
-            border: 'none',
-            fontSize: '20px',
-            cursor: 'pointer',
-            color: '#40a7e3'
-          }}
+          style={{ marginRight: '16px' }}
         >
           ←
-        </button>
-        <h1 style={{ 
-          fontSize: '18px', 
-          fontWeight: 'bold', 
-          margin: 0,
-          textAlign: 'center',
-          flex: 1,
-          paddingRight: '24px'
+        </div>
+        <h1 className="section-title" style={{ 
+          fontSize: '20px', 
+          margin: '0',
+          textAlign: 'left'
         }}>
           {activity.title}
         </h1>
       </div>
 
-      {/* Основная информация */}
+      {/* Activity Info */}
       <div style={{
-        background: '#f8f9fa',
+        background: 'rgba(255, 255, 255, 0.05)',
+        backdropFilter: 'blur(10px)',
+        border: '1px solid rgba(255, 255, 255, 0.1)',
         borderRadius: '16px',
         padding: '20px',
-        marginBottom: '20px'
+        marginBottom: '16px'
       }}>
         <div style={{ 
           display: 'flex', 
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          marginBottom: '12px'
+          justifyContent: 'space-between', 
+          alignItems: 'center' 
         }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <span style={{ fontSize: '20px' }}>⏰</span>
-            <span style={{ fontWeight: '500' }}>
-              {getDurationText(activity.duration_minutes)}
-            </span>
-          </div>
-          
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <span style={{ fontSize: '16px' }}>
-              {getDifficultyEmoji(activity.difficulty)}
-            </span>
-            <span style={{ fontSize: '14px', color: '#666' }}>
-              {getDifficultyText(activity.difficulty)}
-            </span>
-          </div>
+          {activity.duration && (
+            <div style={{ color: 'rgba(255, 255, 255, 0.8)' }}>
+              ⏱️ {activity.duration} минут
+            </div>
+          )}
+          {activity.difficulty && (
+            <div style={{ color: 'rgba(255, 255, 255, 0.8)' }}>
+              📊 {getDifficultyText(activity.difficulty)}
+            </div>
+          )}
         </div>
-
-        {activity.age_groups && activity.age_groups.length > 0 && (
-          <div style={{ fontSize: '14px', color: '#666' }}>
-            👶 Возраст: {activity.age_groups.join(', ')} лет
-          </div>
-        )}
       </div>
 
-      {/* Материалы */}
-      {activity.materials && activity.materials.length > 0 && (
+      {/* Description */}
+      {activity.description && (
         <div style={{
-          background: '#fff5f5',
+          background: 'rgba(255, 255, 255, 0.05)',
+          backdropFilter: 'blur(10px)',
+          border: '1px solid rgba(255, 255, 255, 0.1)',
           borderRadius: '16px',
           padding: '20px',
-          marginBottom: '20px',
-          borderLeft: '4px solid #ff6b6b'
+          marginBottom: '16px'
         }}>
           <h3 style={{ 
-            fontWeight: '600', 
-            marginBottom: '12px',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '8px',
-            margin: '0 0 12px 0'
+            color: '#e2bd48', 
+            marginBottom: '12px', 
+            fontSize: '16px',
+            fontWeight: '600'
           }}>
-            📋 Что понадобится:
+            📝 Описание:
           </h3>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+          <div style={{
+            color: 'rgba(255, 255, 255, 0.8)',
+            fontSize: '15px',
+            lineHeight: '1.5'
+          }}>
+            {activity.description}
+          </div>
+        </div>
+      )}
+
+      {/* Materials */}
+      {activity.materials && activity.materials.length > 0 && (
+        <div style={{
+          background: 'rgba(255, 255, 255, 0.05)',
+          backdropFilter: 'blur(10px)',
+          border: '1px solid rgba(255, 255, 255, 0.1)',
+          borderRadius: '16px',
+          padding: '20px',
+          marginBottom: '16px'
+        }}>
+          <h3 style={{ 
+            color: '#e2bd48', 
+            marginBottom: '12px', 
+            fontSize: '16px',
+            fontWeight: '600'
+          }}>
+            🛠️ Материалы:
+          </h3>
+          <div style={{
+            color: 'rgba(255, 255, 255, 0.8)',
+            fontSize: '15px',
+            lineHeight: '1.7'
+          }}>
             {activity.materials.map((material, index) => (
-              <div key={index} style={{ 
-                display: 'flex', 
-                alignItems: 'center', 
-                gap: '8px' 
-              }}>
-                <span style={{ color: '#ff6b6b', fontWeight: 'bold' }}>•</span>
-                <span style={{ fontSize: '15px' }}>{material}</span>
+              <div key={index} style={{ marginBottom: '4px' }}>
+                • {material}
               </div>
             ))}
           </div>
         </div>
       )}
 
-      {/* Инструкции */}
-      <div style={{
-        background: '#f0f9ff',
-        borderRadius: '16px',
-        padding: '20px',
-        marginBottom: '20px',
-        borderLeft: '4px solid #40a7e3'
-      }}>
-        <h3 style={{ 
-          fontWeight: '600',
-          margin: '0 0 16px 0',
-          display: 'flex',
-          alignItems: 'center',
-          gap: '8px'
-        }}>
-          📝 Как делать:
-        </h3>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-          {activity.instructions && activity.instructions.map((instruction, index) => (
-            <div key={index} style={{ display: 'flex', gap: '12px' }}>
-              <span style={{
-                background: '#40a7e3',
-                color: 'white',
-                borderRadius: '50%',
-                width: '24px',
-                height: '24px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontSize: '12px',
-                fontWeight: 'bold',
-                flexShrink: 0,
-                marginTop: '2px'
-              }}>
-                {index + 1}
-              </span>
-              <span style={{ 
-                fontSize: '15px',
-                lineHeight: '1.5',
-                flex: 1
-              }}>
-                {instruction}
-              </span>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Что развивает */}
-      {activity.skills_developed && activity.skills_developed.length > 0 && (
+      {/* Instructions */}
+      {activity.instructions && activity.instructions.length > 0 && (
         <div style={{
-          background: '#f0fff4',
+          background: 'rgba(255, 255, 255, 0.05)',
+          backdropFilter: 'blur(10px)',
+          border: '1px solid rgba(255, 255, 255, 0.1)',
           borderRadius: '16px',
           padding: '20px',
-          marginBottom: '20px',
-          borderLeft: '4px solid #4ecdc4'
+          marginBottom: '16px'
         }}>
           <h3 style={{ 
-            fontWeight: '600',
-            margin: '0 0 12px 0',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '8px'
+            color: '#e2bd48', 
+            marginBottom: '12px', 
+            fontSize: '16px',
+            fontWeight: '600'
           }}>
-            💡 Что развивает:
+            📋 Инструкции:
           </h3>
-          <div style={{ 
-            display: 'flex', 
-            flexWrap: 'wrap', 
-            gap: '8px' 
+          <div style={{
+            color: 'rgba(255, 255, 255, 0.8)',
+            fontSize: '15px',
+            lineHeight: '1.7'
           }}>
-            {activity.skills_developed.map((skill, index) => (
-              <span 
-                key={index}
-                style={{
-                  background: 'rgba(78, 205, 196, 0.2)',
-                  color: '#2d7a6e',
-                  fontSize: '14px',
-                  padding: '6px 12px',
-                  borderRadius: '12px',
-                  fontWeight: '500'
-                }}
-              >
-                {skill}
-              </span>
+            {activity.instructions.map((instruction, index) => (
+              <div key={index} style={{ 
+                marginBottom: '8px',
+                display: 'flex',
+                gap: '12px'
+              }}>
+                <span style={{ 
+                  color: '#e2bd48',
+                  fontWeight: '600',
+                  minWidth: '20px'
+                }}>
+                  {index + 1}.
+                </span>
+                <span>{instruction}</span>
+              </div>
             ))}
           </div>
         </div>
       )}
 
-      {/* Оценка */}
+      {/* Rating */}
       <div style={{
-        background: '#fffbf0',
+        background: 'rgba(255, 255, 255, 0.05)',
+        backdropFilter: 'blur(10px)',
+        border: '1px solid rgba(255, 255, 255, 0.1)',
         borderRadius: '16px',
         padding: '20px',
-        marginBottom: '20px',
-        borderLeft: '4px solid #f7dc6f'
+        marginBottom: '16px',
+        textAlign: 'center'
       }}>
         <h3 style={{ 
-          fontWeight: '600',
-          margin: '0 0 12px 0'
+          color: '#e2bd48', 
+          marginBottom: '16px', 
+          fontSize: '16px',
+          fontWeight: '600'
         }}>
           ⭐ Понравилось?
         </h3>
         
         {!hasRated ? (
-          <div style={{ 
-            display: 'flex', 
-            justifyContent: 'center', 
-            gap: '8px' 
-          }}>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '8px' }}>
             {[1, 2, 3, 4, 5].map((star) => (
               <button
                 key={star}
                 onClick={() => handleRating(star)}
                 style={{
-                  background: 'transparent',
+                  background: 'none',
                   border: 'none',
-                  fontSize: '32px',
+                  fontSize: '24px',
                   cursor: 'pointer',
-                  transition: 'transform 0.1s',
-                  padding: '4px'
+                  color: star <= rating ? '#e2bd48' : 'rgba(255, 255, 255, 0.3)',
+                  transition: 'all 0.2s ease'
                 }}
-                onMouseDown={(e) => e.target.style.transform = 'scale(1.2)'}
-                onMouseUp={(e) => e.target.style.transform = 'scale(1)'}
+                onMouseEnter={(e) => e.target.style.transform = 'scale(1.2)'}
                 onMouseLeave={(e) => e.target.style.transform = 'scale(1)'}
               >
-                {star <= rating ? '⭐' : '☆'}
+                ★
               </button>
             ))}
           </div>
         ) : (
-          <div style={{ 
-            textAlign: 'center',
-            fontSize: '16px',
-            color: '#666'
-          }}>
-            Спасибо за оценку! {Array(rating).fill('⭐').join('')}
+          <div style={{ color: 'rgba(255, 255, 255, 0.8)' }}>
+            Спасибо за оценку! 🎉
           </div>
         )}
       </div>
 
-      {/* Действия */}
-      <div style={{ 
-        position: 'fixed',
-        bottom: '20px',
-        left: '50%',
-        transform: 'translateX(-50%)',
-        width: 'calc(100% - 40px)',
-        maxWidth: '360px',
-        display: 'flex',
-        flexDirection: 'column',
-        gap: '12px'
-      }}>
-        <button 
-          onClick={handleAddToFavorites}
-          style={{
-            background: isFavorite ? '#4ecdc4' : '#f1f1f1',
-            color: isFavorite ? 'white' : '#333',
-            border: 'none',
-            padding: '12px 20px',
-            borderRadius: '12px',
-            cursor: 'pointer',
-            fontWeight: '500',
-            fontSize: '16px',
-            transition: 'all 0.2s'
-          }}
-        >
-          {isFavorite ? '✅ В избранном' : '💾 Сохранить в избранное'}
-        </button>
-        
-        <button 
-          onClick={onStartOver}
-          style={{
-            background: '#40a7e3',
-            color: 'white',
-            border: 'none',
-            padding: '14px 20px',
-            borderRadius: '12px',
-            cursor: 'pointer',
-            fontWeight: '600',
-            fontSize: '16px',
-            transition: 'transform 0.2s'
-          }}
-          onMouseDown={(e) => e.target.style.transform = 'scale(0.98)'}
-          onMouseUp={(e) => e.target.style.transform = 'scale(1)'}
-          onMouseLeave={(e) => e.target.style.transform = 'scale(1)'}
-        >
-          🎯 Попробовать еще!
-        </button>
+      {/* Actions */}
+      <button 
+        className="button-primary"
+        onClick={onStartOver}
+        style={{ marginBottom: '20px' }}
+      >
+        🎯 Найти еще идеи
+      </button>
+      
+      <div className="bottom-hint">
+        🌟 Поделись результатом с друзьями!
       </div>
     </div>
   );
+};
+
+// Вспомогательная функция
+const getDifficultyText = (difficulty) => {
+  const difficultyMap = {
+    'easy': 'Легко',
+    'medium': 'Средне',
+    'hard': 'Сложно'
+  };
+  return difficultyMap[difficulty] || 'Неизвестно';
 };
 
 export default ActivityDetails;

@@ -10,8 +10,7 @@ export const AGE_GROUPS = [
   { id: '6-8', title: '6-8 лет', emoji: '🧒', description: 'Младшие школьники' },
   { id: '9-12', title: '9-12 лет', emoji: '👦', description: 'Средние школьники' },
   { id: '13-16', title: '13-16 лет', emoji: '👨‍🎓', description: 'Подростки' },
-  { id: '17+', title: '17+ лет', emoji: '👨', description: 'Старшие подростки' },
-  { id: 'adult', title: 'Взрослый', emoji: '👨‍💼', description: 'Для родителей' }
+  { id: '17+', title: '18+ лет', emoji: '👨', description: 'Старшие подростки' },
 ];
 
 export const CATEGORIES = [
