@@ -65,62 +65,63 @@ function App() {
   };
 
   return (
+  <div style={{ 
+    minHeight: '100vh', 
+    maxWidth: '400px', 
+    margin: '0 auto',
+    background: 'linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%)',
+    color: '#ffffff',
+    fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif'
+  }}>
+    {step === STEPS.AGE && (
+      <AgeSelector 
+        onSelect={handleAgeSelect}
+      />
+    )}
+    
+    {step === STEPS.CATEGORY && (
+      <CategorySelector 
+        selectedAge={selectedAge}
+        onSelect={handleCategorySelect}
+        onBack={handleBack}
+      />
+    )}
+    
+    {step === STEPS.RESULTS && (
+      <ActivityList 
+        activities={activities}
+        selectedAge={selectedAge}
+        selectedCategory={selectedCategory}
+        onActivitySelect={handleActivitySelect}
+        onBack={handleBack}
+        onStartOver={handleStartOver}
+        loading={loading}
+      />
+    )}
+    
+    {step === STEPS.DETAILS && selectedActivity && (
+      <ActivityDetails 
+        activity={selectedActivity}
+        onBack={handleBack}
+        onStartOver={handleStartOver}
+      />
+    )}
+    
+    {/* Debug info */}
     <div style={{ 
-      minHeight: '100vh', 
-      maxWidth: '400px', 
-      margin: '0 auto',
-      background: '#ffffff'
+      position: 'fixed',
+      bottom: '10px',
+      left: '10px',
+      fontSize: '10px',
+      color: '#888',
+      background: 'rgba(0,0,0,0.7)',
+      padding: '4px 8px',
+      borderRadius: '4px',
+      border: '1px solid #333'
     }}>
-      {step === STEPS.AGE && (
-        <AgeSelector 
-          onSelect={handleAgeSelect}
-        />
-      )}
-      
-      {step === STEPS.CATEGORY && (
-        <CategorySelector 
-          selectedAge={selectedAge}
-          onSelect={handleCategorySelect}
-          onBack={handleBack}
-        />
-      )}
-      
-      {step === STEPS.RESULTS && (
-        <ActivityList 
-          activities={activities}
-          selectedAge={selectedAge}
-          selectedCategory={selectedCategory}
-          onActivitySelect={handleActivitySelect}
-          onBack={handleBack}
-          onStartOver={handleStartOver}
-          loading={loading}
-        />
-      )}
-      
-      {step === STEPS.DETAILS && selectedActivity && (
-        <ActivityDetails 
-          activity={selectedActivity}
-          onBack={handleBack}
-          onStartOver={handleStartOver}
-        />
-      )}
-      
-      {/* Debug info */}
-      <div style={{ 
-        position: 'fixed',
-        bottom: '10px',
-        left: '10px',
-        fontSize: '10px',
-        color: '#999',
-        background: 'rgba(255,255,255,0.9)',
-        padding: '4px 8px',
-        borderRadius: '4px',
-        border: '1px solid #eee'
-      }}>
-        {step} | {selectedAge} | {selectedCategory} | {activities.length} активностей
-      </div>
+      {step} | {selectedAge} | {selectedCategory} | {activities.length} активностей
     </div>
-  );
-}
+  </div>
+);
 
 export default App;
