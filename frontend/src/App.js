@@ -65,83 +65,47 @@ function App() {
   };
 
   return (
-    <>
-      {/* Добавляем фоновые геометрические фигуры */}
-      <div className="background-shapes">
-        <div className="shape triangle triangle-1"></div>
-        <div className="shape triangle triangle-2"></div>
-        <div className="shape square square-1"></div>
-        <div className="shape square square-2"></div>
-        <div className="shape circle circle-1"></div>
-        <div className="shape circle circle-2"></div>
-        <div className="shape diamond diamond-1"></div>
-        <div className="shape diamond diamond-2"></div>
-        <div className="shape pentagon pentagon-1"></div>
-        <div className="shape pentagon pentagon-2"></div>
-      </div>
-
-      {/* Ваш существующий контейнер с небольшими изменениями */}
-      <div className="app-container" style={{ 
-        minHeight: '100vh', 
-        maxWidth: '400px', 
-        margin: '0 auto',
-        background: 'linear-gradient(135deg, #081a26 0%, #0a1d2e 25%, #0f2235 50%, #162a3c 75%, #1a2f42 100%)',
-        color: '#ffffff',
-        fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-        padding: '20px',
-        position: 'relative',
-        zIndex: 10
-      }}>
-        {step === STEPS.AGE && (
-          <AgeSelector 
-            onSelect={handleAgeSelect}
-          />
-        )}
-        
-        {step === STEPS.CATEGORY && (
-          <CategorySelector 
-            selectedAge={selectedAge}
-            onSelect={handleCategorySelect}
-            onBack={handleBack}
-          />
-        )}
-        
-        {step === STEPS.RESULTS && (
-          <ActivityList 
-            activities={activities}
-            selectedAge={selectedAge}
-            selectedCategory={selectedCategory}
-            onActivitySelect={handleActivitySelect}
-            onBack={handleBack}
-            onStartOver={handleStartOver}
-            loading={loading}
-          />
-        )}
-        
-        {step === STEPS.DETAILS && selectedActivity && (
-          <ActivityDetails 
-            activity={selectedActivity}
-            onBack={handleBack}
-            onStartOver={handleStartOver}
-          />
-        )}
-        
-        {/* Debug info */}
-        <div style={{ 
-          position: 'fixed',
-          bottom: '10px',
-          left: '10px',
-          fontSize: '10px',
-          color: '#888',
-          background: 'rgba(0,0,0,0.7)',
-          padding: '4px 8px',
-          borderRadius: '4px',
-          border: '1px solid #333'
-        }}>
-          {step} | {selectedAge} | {selectedCategory} | {activities.length} активностей
-        </div>
-      </div>
-    </>
+    <div className="app-container" style={{ 
+      minHeight: '100vh', 
+      maxWidth: '400px', 
+      margin: '0 auto',
+      background: 'linear-gradient(135deg, #081a26 0%, #0a1d2e 25%, #0f2235 50%, #162a3c 75%, #1a2f42 100%)',
+      color: '#ffffff',
+      fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+      padding: '20px'
+    }}>
+      {step === STEPS.AGE && (
+        <AgeSelector onSelect={handleAgeSelect} />
+      )}
+      
+      {step === STEPS.CATEGORY && (
+        <CategorySelector 
+          selectedAge={selectedAge}
+          onSelect={handleCategorySelect}
+          onBack={handleBack}
+        />
+      )}
+      
+      {step === STEPS.RESULTS && (
+        <ActivityList 
+          activities={activities}
+          selectedAge={selectedAge}
+          selectedCategory={selectedCategory}
+          onActivitySelect={handleActivitySelect}
+          onBack={handleBack}
+          onStartOver={handleStartOver}
+          loading={loading}
+        />
+      )}
+      
+      {step === STEPS.DETAILS && selectedActivity && (
+        <ActivityDetails 
+          activity={selectedActivity}
+          onBack={handleBack}
+          onStartOver={handleStartOver}
+        />
+      )}
+    </div>
   );
 }
 
