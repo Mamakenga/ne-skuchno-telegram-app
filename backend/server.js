@@ -102,59 +102,104 @@ app.get('/api/activities', async (req, res) => {
       random 
     } = req.query;
     
-    let filter = {};
-    
-    if (age) {
-      filter.age_groups = age;
-    }
-    
-    if (category && category !== 'surprise_me') {
-      filter.category = category;
-    }
-    
-    if (duration) {
-      switch (duration) {
-        case 'short':
-          filter.duration_minutes = { $lte: 20 };
-          break;
-        case 'medium':
-          filter.duration_minutes = { $gte: 20, $lte: 45 };
-          break;
-        case 'long':
-          filter.duration_minutes = { $gte: 45 };
-          break;
+    // ВРЕМЕННЫЕ ТЕСТОВЫЕ ДАННЫЕ
+    const testActivities = [
+      {
+        id: "creativity_001",
+        title: "Рисование на фольге",
+        category: "creativity",
+        age_groups: ["3-5", "6-8"],
+        duration_minutes: 15,
+        difficulty: "easy",
+        materials: ["фольга для запекания", "цветные маркеры", "скотч"],
+        instructions: [
+          "Положи на стол монетку и накрой фольгой",
+          "Прикрепи фольгу к столу бумажным скотчем",
+          "Тупой палочкой или не острым простым карандашом аккуратно заштрихуй фольгу в том месте, где фольга",
+          "Посмотри, как контуры монеты проступают на фольге",
+          "Если нет фольги используй просто лист бумаги"
+        ],
+        skills_developed: ["мелкая моторика", "творческое мышление", "цветовосприятие"],
+        season: "any",
+        location: "indoor",
+        premium: false,
+        tags: ["рисование", "блестящее", "простое", "быстро"],
+        rating: 4.5,
+        times_completed: 12
+      },
+      {
+        id: "creativity_002",
+        title: "Поделка из втулки",
+        category: "creativity",
+        age_groups: ["6-8", "9-12"],
+        duration_minutes: 30,
+        difficulty: "medium",
+        materials: ["втулка от туалетной бумаги", "цветная бумага", "клей", "ножницы"],
+        instructions: [
+          "Обклей втулку цветной бумагой или раскрась красками",
+          "Вырежи детали для животного: ушки, лапки, хвостик",
+          "Приклей детали к втулке",
+          "Нарисуй или приклей глазки и носик"
+        ],
+        skills_developed: ["творчество", "мелкая моторика", "планирование"],
+        season: "any",
+        location: "indoor",
+        premium: false,
+        tags: ["поделки", "переработка", "животные"],
+        rating: 4.8,
+        times_completed: 25
+      },
+      {
+        id: "active_001",
+        title: "Танцевальные статуи",
+        category: "active_games", 
+        age_groups: ["3-5", "6-8", "9-12"],
+        duration_minutes: 15,
+        difficulty: "easy",
+        materials: ["музыка", "колонка или телефон"],
+        instructions: [
+          "Включи любимую энергичную музыку",
+          "Танцуй как хочешь, двигайся свободно!",
+          "Когда музыка останавливается - замри статуей",
+          "Кто пошевелился после остановки музыки - выбывает"
+        ],
+        skills_developed: ["координация", "слух", "самоконтроль", "реакция"],
+        season: "any",
+        location: "indoor",
+        premium: false,
+        tags: ["танцы", "музыка", "веселье"],
+        rating: 4.9,
+        times_completed: 45
       }
-    }
+    ];
     
-    if (difficulty) {
-      filter.difficulty = difficulty;
-    }
+    // Фильтруем по возрасту и категории
+    let filteredActivities = testActivities.filter(activity => {
+      let matches = true;
+      
+      if (age && !activity.age_groups.includes(age)) {
+        matches = false;
+      }
+      
+      if (category && category !== 'surprise_me' && activity.category !== category) {
+        matches = false;
+      }
+      
+      return matches;
+    });
     
-    if (location) {
-      filter.location = { $in: [location, 'any'] };
-    }
-    
-    if (premium !== undefined) {
-      filter.premium = premium === 'true';
-    }
-    
-    let activities;
-    
+    // Случайные активности для "Удиви меня!"
     if (random === 'true' || category === 'surprise_me') {
-      activities = await Activity.aggregate([
-        { $match: filter },
-        { $sample: { size: parseInt(limit) } }
-      ]);
-    } else {
-      activities = await Activity.find(filter)
-        .sort({ rating: -1, times_completed: -1 })
-        .limit(parseInt(limit));
+      filteredActivities = testActivities.sort(() => 0.5 - Math.random());
     }
+    
+    // Ограничиваем количество
+    filteredActivities = filteredActivities.slice(0, parseInt(limit));
     
     res.json({
       success: true,
-      data: activities,
-      count: activities.length,
+      data: filteredActivities,
+      count: filteredActivities.length,
       filters_applied: {
         age,
         category,
