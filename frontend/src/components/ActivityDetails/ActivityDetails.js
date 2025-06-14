@@ -234,11 +234,34 @@ const ActivityDetails = ({ activity, onBack, onStartOver }) => {
 
       {/* Actions */}
       <button 
-        className="button-primary"
         onClick={onStartOver}
-        style={{ marginBottom: '20px' }}
+        style={{
+          width: '100%',
+          background: 'linear-gradient(135deg, #e2bd48 0%, #f4d06f 100%)',
+          color: '#081a26',
+          border: 'none',
+          padding: '16px 32px',
+          borderRadius: '16px',
+          cursor: 'pointer',
+          fontWeight: '700',
+          fontSize: '16px',
+          transition: 'all 0.3s cubic-bezier(0.23, 1, 0.320, 1)',
+          boxShadow: '0 12px 30px rgba(226, 189, 72, 0.25)',
+          letterSpacing: '-0.2px',
+          marginBottom: '20px'
+        }}
+        onMouseEnter={(e) => {
+          e.target.style.transform = 'translateY(-3px)';
+          e.target.style.boxShadow = '0 20px 40px rgba(226, 189, 72, 0.35)';
+          e.target.style.background = 'linear-gradient(135deg, #f4d06f 0%, #e2bd48 100%)';
+        }}
+        onMouseLeave={(e) => {
+          e.target.style.transform = 'translateY(0)';
+          e.target.style.boxShadow = '0 12px 30px rgba(226, 189, 72, 0.25)';
+          e.target.style.background = 'linear-gradient(135deg, #e2bd48 0%, #f4d06f 100%)';
+        }}
       >
-        🎯 Найти еще идеи
+        Найти еще идеи
       </button>
       
       <div className="bottom-hint">
