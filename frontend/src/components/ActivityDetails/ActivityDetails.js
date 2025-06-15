@@ -101,12 +101,12 @@ const ActivityDetails = ({ activity, onBack, onStartOver }) => {
             📝 Описание:
           </h3>
           <div style={{
-            color: 'rgba(255, 255, 255, 0.8)',
-            fontSize: '15px',
-            lineHeight: '1.5'
-          }}>
-            {activity.description}
-          </div>
+  color: 'rgba(255, 255, 255, 0.8)',
+  fontSize: '15px',
+  lineHeight: '1.5'
+}}>
+  {activity.full_description || activity.description}
+</div>
         </div>
       )}
 

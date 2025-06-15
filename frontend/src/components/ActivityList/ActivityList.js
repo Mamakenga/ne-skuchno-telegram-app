@@ -127,15 +127,12 @@ const ActivityList = ({ activities, selectedAge, selectedCategory, onActivitySel
                   </div>
                   
                   <div style={{
-                    fontSize: '14px',
-                    color: 'rgba(255, 255, 255, 0.8)',
-                    lineHeight: '1.3'
-                  }}>
-                    {activity.instructions && activity.instructions[0] ? 
-                      activity.instructions[0].substring(0, 80) + (activity.instructions[0].length > 80 ? '...' : '')
-                      : 'Интересная активность!'
-                    }
-                  </div>
+  fontSize: '14px',
+  color: 'rgba(255, 255, 255, 0.8)',
+  lineHeight: '1.3'
+}}>
+  {activity.short_description || 'Интересная активность!'}
+</div>
 
                   {/* Материалы - сохраняем вашу логику, обновляем стили */}
                   {activity.materials && activity.materials.length > 0 && (
