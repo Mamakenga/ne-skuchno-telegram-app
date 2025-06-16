@@ -1,5 +1,4 @@
 const express = require('express');
-const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv').config();
 const { Telegraf } = require('telegraf');
@@ -10,16 +9,6 @@ const User = require('./models/User');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Подключение к MongoDB
-async function connectToDatabase() {
-  try {
-    await mongoose.connect(process.env.MONGODB_URI);
-    console.log('✅ Connected to MongoDB Atlas');
-  } catch (error) {
-    console.error('❌ MongoDB connection error:', error);
-    process.exit(1);
-  }
-}
 
 // CORS настройки
 app.use(cors({
@@ -375,14 +364,16 @@ ${activity.instructions.map((inst, i) => `${i + 1}. ${inst}`).join('\n')}
   console.log('⚠️ Telegram Bot token не настроен');
 }
 
-// Запуск сервера
+// ===== SERVER START =====
 async function startServer() {
-  await connectToDatabase();
+  // Убираем подключение к MongoDB - Supabase подключается автоматически
+  console.log('✅ Using Supabase as database');
   
-  app.listen(PORT, '0.0.0.0', () => {
-    console.log('🚀 Server running on port', PORT);
-    console.log('📊 API готов для Telegram Mini App');
-    console.log('Ready for testing!');
+  app.listen(PORT, () => {
+    console.log(`🚀 Server running on port ${PORT}`);
+    console.log(`📍 Environment: ${process.env.NODE_ENV}`);
+    console.log(`🌐 Health check: http://localhost:${PORT}/health`);
+    console.log(`🗄️ Database: Supabase`);
   });
 }
 
