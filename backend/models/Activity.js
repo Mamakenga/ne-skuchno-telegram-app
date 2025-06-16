@@ -10,6 +10,18 @@ const ActivitySchema = new mongoose.Schema({
     type: String,
     required: true
   },
+
+  short_description: {
+    type: String,
+    required: true,
+    maxlength: 200
+  },
+  full_description: {
+    type: String,
+    required: true,
+    maxlength: 1000
+  },
+
   category: {
     type: String,
     required: true
