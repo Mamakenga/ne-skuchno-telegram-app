@@ -1,34 +1,40 @@
-const mongoose = require('mongoose');
+// backend/models/User.js - ИСПРАВЛЕННАЯ ВЕРСИЯ ДЛЯ SUPABASE
 
-const UserSchema = new mongoose.Schema({
-  telegram_id: {
-    type: String,
-    required: true,
-    unique: true
-  },
-  username: String,
-  first_name: String,
-  last_name: String,
-  is_premium: {
-    type: Boolean,
-    default: false
-  },
-  favorite_activities: [String], // ID активностей
-  completed_activities: [{
-    activity_id: String,
-    completed_at: { type: Date, default: Date.now },
-    rating: { type: Number, min: 1, max: 5 }
-  }],
-  daily_generations: {
-    count: { type: Number, default: 0 },
-    date: { type: Date, default: Date.now }
-  },
-  preferences: {
-    default_age_group: String,
-    favorite_categories: [String]
+// Временно отключаем User модель, так как используем Supabase, а не MongoDB
+// В будущем переведем на Supabase, но пока сосредоточимся на активностях
+
+const { createClient } = require('@supabase/supabase-js');
+
+const supabase = createClient(
+  process.env.SUPABASE_URL,
+  process.env.SUPABASE_SERVICE_KEY
+);
+
+// Заглушка для User модели (для совместимости с существующим кодом)
+class User {
+  constructor(data) {
+    Object.assign(this, data);
   }
-}, {
-  timestamps: true
-});
 
-module.exports = mongoose.model('User', UserSchema);
+  // Статические методы-заглушки
+  static async findOne(query) {
+    console.log('User.findOne called with:', query);
+    return null; // Пока возвращаем null
+  }
+
+  static async create(userData) {
+    console.log('User.create called with:', userData);
+    return new User(userData);
+  }
+
+  async save() {
+    console.log('User.save called');
+    return this;
+  }
+
+  // В будущем здесь будет полная реализация для Supabase
+  // TODO: Создать таблицу users в Supabase
+  // TODO: Реализовать CRUD операции через Supabase
+}
+
+module.exports = User;
