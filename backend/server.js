@@ -1,126 +1,222 @@
-const express = require('express');
-const cors = require('cors');
-const { createClient } = require('@supabase/supabase-js');
-require('dotenv').config();
+// server.js - Railway Backend с Supabase
+console.log('🚀 Starting server with Supabase...');
 
+const express = require('express');
+const { createClient } = require('@supabase/supabase-js');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+console.log('📦 Express and Supabase loaded');
+
 // Инициализация Supabase
-const supabase = createClient(
-  process.env.SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_KEY
-);
+let supabase = null;
+if (process.env.SUPABASE_URL && process.env.SUPABASE_SERVICE_KEY) {
+  try {
+    supabase = createClient(
+      process.env.SUPABASE_URL,
+      process.env.SUPABASE_SERVICE_KEY
+    );
+    console.log('✅ Supabase client initialized');
+    console.log('🔗 URL:', process.env.SUPABASE_URL);
+  } catch (error) {
+    console.error('❌ Supabase initialization failed:', error);
+  }
+} else {
+  console.log('⚠️ Supabase credentials missing');
+  console.log('SUPABASE_URL:', !!process.env.SUPABASE_URL);
+  console.log('SUPABASE_SERVICE_KEY:', !!process.env.SUPABASE_SERVICE_KEY);
+}
 
-// CORS
-app.use(cors({
-  origin: '*',
-  credentials: true
-}));
-
+// Middleware
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-
-// Логирование
 app.use((req, res, next) => {
-  console.log(`${req.method} ${req.path}`);
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Content-Type');
   next();
 });
 
 // Health check
-app.get('/health', async (req, res) => {
-  console.log('Health check called');
-  
-  try {
-    // Тест Supabase подключения
-    const { data, error } = await supabase
-      .from('activities')
-      .select('count')
-      .limit(1);
-    
-    res.json({ 
-      status: 'OK',
-      timestamp: new Date().toISOString(),
-      supabase_connected: !error,
-      app_name: 'Мама, мне скучно!',
-      port: PORT
-    });
-  } catch (err) {
-    console.error('Health check error:', err);
-    res.status(500).json({ 
-      status: 'ERROR',
-      error: err.message 
-    });
-  }
-});
-
-// Главная страница
-app.get('/', (req, res) => {
-  res.json({
-    app_name: "Мама, мне скучно!",
-    status: 'running',
-    version: '1.0.0',
-    timestamp: new Date().toISOString()
+app.get('/health', (req, res) => {
+  console.log('Health check requested');
+  res.json({ 
+    status: 'OK', 
+    timestamp: new Date().toISOString(),
+    app: 'Мама, мне скучно!',
+    supabase_connected: !!supabase,
+    environment: process.env.NODE_ENV || 'development'
   });
 });
 
-// API Routes
+// Root route
+app.get('/', (req, res) => {
+  res.json({
+    message: 'Railway backend with Supabase!',
+    app: 'Мама, мне скучно!',
+    version: '1.0.0',
+    supabase_status: supabase ? 'connected' : 'not configured'
+  });
+});
+
+// Categories API
+app.get('/api/categories', (req, res) => {
+  console.log('Categories API requested');
+  
+  const categories = [
+    { id: "active_games", title: "Активная игра", emoji: "🏃‍♂️", description: "Спорт, движение", color: "#FF6B6B" },
+    { id: "creativity", title: "Творчество", emoji: "🎨", description: "Рисование, поделки", color: "#4ECDC4" },
+    { id: "learn_new", title: "Узнать новое", emoji: "🧠", description: "Эксперименты", color: "#45B7D1" },
+    { id: "cooking", title: "Кулинария", emoji: "👨‍🍳", description: "Готовка", color: "#96CEB4" },
+    { id: "gifts", title: "Подарки", emoji: "🎁", description: "Для друзей", color: "#FFEAA7" },
+    { id: "experiments", title: "Эксперименты", emoji: "🔬", description: "Наука", color: "#DDA0DD" },
+    { id: "reading_stories", title: "Чтение", emoji: "📚", description: "Книги, сказки", color: "#98D8C8" },
+    { id: "surprise_me", title: "Удиви меня!", emoji: "🎲", description: "Случайно", color: "#F7DC6F" }
+  ];
+  
+  res.json({ 
+    success: true, 
+    data: categories,
+    count: categories.length
+  });
+});
+
+// Activities API с Supabase
 app.get('/api/activities', async (req, res) => {
+  console.log('Activities API requested with params:', req.query);
+  
   try {
+    if (!supabase) {
+      console.log('⚠️ Supabase not available, returning empty array');
+      return res.json({ 
+        success: true, 
+        data: [],
+        count: 0,
+        message: 'Supabase not configured'
+      });
+    }
+
     const { age, category, limit = 10 } = req.query;
+    console.log('Querying Supabase with filters:', { age, category, limit });
     
     let query = supabase.from('activities').select('*');
     
-    if (age) query = query.contains('age_groups', [age]);
-    if (category && category !== 'surprise_me') query = query.eq('category', category);
+    // Фильтры
+    if (age) {
+      console.log('Filtering by age:', age);
+      query = query.contains('age_groups', [age]);
+    }
+    
+    if (category && category !== 'surprise_me') {
+      console.log('Filtering by category:', category);
+      query = query.eq('category', category);
+    }
     
     query = query.limit(parseInt(limit)).order('rating', { ascending: false });
     
-    const { data, error } = await query;
+    const { data, error, count } = await query;
     
     if (error) {
-      console.error('Supabase error:', error);
-      return res.status(500).json({ error: 'Failed to fetch activities' });
+      console.error('❌ Supabase query error:', error);
+      return res.status(500).json({ 
+        success: false,
+        error: 'Failed to fetch activities',
+        details: error.message 
+      });
     }
     
-    res.json({ success: true, data: data || [], count: data ? data.length : 0 });
+    console.log(`✅ Found ${data ? data.length : 0} activities`);
+    
+    // Если "surprise_me" - возвращаем случайные
+    if (category === 'surprise_me' && data && data.length > 0) {
+      const shuffled = data.sort(() => 0.5 - Math.random());
+      const result = shuffled.slice(0, 3);
+      console.log(`🎲 Surprise me: returning ${result.length} random activities`);
+      return res.json({ 
+        success: true, 
+        data: result, 
+        count: result.length 
+      });
+    }
+    
+    res.json({ 
+      success: true, 
+      data: data || [], 
+      count: data ? data.length : 0 
+    });
+    
   } catch (error) {
-    console.error('API error:', error);
-    res.status(500).json({ error: 'Internal server error' });
+    console.error('❌ Activities API error:', error);
+    res.status(500).json({ 
+      success: false,
+      error: 'Internal server error',
+      message: error.message 
+    });
   }
 });
 
-app.get('/api/categories', (req, res) => {
-  const categories = [
-    { id: "active_games", title: "Активная игра", emoji: "🏃‍♂️" },
-    { id: "creativity", title: "Творчество", emoji: "🎨" },
-    { id: "learn_new", title: "Узнать новое", emoji: "🧠" },
-    { id: "cooking", title: "Кулинария", emoji: "👨‍🍳" },
-    { id: "gifts", title: "Подарки", emoji: "🎁" },
-    { id: "experiments", title: "Эксперименты", emoji: "🔬" },
-    { id: "reading_stories", title: "Чтение", emoji: "📚" },
-    { id: "surprise_me", title: "Удиви меня!", emoji: "🎲" }
-  ];
+// Single activity
+app.get('/api/activities/:id', async (req, res) => {
+  console.log('Single activity requested:', req.params.id);
   
-  res.json({ success: true, data: categories });
+  try {
+    if (!supabase) {
+      return res.status(404).json({ error: 'Supabase not configured' });
+    }
+
+    const { data, error } = await supabase
+      .from('activities')
+      .select('*')
+      .eq('id', req.params.id)
+      .single();
+    
+    if (error || !data) {
+      console.log('❌ Activity not found:', req.params.id);
+      return res.status(404).json({ 
+        error: 'Activity not found',
+        id: req.params.id 
+      });
+    }
+    
+    console.log('✅ Activity found:', data.title);
+    res.json({ success: true, data: data });
+    
+  } catch (error) {
+    console.error('❌ Single activity error:', error);
+    res.status(500).json({ 
+      error: 'Internal server error',
+      message: error.message 
+    });
+  }
 });
 
 // 404 handler
 app.use('*', (req, res) => {
-  res.status(404).json({ error: 'Route not found', path: req.originalUrl });
+  res.status(404).json({ 
+    error: 'Route not found', 
+    path: req.originalUrl,
+    available_routes: ['/', '/health', '/api/categories', '/api/activities']
+  });
 });
 
 // Error handler
 app.use((err, req, res, next) => {
-  console.error('Server error:', err);
+  console.error('❌ Unhandled error:', err);
   res.status(500).json({ error: 'Internal server error' });
 });
 
-// КРИТИЧНО: Bind to 0.0.0.0 для Railway
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`🚀 Server "Мама, мне скучно!" running on port ${PORT}`);
-  console.log(`🌐 Health: http://0.0.0.0:${PORT}/health`);
-  console.log(`🗄️ Supabase URL: ${process.env.SUPABASE_URL ? 'Connected' : 'Not configured'}`);
+// Start server
+const server = app.listen(PORT, '0.0.0.0', () => {
+  console.log(`✅ Server running on 0.0.0.0:${PORT}`);
+  console.log(`🌐 Environment: ${process.env.NODE_ENV || 'development'}`);
+  console.log(`🗄️ Supabase: ${supabase ? 'Connected' : 'Not configured'}`);
+  console.log(`🎯 Railway deployment with Supabase ready!`);
+});
+
+// Graceful shutdown
+process.on('SIGTERM', () => {
+  console.log('🛑 SIGTERM received, shutting down gracefully');
+  server.close(() => {
+    console.log('👋 Server closed');
+  });
 });
 
 module.exports = app;
