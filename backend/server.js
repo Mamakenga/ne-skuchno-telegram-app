@@ -3,9 +3,6 @@ const cors = require('cors');
 require('dotenv').config();
 const { Telegraf } = require('telegraf');
 
-const Activity = require('./models/Activity');
-const User = require('./models/User');
-
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -27,6 +24,10 @@ app.use(cors({
 
 app.use(express.json());
 
+// API Routes - подключение к отдельным файлам
+app.use('/api/activities', require('./routes/activities'));
+app.use('/api/categories', require('./routes/categories'));
+
 app.get('/', (req, res) => {
   res.json({
     app_name: "Мама, мне скучно!",
@@ -41,146 +42,9 @@ app.get('/', (req, res) => {
       '📝 Пошаговые инструкции',
       '⏱️ От 10 минут до 2 часов'
     ],
-    database: 'Connected to MongoDB Atlas'
+    database: 'Connected to Supabase'
   });
 });
-
-app.get('/health', (req, res) => {
-  res.json({
-    status: 'OK',
-    timestamp: new Date().toISOString()
-  });
-});
-
-// Получение категорий
-app.get('/api/categories', async (req, res) => {
-  try {
-    const categories = [
-      { id: 'active_games', title: 'Активная игра', emoji: '🏃‍♂️', description: 'Спорт, движение, танцы', color: '#FF6B6B' },
-      { id: 'creativity', title: 'Творчество', emoji: '🎨', description: 'Рисование, поделки, музыка', color: '#4ECDC4' },
-      { id: 'learn_new', title: 'Узнать что-то новое', emoji: '🧠', description: 'Эксперименты, изучение', color: '#45B7D1' },
-      { id: 'cooking', title: 'Кулинария', emoji: '👨‍🍳', description: 'Готовка, выпечка', color: '#96CEB4' },
-      { id: 'gifts', title: 'Сделать подарок', emoji: '🎁', description: 'Для друзей, семьи', color: '#FFEAA7' },
-      { id: 'experiments', title: 'Эксперименты', emoji: '🔬', description: 'Наука, опыты', color: '#DDA0DD' },
-      { id: 'reading_stories', title: 'Чтение и истории', emoji: '📚', description: 'Книги, сказки, письмо', color: '#98D8C8' },
-      { id: 'surprise_me', title: 'Удиви меня!', emoji: '🎲', description: 'Случайная активность', color: '#F7DC6F' }
-    ];
-    
-    res.json({
-      success: true,
-      data: categories,
-      count: categories.length
-    });
-  } catch (error) {
-    console.error('Error fetching categories:', error);
-    res.status(500).json({ error: 'Failed to fetch categories' });
-  }
-});
-
-// Получение активностей с фильтрацией
-app.get('/api/activities', async (req, res) => {
-  try {
-    const { 
-      age, 
-      category, 
-      duration, 
-      difficulty, 
-      location, 
-      premium, 
-      limit = 10,
-      random 
-    } = req.query;
-    
-    // ВРЕМЕННЫЕ ТЕСТОВЫЕ ДАННЫЕ
-    const testActivities = [
-      {
-        id: "creativity_001",
-        title: "Рисование на фольге",
-        category: "creativity",
-        age_groups: ["3-5", "6-8"],
-        duration_minutes: 15,
-        difficulty: "easy",
-        materials: ["фольга для запекания", "цветные маркеры", "скотч"],
-        instructions: [
-          "Положи на стол монетку и накрой фольгой",
-          "Прикрепи фольгу к столу бумажным скотчем",
-          "Тупой палочкой или не острым простым карандашом аккуратно заштрихуй фольгу в том месте, где фольга",
-          "Посмотри, как контуры монеты проступают на фольге",
-          "Если нет фольги используй просто лист бумаги"
-        ],
-        skills_developed: ["мелкая моторика", "творческое мышление", "цветовосприятие"],
-        season: "any",
-        location: "indoor",
-        premium: false,
-        tags: ["рисование", "блестящее", "простое", "быстро"],
-        rating: 4.5,
-        times_completed: 12
-      },
-      {
-        id: "creativity_002",
-        title: "Поделка из втулки",
-        category: "creativity",
-        age_groups: ["6-8", "9-12"],
-        duration_minutes: 30,
-        difficulty: "medium",
-        materials: ["втулка от туалетной бумаги", "цветная бумага", "клей", "ножницы"],
-        instructions: [
-          "Обклей втулку цветной бумагой или раскрась красками",
-          "Вырежи детали для животного: ушки, лапки, хвостик",
-          "Приклей детали к втулке",
-          "Нарисуй или приклей глазки и носик"
-        ],
-        skills_developed: ["творчество", "мелкая моторика", "планирование"],
-        season: "any",
-        location: "indoor",
-        premium: false,
-        tags: ["поделки", "переработка", "животные"],
-        rating: 4.8,
-        times_completed: 25
-      },
-      {
-        id: "active_001",
-        title: "Танцевальные статуи",
-        category: "active_games", 
-        age_groups: ["3-5", "6-8", "9-12"],
-        duration_minutes: 15,
-        difficulty: "easy",
-        materials: ["музыка", "колонка или телефон"],
-        instructions: [
-          "Включи любимую энергичную музыку",
-          "Танцуй как хочешь, двигайся свободно!",
-          "Когда музыка останавливается - замри статуей",
-          "Кто пошевелился после остановки музыки - выбывает"
-        ],
-        skills_developed: ["координация", "слух", "самоконтроль", "реакция"],
-        season: "any",
-        location: "indoor",
-        premium: false,
-        tags: ["танцы", "музыка", "веселье"],
-        rating: 4.9,
-        times_completed: 45
-      }
-    ];
-    
-    // Фильтруем по возрасту и категории
-    let filteredActivities = testActivities.filter(activity => {
-      let matches = true;
-      
-      if (age && !activity.age_groups.includes(age)) {
-        matches = false;
-      }
-      
-      if (category && category !== 'surprise_me' && activity.category !== category) {
-        matches = false;
-      }
-      
-      return matches;
-    });
-    
-    // Случайные активности для "Удиви меня!"
-    if (random === 'true' || category === 'surprise_me') {
-      filteredActivities = testActivities.sort(() => 0.5 - Math.random());
-    }
     
     // Ограничиваем количество
     filteredActivities = filteredActivities.slice(0, parseInt(limit));
