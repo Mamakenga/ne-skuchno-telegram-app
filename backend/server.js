@@ -64,7 +64,7 @@ app.get('/', (req, res) => {
       }
     });
     
-  } catch (error) {
+   catch (error) {
     console.error('Error fetching activities:', error);
     res.status(500).json({ error: 'Failed to fetch activities' });
   }
