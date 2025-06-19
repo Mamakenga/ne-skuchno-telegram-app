@@ -17,20 +17,20 @@
   ],
   "author": "Наталия Голубцова",
   "license": "ISC",
-  "description": "Backend API для Telegram Mini App 'Мама, мне скучно! для родителей, которые хотят быстро найти интересное занятие для своего ребенка.",
+  "description": "Backend API для Telegram Mini App 'Мама, мне скучно!' для родителей, которые хотят быстро найти интересное занятие для своего ребенка.",
   "dependencies": {
     "@supabase/supabase-js": "^2.50.0",
     "compression": "^1.8.0",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "grammy": "^1.36.3",
-    "helmet": "^8.1.0",
-    "mongodb": "^6.17.0",
-    "telegraf": "^4.16.3"
+    "helmet": "^8.1.0"
   },
   "devDependencies": {
     "concurrently": "^9.1.2",
     "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
