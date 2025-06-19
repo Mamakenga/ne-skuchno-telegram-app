@@ -1,91 +1,83 @@
-const express = require('express');
-const cors = require('cors');
-require('dotenv').config();
+// server.js - Telegram Mini App Backend
+console.log('🚀 Starting server...');
 
+const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware
-app.use(cors());
-app.use(express.json());
+console.log('📦 Express loaded successfully');
 
-// Логирование
-app.use((req, res, next) => {
-  console.log(`${new Date().toISOString()} - ${req.method} ${req.path}`);
-  next();
+// Basic middleware
+app.use(express.json());
+console.log('✅ Middleware configured');
+
+// Simple health check
+app.get('/health', (req, res) => {
+  console.log('Health check requested');
+  res.status(200).json({ 
+    status: 'OK', 
+    app: 'Telegram Mini App Backend',
+    timestamp: new Date().toISOString()
+  });
 });
 
-// Health check
-app.get('/health', (req, res) => {
-  res.json({ 
-    status: 'OK', 
-    timestamp: new Date().toISOString(),
-    app: "Мама, мне скучно!",
+// Root route
+app.get('/', (req, res) => {
+  console.log('Root route requested');
+  res.status(200).json({
+    message: 'Railway backend is running!',
+    app: 'Мама, мне скучно!',
     version: '1.0.0'
   });
 });
 
-// Root endpoint
-app.get('/', (req, res) => {
-  res.json({
-    app_name: "Мама, мне скучно!",
-    status: 'running',
-    version: '1.0.0',
-    endpoints: {
-      health: '/health',
-      activities: '/api/activities',
-      categories: '/api/categories'
-    }
-  });
-});
-
-// API Routes - временные статические endpoints
-app.get('/api/activities', (req, res) => {
-  res.json({ 
-    success: true, 
-    data: [], 
-    message: 'API endpoint working, Supabase integration coming soon' 
-  });
-});
-
+// Categories API
 app.get('/api/categories', (req, res) => {
+  console.log('Categories API requested');
+  
   const categories = [
-    { id: "active_games", title: "Активная игра", emoji: "🏃‍♂️" },
-    { id: "creativity", title: "Творчество", emoji: "🎨" },
-    { id: "learn_new", title: "Узнать новое", emoji: "🧠" },
-    { id: "cooking", title: "Кулинария", emoji: "👨‍🍳" },
-    { id: "gifts", title: "Подарки", emoji: "🎁" },
-    { id: "experiments", title: "Эксперименты", emoji: "🔬" },
-    { id: "reading_stories", title: "Чтение", emoji: "📚" },
-    { id: "surprise_me", title: "Удиви меня!", emoji: "🎲" }
+    { id: 'active_games', title: 'Активная игра', emoji: '🏃‍♂️' },
+    { id: 'creativity', title: 'Творчество', emoji: '🎨' },
+    { id: 'learn_new', title: 'Узнать новое', emoji: '🧠' },
+    { id: 'cooking', title: 'Кулинария', emoji: '👨‍🍳' }
   ];
   
-  res.json({ 
+  res.status(200).json({ 
     success: true, 
-    data: categories, 
-    count: categories.length 
+    data: categories,
+    count: categories.length
   });
 });
 
-// 404 handler
-app.use('*', (req, res) => {
-  res.status(404).json({ 
-    error: 'Route not found', 
-    path: req.originalUrl 
+// Activities API (temporary)
+app.get('/api/activities', (req, res) => {
+  console.log('Activities API requested');
+  res.status(200).json({ 
+    success: true, 
+    data: [],
+    message: 'API working - no data yet'
   });
 });
 
-// Error handler
+// Error handling
 app.use((err, req, res, next) => {
-  console.error('Error:', err.message);
+  console.error('❌ Server error:', err);
   res.status(500).json({ error: 'Internal server error' });
 });
 
-// Start server
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`🚀 Server "Мама, мне скучно!" running on port ${PORT}`);
-  console.log(`🌐 Health: http://0.0.0.0:${PORT}/health`);
-  console.log(`📊 Status: Minimal version, ready for Supabase integration`);
+// Start the server
+const server = app.listen(PORT, '0.0.0.0', () => {
+  console.log(`✅ Server running on 0.0.0.0:${PORT}`);
+  console.log(`🌐 Environment: ${process.env.NODE_ENV || 'development'}`);
+  console.log(`🎯 Railway deployment successful`);
+});
+
+// Handle shutdown gracefully
+process.on('SIGTERM', () => {
+  console.log('🛑 SIGTERM received, shutting down gracefully');
+  server.close(() => {
+    console.log('👋 Server closed');
+  });
 });
 
 module.exports = app;
