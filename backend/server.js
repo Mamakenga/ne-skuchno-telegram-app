@@ -203,13 +203,57 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: 'Internal server error' });
 });
 
+// ЭКСТРЕННЫЕ ИСПРАВЛЕНИЯ - добавьте ПЕРЕД app.listen()
+
+// Принудительная обработка всех запросов
+app.use((req, res, next) => {
+  console.log(`🌐 ${new Date().toISOString()} - ${req.method} ${req.url} from ${req.ip}`);
+  console.log(`🌐 Headers: ${JSON.stringify(req.headers)}`);
+  next();
+});
+
+// Принудительное включение CORS для Railway
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+  
+  if (req.method === 'OPTIONS') {
+    res.sendStatus(200);
+  } else {
+    next();
+  }
+});
+
+// Экстренный catchall для отладки
+app.use('/debug', (req, res) => {
+  console.log('🐛 Debug endpoint called');
+  res.json({
+    message: 'Debug endpoint works!',
+    timestamp: new Date().toISOString(),
+    environment: process.env.NODE_ENV,
+    port: PORT,
+    url: req.url,
+    ip: req.ip
+  });
+});
+
 // Start server
 const server = app.listen(PORT, '0.0.0.0', () => {
-  console.log(`✅ Server running on 0.0.0.0:${PORT}`);
+  console.log(`✅ Server FORCE running on 0.0.0.0:${PORT}`);
   console.log(`🌐 Environment: ${process.env.NODE_ENV || 'development'}`);
   console.log(`🗄️ Supabase: ${supabase ? 'Connected' : 'Not configured'}`);
-  console.log(`🎯 Railway deployment with Supabase ready!`);
+  console.log(`🎯 Railway deployment FORCE ready!`);
+  console.log(`🔗 Test URLs:`);
+  console.log(`   - Health: https://ne-skuchno-telegram-app-production.up.railway.app/health`);
+  console.log(`   - Debug: https://ne-skuchno-telegram-app-production.up.railway.app/debug`);
+  console.log(`   - API: https://ne-skuchno-telegram-app-production.up.railway.app/api/categories`);
 });
+
+// Принудительный keepalive
+setInterval(() => {
+  console.log(`💓 Server heartbeat - ${new Date().toISOString()}`);
+}, 30000);
 
 // Graceful shutdown
 process.on('SIGTERM', () => {
