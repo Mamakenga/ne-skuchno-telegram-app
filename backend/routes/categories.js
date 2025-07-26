@@ -1,14 +1,12 @@
 const express = require('express');
-const { createClient } = require('@supabase/supabase-js');
-const fs = require('fs');
-const path = require('path');
+const { Pool } = require('pg');
 const router = express.Router();
 
-// Инициализация Supabase клиента
-const supabase = createClient(
-  process.env.SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_KEY
-);
+// Инициализация PostgreSQL клиента
+const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+  ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false
+});
 
 // Статические данные категорий
 const CATEGORIES = [
@@ -17,157 +15,75 @@ const CATEGORIES = [
     title: "Активная игра",
     emoji: "🏃‍♂️",
     description: "Спорт, движение, танцы",
-    color: "#FF6B6B",
-    examples: "Танцы, игры с мячом, зарядка"
+    color: "#FF6B6B"
   },
   {
     id: "creativity", 
     title: "Творчество",
     emoji: "🎨",
     description: "Рисование, поделки, музыка",
-    color: "#4ECDC4",
-    examples: "Рисование, лепка, аппликации"
+    color: "#4ECDC4"
   },
   {
     id: "learn_new",
     title: "Узнать что-то новое", 
     emoji: "🧠",
     description: "Эксперименты, изучение",
-    color: "#45B7D1",
-    examples: "Изучение животных, стран, профессий"
+    color: "#45B7D1"
   },
   {
     id: "cooking",
     title: "Кулинария",
     emoji: "👨‍🍳", 
     description: "Готовка, выпечка",
-    color: "#96CEB4",
-    examples: "Бутерброды, салаты, простая выпечка"
+    color: "#96CEB4"
   },
   {
     id: "gifts",
     title: "Сделать подарок",
     emoji: "🎁",
     description: "Для друзей, семьи",
-    color: "#FFEAA7",
-    examples: "Открытки, браслеты, фотоальбомы"
+    color: "#FFEAA7"
   },
   {
     id: "experiments",
     title: "Эксперименты", 
     emoji: "🔬",
     description: "Наука, опыты",
-    color: "#DDA0DD",
-    examples: "Опыты с водой, магнитами, растениями"
+    color: "#DDA0DD"
   },
   {
     id: "reading_stories",
     title: "Чтение и истории",
     emoji: "📚", 
     description: "Книги, сказки, письмо",
-    color: "#98D8C8",
-    examples: "Чтение, сочинение историй, театр"
+    color: "#98D8C8"
   },
   {
     id: "surprise_me",
     title: "Удиви меня!",
     emoji: "🎲",
     description: "Случайная активность", 
-    color: "#F7DC6F",
-    examples: "Микс из разных категорий"
-  }
-];
-
-const AGE_GROUPS = [
-  {
-    id: "3-5",
-    title: "3-5 лет", 
-    emoji: "👶",
-    description: "Дошкольники",
-    characteristics: [
-      "Развитие мелкой моторики",
-      "Простые инструкции (3-4 шага)",
-      "Яркие цвета и образы",
-      "Короткие активности (10-20 минут)"
-    ]
-  },
-  {
-    id: "6-8",
-    title: "6-8 лет",
-    emoji: "🧒", 
-    description: "Младшие школьники",
-    characteristics: [
-      "Умеют читать простые инструкции",
-      "Больше самостоятельности",
-      "Интерес к результату",
-      "Активности 20-45 минут"
-    ]
-  },
-  {
-    id: "9-12", 
-    title: "9-12 лет",
-    emoji: "👦",
-    description: "Средние школьники",
-    characteristics: [
-      "Сложные многоэтапные проекты",
-      "Планирование и организация",
-      "Командная работа",
-      "Активности 30-90 минут"
-    ]
-  },
-  {
-    id: "13-16",
-    title: "13-16 лет", 
-    emoji: "👨‍🎓",
-    description: "Подростки",
-    characteristics: [
-      "Творческое самовыражение",
-      "Социальный аспект",
-      "Практическая польза",
-      "Проекты на несколько дней"
-    ]
-  },
-  {
-    id: "17+",
-    title: "17+ лет",
-    emoji: "👨",
-    description: "Старшие подростки",
-    characteristics: [
-      "Подготовка к взрослой жизни",
-      "Профессиональные навыки",
-      "Серьезные проекты",
-      "Долгосрочное планирование"
-    ]
-  },
-  {
-    id: "adult",
-    title: "Взрослый", 
-    emoji: "👨‍💼",
-    description: "Для родителей",
-    characteristics: [
-      "Активности для родителей",
-      "Семейные проекты",
-      "Обучение детей",
-      "Развитие родительских навыков"
-    ]
+    color: "#F7DC6F"
   }
 ];
 
 // Получение всех категорий
 router.get('/', async (req, res) => {
   try {
-    // Пытаемся получить статистику из Supabase
-    const { data: stats, error } = await supabase
-      .from('activities')
-      .select('category')
-      .not('category', 'is', null);
+    // Получаем статистику из PostgreSQL
+    const { rows: stats } = await pool.query(`
+      SELECT category, COUNT(*) as activity_count 
+      FROM activities 
+      GROUP BY category
+    `);
     
     // Добавляем статистику к категориям
     const categoriesWithStats = CATEGORIES.map(category => {
-      const activityCount = stats ? stats.filter(s => s.category === category.id).length : 0;
+      const stat = stats.find(s => s.category === category.id);
       return {
         ...category,
-        activity_count: activityCount
+        activity_count: stat ? parseInt(stat.activity_count) : 0
       };
     });
     
@@ -187,105 +103,8 @@ router.get('/', async (req, res) => {
   }
 });
 
-// Получение возрастных групп
-router.get('/age-groups', async (req, res) => {
-  try {
-    // Пытаемся получить статистику из Supabase
-    const { data: stats, error } = await supabase
-      .from('activities')
-      .select('age_groups')
-      .not('age_groups', 'is', null);
-    
-    // Подсчитываем активности для каждой возрастной группы
-    const ageGroupsWithStats = AGE_GROUPS.map(ageGroup => {
-      let activityCount = 0;
-      if (stats) {
-        stats.forEach(activity => {
-          if (activity.age_groups && activity.age_groups.includes(ageGroup.id)) {
-            activityCount++;
-          }
-        });
-      }
-      
-      return {
-        ...ageGroup,
-        activity_count: activityCount
-      };
-    });
-    
-    res.json({
-      success: true,
-      data: ageGroupsWithStats,
-      count: ageGroupsWithStats.length
-    });
-  } catch (error) {
-    console.error('Error loading age groups:', error);
-    // Fallback - возвращаем статические данные
-    res.json({
-      success: true,
-      data: AGE_GROUPS,
-      count: AGE_GROUPS.length
-    });
-  }
-});
-
-// Получение статистики по категориям
-router.get('/stats', async (req, res) => {
-  try {
-    const { data, error } = await supabase
-      .from('activities')
-      .select('category, difficulty, premium')
-      .not('category', 'is', null);
-    
-    if (error) {
-      throw error;
-    }
-    
-    const stats = {
-      total_activities: data.length,
-      by_category: {},
-      by_difficulty: {
-        easy: 0,
-        medium: 0,
-        hard: 0
-      },
-      premium_count: 0,
-      free_count: 0
-    };
-    
-    // Подсчитываем статистику
-    data.forEach(activity => {
-      // По категориям
-      stats.by_category[activity.category] = (stats.by_category[activity.category] || 0) + 1;
-      
-      // По сложности
-      if (activity.difficulty) {
-        stats.by_difficulty[activity.difficulty]++;
-      }
-      
-      // Premium vs Free
-      if (activity.premium) {
-        stats.premium_count++;
-      } else {
-        stats.free_count++;
-      }
-    });
-    
-    res.json({
-      success: true,
-      data: stats
-    });
-  } catch (error) {
-    console.error('Error loading stats:', error);
-    res.status(500).json({ 
-      error: 'Failed to load statistics',
-      message: error.message 
-    });
-  }
-});
-
 // Получение конкретной категории
-router.get('/:id', (req, res) => {
+router.get('/:id', async (req, res) => {
   try {
     const category = CATEGORIES.find(cat => cat.id === req.params.id);
     
@@ -296,9 +115,18 @@ router.get('/:id', (req, res) => {
       });
     }
     
+    // Добавляем статистику для конкретной категории
+    const { rows } = await pool.query(
+      'SELECT COUNT(*) as activity_count FROM activities WHERE category = $1',
+      [req.params.id]
+    );
+    
     res.json({
       success: true,
-      data: category
+      data: {
+        ...category,
+        activity_count: parseInt(rows[0].activity_count)
+      }
     });
   } catch (error) {
     console.error('Error loading category:', error);
