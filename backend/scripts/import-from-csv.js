@@ -53,12 +53,12 @@ async function importFromCSV() {
     const client = await pool.connect();
     console.log('✅ Connected to Railway PostgreSQL');
     
-    // Очистка существующих активностей
-    await client.query('DELETE FROM activities');
-    console.log('🗑️ Cleared existing activities');
+    // Получаем количество существующих записей
+    const existingCount = await client.query('SELECT COUNT(*) as count FROM activities');
+    console.log(`📊 Существующих записей: ${existingCount.rows[0].count}`);
     
     const activities = [];
-    const csvPath = path.join(__dirname, '../..', 'sample-activities.csv'); // Путь к вашему CSV файлу
+    const csvPath = path.join(__dirname, '../..', 'activities-detailed.csv'); // Путь к вашему CSV файлу
     
     console.log('📂 Reading CSV from:', csvPath);
     
@@ -86,6 +86,21 @@ async function importFromCSV() {
                     age_groups, duration_minutes, difficulty, materials, 
                     instructions, skills_developed, season, location, premium, tags
                   ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15)
+                  ON CONFLICT (id) DO UPDATE SET
+                    title = EXCLUDED.title,
+                    short_description = EXCLUDED.short_description,
+                    full_description = EXCLUDED.full_description,
+                    category = EXCLUDED.category,
+                    age_groups = EXCLUDED.age_groups,
+                    duration_minutes = EXCLUDED.duration_minutes,
+                    difficulty = EXCLUDED.difficulty,
+                    materials = EXCLUDED.materials,
+                    instructions = EXCLUDED.instructions,
+                    skills_developed = EXCLUDED.skills_developed,
+                    season = EXCLUDED.season,
+                    location = EXCLUDED.location,
+                    premium = EXCLUDED.premium,
+                    tags = EXCLUDED.tags
                 `, [
                   activity.id, activity.title, activity.short_description, 
                   activity.full_description, activity.category, 
@@ -94,7 +109,7 @@ async function importFromCSV() {
                   activity.instructions, activity.skills_developed,
                   activity.season, activity.location, activity.premium, activity.tags
                 ]);
-                console.log(`✅ Imported: ${activity.title}`);
+                console.log(`✅ Добавлено/обновлено: ${activity.title}`);
               }
               
               console.log(`🎉 Successfully imported ${activities.length} activities`);
