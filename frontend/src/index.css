@@ -1,13 +1,7 @@
 /* index.css - Главный файл стилей */
 
-/* СНАЧАЛА подключаем наши основные стили */
+/* Подключаем наши основные стили */
 @import './styles/globals.css';
-
-/* МИНИМАЛЬНЫЕ дополнительные стили (не конфликтующие) */
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 /* Telegram Web App специфичные стили */
 :root {

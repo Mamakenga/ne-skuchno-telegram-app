@@ -1,5 +1,8 @@
 /* globals.css - Основные стили для Telegram Mini App */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* === БАЗОВЫЕ СТИЛИ === */
 * {
   margin: 0;
   padding: 0;
@@ -303,6 +306,168 @@ body {
   margin-top: 16px;
 }
 
+/* === КАРТОЧКИ АКТИВНОСТЕЙ === */
+.activity-card {
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 24px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.activity-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.03), transparent);
+  transition: left 0.6s ease;
+}
+
+.activity-card:hover::before {
+  left: 100%;
+}
+
+.activity-card:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.activity-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.activity-icon {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #e2bd48 0%, #f4d06f 100%);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-right: 16px;
+  color: #081a26;
+  font-weight: 600;
+}
+
+.activity-title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.activity-meta {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.activity-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* === КНОПКИ ДЕЙСТВИЙ === */
+.button-primary {
+  background: linear-gradient(135deg, #e2bd48 0%, #f4d06f 100%);
+  border: none;
+  border-radius: 16px;
+  padding: 16px 32px;
+  color: #081a26;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  box-shadow: 0 12px 30px rgba(226, 189, 72, 0.25);
+  width: 100%;
+  margin-top: 24px;
+  letter-spacing: -0.2px;
+  position: relative;
+  z-index: 10;
+}
+
+.button-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 40px rgba(226, 189, 72, 0.35);
+  background: linear-gradient(135deg, #f4d06f 0%, #e2bd48 100%);
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 12px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateX(-2px);
+}
+
+/* === ЭКРАНЫ === */
+.age-screen {
+  text-align: center;
+  padding-top: 60px;
+  position: relative;
+  z-index: 10;
+}
+
+/* === РЕЙТИНГ ЗВЕЗД === */
+.rating-stars {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.star {
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e2bd48;
+  font-size: 18px;
+}
+
+.star:hover, .star.active {
+  background: linear-gradient(135deg, #e2bd48 0%, #f4d06f 100%);
+  color: #081a26;
+  transform: scale(1.1);
+  border: 1px solid #e2bd48;
+}
+
 /* === ПОДСКАЗКИ === */
 .bottom-hint {
   background: rgba(255, 255, 255, 0.03);
@@ -319,15 +484,39 @@ body {
   z-index: 10;
 }
 
-/* === ЭКРАНЫ === */
-.age-screen {
-  text-align: center;
-  padding-top: 60px;
-  position: relative;
-  z-index: 10;
+/* === МАТЕРИАЛЫ И ИНСТРУКЦИИ === */
+.materials-list, .instructions-list {
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.instruction-step {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+  align-items: flex-start;
+}
+
+.step-number {
+  background: linear-gradient(135deg, #e2bd48 0%, #f4d06f 100%);
+  color: #081a26;
+  border-radius: 8px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  flex-shrink: 0;
 }
 
 /* === УТИЛИТЫ === */
+.hidden {
+  display: none !important;
+}
+
 .loading-spinner {
   display: flex;
   align-items: center;
@@ -335,4 +524,37 @@ body {
   min-height: 200px;
   color: #e2bd48;
   font-size: 18px;
+}
+
+.error-message {
+  background: rgba(255, 87, 87, 0.1);
+  border: 1px solid rgba(255, 87, 87, 0.3);
+  border-radius: 16px;
+  padding: 20px;
+  color: #ff9999;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 480px) {
+  .app-container {
+    padding: 16px;
+  }
+  
+  .title {
+    font-size: 28px;
+  }
+  
+  .age-grid {
+    gap: 12px;
+  }
+  
+  .glass-card {
+    padding: 24px;
+  }
+  
+  .activity-card {
+    padding: 20px;
+  }
 }

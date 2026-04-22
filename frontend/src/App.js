@@ -1,95 +1,229 @@
-import React, { useState } from 'react';
-import { STEPS } from './types';
-import { apiService } from './services/api';
+import React, { useState, useEffect } from 'react';
+import { WebApp } from '@twa-dev/sdk';
+
+// Импорт компонентов
 import AgeSelector from './components/AgeSelector/AgeSelector';
 import CategorySelector from './components/CategorySelector/CategorySelector';
-import ActivityList from './components/ActivityList/ActivityList';
+import ResultsList from './components/ResultsList/ResultsList';
 import ActivityDetails from './components/ActivityDetails/ActivityDetails';
 
+// Импорт сервисов
+import { apiService } from './services/api';
+
+// Импорт стилей
+import './index.css';
+
 function App() {
-  const [step, setStep] = useState(STEPS.AGE);
+  // Состояние приложения
+  const [currentScreen, setCurrentScreen] = useState('age'); // age, category, results, details
   const [selectedAge, setSelectedAge] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
   const [activities, setActivities] = useState([]);
   const [selectedActivity, setSelectedActivity] = useState(null);
+  const [user, setUser] = useState(null);
+  
+  // Данные из API
+  const [ageGroups, setAgeGroups] = useState([]);
+  const [categories, setCategories] = useState([]);
+  
+  // Состояния загрузки
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
-  const handleAgeSelect = (age) => {
-    setSelectedAge(age);
-    setStep(STEPS.CATEGORY);
+  // Инициализация при загрузке
+  useEffect(() => {
+    initializeTelegramApp();
+    loadReferenceData();
+  }, []);
+
+  // Инициализация Telegram Web App
+  const initializeTelegramApp = () => {
+    try {
+      // Инициализация Telegram Web App
+      WebApp.ready();
+      WebApp.expand();
+      
+      // Настройка цветов под наш дизайн
+      WebApp.setHeaderColor('#081a26');
+      WebApp.setBackgroundColor('#081a26');
+      
+      // Отключаем вертикальные свайпы для лучшей работы анимаций
+      WebApp.disableVerticalSwipes();
+      
+      // Устанавливаем CSS переменные для Telegram
+      if (WebApp.themeParams) {
+        document.documentElement.style.setProperty('--tg-theme-bg-color', '#081a26');
+        document.documentElement.style.setProperty('--tg-theme-text-color', '#ffffff');
+        document.documentElement.style.setProperty('--tg-theme-button-color', '#e2bd48');
+        document.documentElement.style.setProperty('--tg-theme-button-text-color', '#081a26');
+      }
+      
+      // Добавляем класс для Telegram viewport
+      document.body.classList.add('telegram-viewport');
+      
+      console.log('Telegram Web App initialized');
+    } catch (error) {
+      console.error('Error initializing Telegram Web App:', error);
+    }
   };
 
-  const handleCategorySelect = async (category) => {
-    setSelectedCategory(category);
+  // Загрузка справочных данных
+  const loadReferenceData = async () => {
     setLoading(true);
-    setStep(STEPS.RESULTS);
+    setError(null);
     
     try {
-      const fetchedActivities = await apiService.getActivities({
-        age: selectedAge,
-        category: category,
-        limit: 3
-      });
+      const [ageGroupsData, categoriesData] = await Promise.all([
+        apiService.getAgeGroups(),
+        apiService.getCategories()
+      ]);
       
-      setActivities(fetchedActivities);
+      setAgeGroups(ageGroupsData.data || ageGroupsData);
+      setCategories(categoriesData.data || categoriesData);
+      
+      console.log('Reference data loaded:', { ageGroupsData, categoriesData });
     } catch (error) {
-      console.error('Error fetching activities:', error);
-      setActivities([]);
+      console.error('Error loading reference data:', error);
+      setError('Ошибка загрузки данных. Проверьте подключение к интернету.');
+      
+      // В случае ошибки показываем alert через Telegram
+      if (WebApp.showAlert) {
+        WebApp.showAlert('Ошибка загрузки данных');
+      }
     } finally {
       setLoading(false);
     }
   };
 
-  const handleActivitySelect = (activity) => {
-    setSelectedActivity(activity);
-    setStep(STEPS.DETAILS);
+  // Обработчик выбора возраста
+  const handleAgeSelect = (ageId) => {
+    setSelectedAge(ageId);
+    setCurrentScreen('category');
+    
+    console.log('Age selected:', ageId);
   };
 
-  const handleBack = () => {
-    if (step === STEPS.CATEGORY) {
-      setStep(STEPS.AGE);
-    } else if (step === STEPS.RESULTS) {
-      setStep(STEPS.CATEGORY);
-    } else if (step === STEPS.DETAILS) {
-      setStep(STEPS.RESULTS);
+  // Обработчик выбора категории
+  const handleCategorySelect = async (categoryId) => {
+    setSelectedCategory(categoryId);
+    setLoading(true);
+    setError(null);
+    
+    try {
+      console.log('Fetching activities for:', { age: selectedAge, category: categoryId });
+      
+      const response = await apiService.getActivities({
+        age: selectedAge,
+        category: categoryId
+      });
+      
+      setActivities(response.activities || []);
+      setUser(response.user || null);
+      setCurrentScreen('results');
+      
+      console.log('Activities loaded:', response);
+    } catch (error) {
+      console.error('Error fetching activities:', error);
+      setError('Не удалось загрузить активности. Попробуйте еще раз.');
+      
+      if (WebApp.showAlert) {
+        WebApp.showAlert('Ошибка загрузки активностей');
+      }
+    } finally {
+      setLoading(false);
     }
   };
 
+  // Обработчик выбора активности
+  const handleActivitySelect = async (activity) => {
+    // Проверка доступа к Premium контенту
+    if (activity.premium && !user?.is_premium) {
+      if (WebApp.showAlert) {
+        WebApp.showAlert('Эта активность доступна только в Premium версии');
+      }
+      return;
+    }
+    
+    setSelectedActivity(activity);
+    setCurrentScreen('details');
+    
+    console.log('Activity selected:', activity);
+  };
+
+  // Навигация назад
+  const handleBack = () => {
+    switch (currentScreen) {
+      case 'category':
+        setCurrentScreen('age');
+        break;
+      case 'results':
+        setCurrentScreen('category');
+        break;
+      case 'details':
+        setCurrentScreen('results');
+        break;
+      default:
+        setCurrentScreen('age');
+    }
+  };
+
+  // Начать заново
   const handleStartOver = () => {
     setSelectedAge('');
     setSelectedCategory('');
     setActivities([]);
     setSelectedActivity(null);
-    setStep(STEPS.AGE);
+    setCurrentScreen('age');
+    setError(null);
   };
 
+  // Рендер экрана ошибки
+  if (error && currentScreen === 'age') {
+    return (
+      <div className="app-container">
+        <div className="error-message">
+          <div style={{ fontSize: '48px', marginBottom: '16px' }}>😞</div>
+          <div style={{ fontSize: '18px', marginBottom: '8px' }}>Упс! Что-то пошло не так</div>
+          <div style={{ fontSize: '14px', marginBottom: '20px' }}>{error}</div>
+          <button 
+            className="button-primary"
+            onClick={loadReferenceData}
+          >
+            🔄 Попробовать снова
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  // Главный рендер
   return (
-    <div className="app-container" style={{ 
-      minHeight: '100vh', 
-      maxWidth: '400px', 
-      margin: '0 auto',
-      background: 'linear-gradient(135deg, #081a26 0%, #0a1d2e 25%, #0f2235 50%, #162a3c 75%, #1a2f42 100%)',
-      color: '#ffffff',
-      fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-      padding: '20px'
-    }}>
-      {step === STEPS.AGE && (
-        <AgeSelector onSelect={handleAgeSelect} />
-      )}
-      
-      {step === STEPS.CATEGORY && (
-        <CategorySelector 
-          selectedAge={selectedAge}
-          onSelect={handleCategorySelect}
-          onBack={handleBack}
+    <div className="app-container">
+      {/* Экран выбора возраста */}
+      {currentScreen === 'age' && (
+        <AgeSelector 
+          ageGroups={ageGroups}
+          onSelect={handleAgeSelect}
+          loading={loading}
         />
       )}
       
-      {step === STEPS.RESULTS && (
-        <ActivityList 
-          activities={activities}
+      {/* Экран выбора категории */}
+      {currentScreen === 'category' && (
+        <CategorySelector 
+          categories={categories}
+          onSelect={handleCategorySelect}
+          onBack={handleBack}
           selectedAge={selectedAge}
-          selectedCategory={selectedCategory}
+          loading={loading}
+        />
+      )}
+      
+      {/* Экран списка результатов */}
+      {currentScreen === 'results' && (
+        <ResultsList 
+          activities={activities}
+          user={user}
           onActivitySelect={handleActivitySelect}
           onBack={handleBack}
           onStartOver={handleStartOver}
@@ -97,9 +231,11 @@ function App() {
         />
       )}
       
-      {step === STEPS.DETAILS && selectedActivity && (
+      {/* Экран деталей активности */}
+      {currentScreen === 'details' && (
         <ActivityDetails 
           activity={selectedActivity}
+          user={user}
           onBack={handleBack}
           onStartOver={handleStartOver}
         />
