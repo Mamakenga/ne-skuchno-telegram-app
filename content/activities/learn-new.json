@@ -1,1 +1,904 @@
-[] 
+[
+  {
+    "id": "learn_001",
+    "title": "Изучи 10 флагов стран за один вечер",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["интернет или атлас", "бумага", "карандаши", "глобус или карта (по желанию)"],
+    "instructions": [
+      "Выбери 10 стран — можно начать с соседей твоей страны",
+      "Нарисуй их флаги на отдельных листочках и подпиши",
+      "Узнай об одной интересной вещи из каждой страны — национальное блюдо, животное, достопримечательность",
+      "Переверни листочки рисунком вниз и проверь, помнишь ли, какой флаг у какой страны",
+      "Покажи родителям 3 факта, которые ты узнал"
+    ],
+    "skills_developed": ["география", "память", "рисование", "любознательность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["флаги", "страны", "география", "память"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_001",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: wall covered with drawn flags of countries, globe on desk, cartoon boy with brown hair pointing at flag, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_002",
+    "title": "Азбука жестов: выучи 10 слов",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12", "13-16"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["интернет (YouTube)", "зеркало"],
+    "instructions": [
+      "Найди видео-уроки «жестовый язык для начинающих» или «дактилология»",
+      "Выучи жесты для 5 простых слов: «привет», «спасибо», «мама», «друг», «любовь»",
+      "Практикуй перед зеркалом — смотри, как у тебя получается",
+      "Выучи ещё 5 слов: «да», «нет», «есть», «пить», «дом»",
+      "Покажи родителям и попробуй «сказать» им: «Привет, мама, я тебя люблю»",
+      "Это настоящий язык глухих людей — теперь ты можешь с ними общаться"
+    ],
+    "skills_developed": ["память", "мелкая моторика", "эмпатия", "коммуникация"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["жестовый язык", "язык", "инклюзия"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_002",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails making 'I love you' hand sign, speech bubble with symbols, vibrant colors"
+      },
+      {
+        "type": "video",
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=CUy9Dos9264",
+        "cover": false,
+        "caption": "YouTube: sign language basic words for kids"
+      }
+    ]
+  },
+  {
+    "id": "learn_003",
+    "title": "Солнечная система: построй модель",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 45,
+    "difficulty": "medium",
+    "materials": ["пластилин разных цветов", "картон", "фломастеры", "линейка"],
+    "instructions": [
+      "Начни с Солнца — слепи большой жёлтый шар и положи в центр картонки",
+      "Слепи 8 планет: Меркурий (маленький), Венера (жёлтая), Земля (сине-зелёная), Марс (красный), Юпитер (большой полосатый), Сатурн (с кольцами — вырежи из картона), Уран и Нептун (голубые)",
+      "Размести планеты по порядку от Солнца",
+      "Нарисуй орбиты — круги вокруг Солнца",
+      "Узнай и запомни: какая планета самая большая? Самая холодная? На какой жизнь?"
+    ],
+    "skills_developed": ["астрономия", "лепка", "пространственное мышление", "память"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["космос", "планеты", "астрономия", "модель"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_003",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: solar system model on cardboard with clay planets around yellow sun, orbit circles, cartoon boy with brown hair placing Saturn with rings, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_004",
+    "title": "Знакомство с морзянкой",
+    "category": "learn_new",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["распечатка кодов азбуки Морзе (найди в интернете)", "бумага и ручка", "фонарик"],
+    "instructions": [
+      "Посмотри таблицу азбуки Морзе — каждая буква закодирована точками и тире",
+      "Выучи для начала: SOS (··· ─── ···)",
+      "Напиши закодированное сообщение для друга или брата/сестры",
+      "Передай азбуку Морзе фонариком: короткий мигок — точка, длинный — тире",
+      "Пусть друг попытается расшифровать — это весело и это настоящий язык разведчиков"
+    ],
+    "skills_developed": ["память", "шифры", "коммуникация", "логика"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["морзянка", "шифры", "коммуникация", "разведчики"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_004",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails signalling SOS with flashlight in dark, morse code chart on wall, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_005",
+    "title": "5 слов на новом языке",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12", "13-16"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["переводчик в телефоне или словарь"],
+    "instructions": [
+      "Выбери язык, который интересен: испанский, французский, японский, арабский",
+      "Найди, как сказать на этом языке: «Привет», «Спасибо», «До свидания», «Да» и «Нет»",
+      "Запиши слова и послушай, как произносятся (в переводчике есть кнопка «звук»)",
+      "Повторяй каждое слово 10 раз",
+      "Испытай себя через час — вспомни, как на выбранном языке «спасибо»",
+      "Завтра выучи ещё 5 — так можно начать самому изучать любой язык"
+    ],
+    "skills_developed": ["язык", "память", "любознательность", "произношение"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["языки", "словарь", "учёба"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_005",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair with speech bubbles saying 'Hola, Merci, Konnichiwa', world map background, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_006",
+    "title": "Древо семьи — нарисуй предков",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 40,
+    "difficulty": "medium",
+    "materials": ["большой лист бумаги", "фотографии родственников (или рисунки)", "фломастеры", "клей"],
+    "instructions": [
+      "В центре внизу напиши своё имя или наклей своё фото",
+      "Выше нарисуй линии к именам мамы и папы",
+      "Ещё выше — имена бабушек и дедушек (4 человека)",
+      "Если знаешь прадедушек и прабабушек — добавь их выше",
+      "Спроси родителей, чем занимались твои предки — запиши 1 факт рядом с каждым именем",
+      "Получилось родословное древо. Удиви бабушку, показав ей это"
+    ],
+    "skills_developed": ["история семьи", "память", "эмпатия", "рисование"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["семья", "история", "родословная"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_006",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: family tree drawing on paper with photos of ancestors, cartoon girl with pigtails showing it to grandmother, cozy colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_007",
+    "title": "Части тела человека: нарисуй на себе",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["большой лист бумаги (размер человека)", "карандаши", "энциклопедия или интернет"],
+    "instructions": [
+      "Ляг на большой лист бумаги и попроси родителей обвести твой силуэт",
+      "Теперь нарисуй внутри силуэта основные органы:",
+      "— сердце (слева, размером с кулак)",
+      "— лёгкие (по бокам от сердца, большие)",
+      "— желудок (под рёбрами)",
+      "— мозг (в голове)",
+      "— кишечник (ниже живота, извитой)",
+      "Подпиши каждый орган и узнай, за что он отвечает",
+      "Теперь ты знаешь, как устроен человек изнутри!"
+    ],
+    "skills_developed": ["анатомия", "рисование", "понимание тела", "самопознание"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["тело", "анатомия", "биология"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_007",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: child silhouette traced on big paper with drawn heart, lungs, stomach labeled, cartoon boy with brown hair pointing at heart, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_008",
+    "title": "Хронология истории мира: главные события",
+    "category": "learn_new",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 45,
+    "difficulty": "medium",
+    "materials": ["длинная полоска бумаги (склеить 3 листа)", "линейка", "карандаши", "интернет"],
+    "instructions": [
+      "Разлинуй полоску как шкалу: от 1000 до н.э. до сегодняшнего дня",
+      "Отметь крупные события: египетские пирамиды, Римская империя, Средневековье, открытие Америки, первый полёт в космос",
+      "У каждого события нарисуй маленькую картинку",
+      "Добавь дату рождения бабушек и родителей — покажи, что они — тоже часть истории",
+      "Это очень наглядно: за 3000 лет — вот что успело произойти"
+    ],
+    "skills_developed": ["история", "хронология", "рисование", "память"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["история", "хронология", "цивилизация"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_008",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: long timeline paper with drawings of pyramid, roman coliseum, ship, rocket, cartoon girl with pigtails adding event, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_009",
+    "title": "Узнай, какие животные живут в твоём дворе",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 60,
+    "difficulty": "easy",
+    "materials": ["блокнот", "карандаш", "лупа (по желанию)", "приложение для распознавания животных (по желанию)"],
+    "instructions": [
+      "Выйди во двор с блокнотом",
+      "Сначала смотри в небо: какие птицы пролетают? Воробей, голубь, ворона?",
+      "Посмотри на землю и траву: муравьи, божьи коровки, жуки",
+      "Загляни под листья или камни — кто там живёт?",
+      "Запиши в блокнот всех, кого увидел — можно рисовать",
+      "Приходи каждый день на ту же прогулку неделю — список будет расти. Это и есть работа натуралиста"
+    ],
+    "skills_developed": ["наблюдательность", "биология", "ведение дневника", "терпение"],
+    "season": "spring",
+    "location": "outdoor",
+    "premium": false,
+    "tags": ["природа", "биология", "наблюдение", "животные"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_009",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair in yard with notebook spotting birds, ladybugs, ants, vibrant colors, clean shapes"
+      }
+    ]
+  },
+  {
+    "id": "learn_010",
+    "title": "Изучи знаменитую картину и попробуй повторить",
+    "category": "learn_new",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 60,
+    "difficulty": "medium",
+    "materials": ["краски (гуашь, акварель)", "кисти", "бумага", "репродукция знаменитой картины"],
+    "instructions": [
+      "Выбери картину, которая тебе нравится: «Звёздная ночь» Ван Гога, «Подсолнухи», Мунка «Крик»",
+      "Узнай о художнике: когда жил, где, 1 факт из жизни",
+      "Рассмотри картину внимательно: какие цвета? Какие мазки?",
+      "Попробуй нарисовать свою версию — не копия, а твоё прочтение",
+      "Покажи свою картину и расскажи, что узнал о художнике",
+      "Так ты прикасаешься к великой живописи"
+    ],
+    "skills_developed": ["рисование", "искусство", "наблюдательность", "эмпатия к искусству"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["живопись", "художники", "искусство"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_010",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: child's version of Starry Night painting on easel, cartoon girl with pigtails with palette, van gogh reference nearby, vibrant swirling colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_011",
+    "title": "Напиши письмо маркой — настоящее, бумажное",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["бумага", "конверт", "марка (купить на почте)", "ручка"],
+    "instructions": [
+      "Выбери, кому хочешь написать: бабушке, двоюродному брату, другу из другого города",
+      "Напиши от руки письмо: расскажи, что интересного происходит, спроси его жизнь",
+      "Нарисуй картинку в конце — так письмо станет живее",
+      "Сложи, положи в конверт и напиши адрес получателя и свой (обратный)",
+      "Наклей марку в правый верхний угол",
+      "🔥 Попроси родителей отвезти к почтовому ящику. Получить ответ через 1–2 недели — настоящее чудо!"
+    ],
+    "skills_developed": ["письмо", "эмпатия", "терпение", "понимание почты"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["письмо", "почта", "бумажное", "связь"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_011",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: handwritten letter with drawing being put in envelope with stamp, cartoon boy with brown hair smiling, mailbox in background, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_012",
+    "title": "Как работают деньги: реши бюджет семьи на день",
+    "category": "learn_new",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["бумага", "ручка", "калькулятор", "чеки из магазина (если есть)"],
+    "instructions": [
+      "Представь, что у твоей семьи сегодня 1000 рублей на всё",
+      "Напиши список: завтрак, обед, ужин, транспорт, что-то детям",
+      "Подели 1000 между этими пунктами — сколько чего нужно?",
+      "Спроси родителей, сколько они обычно тратят на еду в день",
+      "Сравни: совпало или нет?",
+      "Придумай, как сэкономить 100 рублей. Это начало умения управлять деньгами"
+    ],
+    "skills_developed": ["финансовая грамотность", "математика", "планирование", "ответственность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["деньги", "бюджет", "финансы"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_012",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails with notebook calculating budget, coins and bills, receipt, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_013",
+    "title": "3 инструмента по нотам: нарисуй оркестр",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["YouTube или аудио", "бумага", "карандаши"],
+    "instructions": [
+      "Послушай звук 3 инструментов оркестра: скрипка, флейта, барабан",
+      "Постарайся запомнить, какой голос у каждого",
+      "Нарисуй каждый инструмент и подпиши имя",
+      "Послушай мелодию, где играет оркестр (Моцарт или Бетховен) — попробуй различить инструменты",
+      "Расскажи: какой инструмент тебе больше понравился и почему?",
+      "Теперь ты можешь узнать музыкальные инструменты на слух"
+    ],
+    "skills_developed": ["слух", "музыка", "наблюдательность", "рисование"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["музыка", "оркестр", "инструменты"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_013",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair wearing headphones drawing violin, flute, drum on paper, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_014",
+    "title": "Изучи своё имя: что оно значит и откуда",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["интернет или книга имён", "бумага", "карандаши"],
+    "instructions": [
+      "Поищи в интернете: «значение имени <твоё имя>»",
+      "Узнай: что значит твоё имя, из какого языка пришло",
+      "Узнай: были ли знаменитые люди с таким же именем",
+      "Оформи красиво на бумаге: напиши имя крупно, укрась, добавь 3 факта",
+      "Узнай, почему родители выбрали именно это имя — спроси их",
+      "Сделай такой же для имён мамы и папы"
+    ],
+    "skills_developed": ["самопознание", "история", "язык", "семья"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["имя", "значение", "самопознание"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_014",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: decorated paper with name written large, small drawings around, cartoon girl with pigtails proud, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_015",
+    "title": "Шахматы: фигуры и 3 базовых правила",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 40,
+    "difficulty": "medium",
+    "materials": ["шахматная доска с фигурами", "интернет или книга для правил"],
+    "instructions": [
+      "Выучи названия фигур: пешка, конь, слон, ладья, ферзь, король",
+      "Узнай, как ходит каждая фигура. Особое внимание коню — он ходит 'буквой Г'",
+      "Пешка ходит вперёд, а бьёт по диагонали — это важно",
+      "Выучи правило 'шах и мат' — как закончить партию",
+      "Сыграй короткую партию с родителем или старшим братом/сестрой",
+      "Даже гроссмейстеры начинали с того же — теперь ты на том же пути"
+    ],
+    "skills_developed": ["логика", "стратегия", "память", "терпение"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["шахматы", "логика", "стратегия"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_015",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: chess board with pieces, cartoon boy with brown hair moving knight, cartoon girl with pigtails thinking across the board, vibrant colors"
+      },
+      {
+        "type": "video",
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=AOE6-ltbN2o",
+        "cover": false,
+        "caption": "YouTube: chess rules for kids beginners"
+      }
+    ]
+  },
+  {
+    "id": "learn_016",
+    "title": "Круг цветов: как получаются оттенки",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["гуашь или акварель красного, жёлтого, синего цвета", "палитра или тарелка", "бумага", "кисточка"],
+    "instructions": [
+      "На бумаге нарисуй круг и раздели на 6 секторов",
+      "Закрась 3 сектора через один: красный, жёлтый, синий — это основные цвета",
+      "Теперь смешай: красный + жёлтый = оранжевый. Закрась следующий сектор",
+      "Жёлтый + синий = зелёный. Синий + красный = фиолетовый. Закрась оставшиеся сектора",
+      "Посмотри: получился круг всех цветов радуги. Все другие оттенки — смесь из этих 3",
+      "Попробуй сделать коричневый — это смесь всех 3 основных"
+    ],
+    "skills_developed": ["цветовосприятие", "химия красок", "наблюдательность", "рисование"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["цвета", "краски", "смешивание"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_016",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: color wheel divided in 6 sectors with primary and secondary colors, cartoon girl with pigtails mixing paint on palette, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_017",
+    "title": "Как работает наш мозг: 3 эксперимента",
+    "category": "learn_new",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["бумага", "ручка", "секундомер или телефон"],
+    "instructions": [
+      "Эксперимент 1: Напиши цветные слова — «красный» синей ручкой, «жёлтый» зелёной и т.д. Попроси друга быстро называть ЦВЕТ слова (не читать слово). Это трудно — мозг хочет читать",
+      "Эксперимент 2: Считай вслух от 1 до 20, одновременно пиши буквы алфавита. Мозг путается — он не умеет так на двух задачах сразу",
+      "Эксперимент 3: Закрой один глаз и посмотри на пальцы вытянутой руки. Перекрой — поменяй глаз. Видишь, как рука 'прыгает'? Это потому, что каждый глаз видит чуть другую картинку",
+      "Попробуй на родителях — они удивятся, как работает мозг"
+    ],
+    "skills_developed": ["нейробиология", "научный метод", "наблюдательность", "эксперимент"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["мозг", "нейробиология", "эксперимент"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_017",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: paper with colored words (red in blue ink), cartoon boy with brown hair confused trying to read, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_018",
+    "title": "Программирование без компьютера: блок-схема",
+    "category": "learn_new",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 40,
+    "difficulty": "medium",
+    "materials": ["бумага", "цветные карандаши", "линейка"],
+    "instructions": [
+      "Программисты пишут план как алгоритм. Попробуем простой: 'Помыть руки'",
+      "Нарисуй 5 прямоугольников в столбик, соединённых стрелками",
+      "В первом напиши: «Подойти к умывальнику»",
+      "Во втором: «Включить воду»",
+      "Третий — РОМБ (это проверка): «Вода тёплая?» Если ДА — идёшь дальше, НЕТ — возврат к «Настроить»",
+      "Четвёртый: «Намылить руки»",
+      "Пятый: «Смыть, выключить воду»",
+      "Теперь сделай свой алгоритм: «Как почистить зубы» или «Как приготовить бутерброд»"
+    ],
+    "skills_developed": ["алгоритмическое мышление", "логика", "планирование", "программирование"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["программирование", "алгоритм", "логика"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_018",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: flowchart on paper with rectangles and diamond for decision, arrows connecting, cartoon girl with pigtails drawing, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_019",
+    "title": "Столицы мира: игра на память",
+    "category": "learn_new",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["карта мира или атлас", "карточки (можно из картона)", "ручка"],
+    "instructions": [
+      "Выбери 15 стран — можно по континенту или случайно",
+      "На одной стороне карточки напиши страну, на другой — столицу",
+      "Изучай: Россия — Москва, Франция — Париж, Япония — Токио, Бразилия — Бразилиа и т.д.",
+      "Прочитай каждую карточку 3 раза",
+      "Теперь переверни все страной вверх — угадай столицы",
+      "Добавляй по 5 стран в день — через месяц будешь знать 100 столиц"
+    ],
+    "skills_developed": ["память", "география", "систематичность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["столицы", "география", "память"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_019",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: stack of flashcards with country names and capitals, world map on wall, cartoon boy with brown hair studying, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_020",
+    "title": "Узнай своё дерево-сосед: исследуй 5 видов",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 40,
+    "difficulty": "easy",
+    "materials": ["блокнот", "карандаш", "приложение или справочник деревьев"],
+    "instructions": [
+      "Выйди во двор или парк",
+      "Найди 5 разных деревьев",
+      "У каждого запиши: 1) кора какая — гладкая/шершавая 2) лист — вырежи или зарисуй",
+      "Попробуй определить по виду листа: дуб (зубчатый), клён (пятиконечный), береза (сердечко), ива (длинный узкий), липа (округлый)",
+      "Приклей лист в блокнот и подпиши имя дерева",
+      "Через месяц в том же парке проверь: как изменились твои деревья? Это твой природный дневник"
+    ],
+    "skills_developed": ["ботаника", "наблюдательность", "классификация", "терпение"],
+    "season": "summer",
+    "location": "outdoor",
+    "premium": false,
+    "tags": ["деревья", "ботаника", "природа", "наблюдение"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_020",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails in park with notebook comparing oak and maple leaves, trees around, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_021",
+    "title": "Часы: научись читать стрелочные",
+    "category": "learn_new",
+    "age_groups": ["6-8"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["бумажная тарелка", "ножницы", "2 полоски картона (стрелки)", "кнопка", "фломастеры"],
+    "instructions": [
+      "Напиши на тарелке цифры 1–12 по кругу как на часах",
+      "Вырежи из картона две стрелки — длинную (минутную) и короткую (часовую)",
+      "Проткни кнопкой центр тарелки и закрепи стрелки — они должны крутиться",
+      "Попроси родителей показать: где часовая в 9:00? Где минутная?",
+      "Поставь свои часы на разное время и сверяй с настоящими",
+      "Попробуй сам называть время: 'половина шестого', 'без четверти восемь'"
+    ],
+    "skills_developed": ["чтение времени", "математика", "мелкая моторика", "самостоятельность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["часы", "время", "математика"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_021",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: paper plate clock with numbers and rotating hands, cartoon boy with brown hair moving hands to set time, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_022",
+    "title": "Пальчиковая математика: как считали раньше",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["твои 10 пальцев", "бумага для заметок"],
+    "instructions": [
+      "Умножение на 9: вытяни 10 пальцев. Умножить 9 × 3? Согни 3-й палец (слева). Слева от согнутого — 2 пальца (десятки), справа — 7 (единицы). Ответ: 27",
+      "Проверь: 9×7 — согни 7-й палец. Слева 6, справа 3. Ответ: 63. Работает!",
+      "Другой приём: чтобы сложить большие числа, используй 10 пальцев как счёты",
+      "Раньше купцы так считали — и никаких калькуляторов",
+      "Научи родителей этому приёму — они удивятся, что не знали"
+    ],
+    "skills_developed": ["математика", "ментальный счёт", "история математики"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["математика", "умножение", "фокус"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_022",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: close-up of hands with 10 fingers, one finger bent, numbers floating above showing 9x7=63, cartoon girl with pigtails amazed, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_023",
+    "title": "Профессии: возьми интервью у родителя",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["блокнот", "ручка", "желание слушать"],
+    "instructions": [
+      "Подготовь 7 вопросов маме или папе о их работе:",
+      "1) Кем ты работаешь? 2) Что именно ты делаешь? 3) Почему выбрал эту работу?",
+      "4) Что тебе нравится больше всего? 5) Что труднее всего? 6) Что бы ты посоветовал, если бы я хотел так же?",
+      "7) Что бы ты поменял в своей работе?",
+      "Возьми настоящее интервью — записывай ответы",
+      "Перескажи результаты другому родителю или бабушке. Ты теперь знаешь, чем занимаются взрослые"
+    ],
+    "skills_developed": ["коммуникация", "эмпатия", "слушание", "понимание взрослых"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["профессии", "интервью", "семья"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_023",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair interviewing parent at table with notebook, questions floating, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_024",
+    "title": "Рисование карты своего района",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 45,
+    "difficulty": "medium",
+    "materials": ["большой лист бумаги", "карандаши", "фломастеры", "линейка"],
+    "instructions": [
+      "Начерти квадрат по центру листа — это твой дом",
+      "Вспомни, как идёшь в магазин или школу — нарисуй этот путь",
+      "Добавь все важные места: школа, детская площадка, магазин, аптека, парк",
+      "Соедини их улицами — нарисуй основные дороги",
+      "Добавь важные деревья, скамейки, колонки — что бросается в глаза",
+      "Сверь свою карту с настоящей на Google Maps. Что ты забыл?",
+      "Картография — это древняя наука. Теперь ты её знаешь"
+    ],
+    "skills_developed": ["пространственное мышление", "картография", "память", "наблюдательность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["карта", "картография", "география"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_024",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: hand-drawn neighborhood map with house, school, park, streets, cartoon girl with pigtails adding details, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_025",
+    "title": "10 новых слов родного языка",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["словарь (книга или онлайн)", "блокнот", "ручка"],
+    "instructions": [
+      "Открой словарь на случайной странице",
+      "Выбери 10 слов, которые ты раньше не знал",
+      "Прочитай значение каждого и запиши в блокнот",
+      "Придумай предложение с каждым словом",
+      "Попробуй использовать 3 слова в разговоре с родителями за ужином",
+      "Словарный запас — твоя суперсила. Так его и можно расширять"
+    ],
+    "skills_developed": ["язык", "чтение", "память", "самостоятельное обучение"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["слова", "словарь", "язык", "чтение"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_025",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: open dictionary with highlighted words, notebook with vocabulary list, cartoon boy with brown hair thinking, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_026",
+    "title": "Дикие животные: найди по следам",
+    "category": "learn_new",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["интернет или книга о следах зверей", "бумага", "карандаши"],
+    "instructions": [
+      "Найди картинки следов: заяц, лиса, волк, медведь, птица, кошка, собака",
+      "Заметь отличия: у зайца лапы идут 'ёлочкой', у лисы — по прямой, у собаки — свободно",
+      "Нарисуй 5 разных следов и подпиши",
+      "Сделай свой 'след-справочник' — так делают лесники и охотники",
+      "Теперь ты можешь на снегу или грязи узнать: кто здесь ходил"
+    ],
+    "skills_developed": ["зоология", "наблюдательность", "рисование", "природоведение"],
+    "season": "winter",
+    "location": "outdoor",
+    "premium": false,
+    "tags": ["следы", "животные", "природа", "зоология"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_026",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: snow with various animal tracks labeled, cartoon girl with pigtails with magnifying glass, vibrant winter colors"
+      }
+    ]
+  },
+  {
+    "id": "learn_027",
+    "title": "Знаменитый учёный: прочитай и расскажи",
+    "category": "learn_new",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 40,
+    "difficulty": "medium",
+    "materials": ["интернет или энциклопедия", "бумага", "ручка"],
+    "instructions": [
+      "Выбери учёного, о котором хочешь узнать: Эйнштейн, Менделеев, Мария Кюри, Никола Тесла, Дарвин",
+      "Узнай и запиши 5 фактов: когда жил, где, что открыл, какой характер был, интересную историю",
+      "Нарисуй его портрет — пусть простой, но похожий",
+      "Подготовь рассказ на 2 минуты и расскажи родителям",
+      "Выбери ещё одного учёного на следующий раз — и так можешь собрать галерею гениев"
+    ],
+    "skills_developed": ["история науки", "чтение", "публичное выступление", "эмпатия"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["учёные", "наука", "биография", "история"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:learn_027",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair presenting portrait of Einstein drawing, fact cards around, vibrant colors"
+      }
+    ]
+  }
+]

@@ -1,1 +1,913 @@
-[] 
+[
+  {
+    "id": "experiments_001",
+    "title": "Домашний вулкан из соды и уксуса",
+    "category": "experiments",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["пластиковый стаканчик или маленькая бутылочка", "сода", "уксус", "вода", "красная гуашь или пищевой краситель", "поднос или тарелка"],
+    "instructions": [
+      "Поставь стаканчик на поднос, чтобы не испачкать стол",
+      "Насыпь в стаканчик 2 столовые ложки соды",
+      "Добавь немного красной краски и чуть-чуть воды — перемешай",
+      "А теперь осторожно налей уксус — и наблюдай извержение!",
+      "Подумай: почему пошла пена? Это углекислый газ вырывается наружу"
+    ],
+    "skills_developed": ["наблюдательность", "химия для начинающих", "любознательность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["химия", "вулкан", "реакция", "классика"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_001",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair and cartoon girl with pigtails watching a tiny volcano made from a paper cup erupting with red foam on a tray, kitchen background, vibrant colors, clean shapes"
+      }
+    ]
+  },
+  {
+    "id": "experiments_002",
+    "title": "Вырасти кристаллы из соли",
+    "category": "experiments",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["соль", "горячая вода", "прозрачная банка", "нитка", "карандаш", "скрепка"],
+    "instructions": [
+      "🔥 Попроси родителей налить в банку очень горячей воды — примерно полстакана",
+      "Сыпь в воду соль и размешивай, пока она не перестанет растворяться",
+      "Привяжи скрепку к нитке, а нитку — к карандашу. Опусти скрепку в банку, чтобы она висела в воде",
+      "Поставь банку в спокойное место и не трогай 3–7 дней",
+      "Каждый день проверяй: кристаллы растут прямо на нитке!",
+      "Когда кристаллы станут красивыми — достань и покажи всем"
+    ],
+    "skills_developed": ["терпение", "наблюдательность", "химия", "планирование"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["кристаллы", "соль", "долгий эксперимент", "химия"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_002",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: glass jar with white salt crystals growing on a string tied to a pencil, cartoon girl with pigtails looking closely through a magnifying glass, sunny kitchen background, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "experiments_003",
+    "title": "Танцующий изюм",
+    "category": "experiments",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 10,
+    "difficulty": "easy",
+    "materials": ["прозрачный стакан", "газированная вода", "изюм", "5 минут свободного времени"],
+    "instructions": [
+      "Налей в стакан газированную воду — она должна шипеть",
+      "Брось в стакан несколько изюминок",
+      "Наблюдай: изюминки начнут нырять вверх-вниз как танцоры",
+      "Почему так? Пузырьки газа прилипают к изюму и тащат его вверх. На поверхности пузырьки лопаются — и изюм падает обратно"
+    ],
+    "skills_developed": ["наблюдательность", "физика", "любознательность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["физика", "газ", "быстрый эксперимент", "вкусно"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_003",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: transparent glass of sparkling water with raisins dancing up and down with bubbles, cartoon boy with brown hair amazed face, vibrant colors, clean shapes"
+      }
+    ]
+  },
+  {
+    "id": "experiments_004",
+    "title": "Неньютоновская жидкость из крахмала",
+    "category": "experiments",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["крахмал", "вода", "миска", "пищевой краситель (по желанию)"],
+    "instructions": [
+      "Насыпь в миску 2 части крахмала",
+      "Добавь 1 часть воды и перемешай",
+      "Должна получиться странная масса: когда быстро бьёшь — твёрдая, когда медленно трогаешь — жидкая",
+      "Попробуй скатать шарик в ладонях и положить на стол — он растечётся сам",
+      "Можно добавить каплю краски — будет ещё красивее"
+    ],
+    "skills_developed": ["сенсорное восприятие", "физика материалов", "эксперимент"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["крахмал", "необычно", "тактильно", "физика"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_004",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: bowl with blue cornstarch liquid (oobleck), cartoon boy and girl poking it with fingers, one surprised face, vibrant colors"
+      },
+      {
+        "type": "video",
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=kHNarOMnPd8",
+        "cover": false,
+        "caption": "YouTube: oobleck experiment for kids"
+      }
+    ]
+  },
+  {
+    "id": "experiments_005",
+    "title": "Магнит и разные предметы",
+    "category": "experiments",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["магнит (можно с холодильника)", "разные мелкие предметы: скрепки, монеты, ложки, пуговицы, ластик, карандаш"],
+    "instructions": [
+      "Собери на столе горку разных мелких предметов",
+      "По очереди подноси магнит к каждому и записывай: притянулся или нет",
+      "Подели предметы на две кучки: магнитные и не магнитные",
+      "Подумай: что общего у всех магнитных предметов?",
+      "Попробуй поднять магнитом предмет через лист бумаги или стакан — сработает?"
+    ],
+    "skills_developed": ["наблюдательность", "классификация", "физика"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["магнит", "физика", "классификация", "исследование"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_005",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails holding a red horseshoe magnet over a pile of paperclips, coins, erasers on table, vibrant colors, clean shapes"
+      }
+    ]
+  },
+  {
+    "id": "experiments_006",
+    "title": "Фасоль на ватке: наблюдаем, как растёт корень",
+    "category": "experiments",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["несколько фасолин", "вата или бумажные салфетки", "прозрачная банка или стакан", "вода"],
+    "instructions": [
+      "Положи на дно банки толстый слой ваты или салфеток",
+      "Смочи вату водой — но чтобы не плавала, а была влажной",
+      "Положи фасолины сбоку — так, чтобы их было видно сквозь стекло",
+      "Каждый день немного подливай воду и смотри, что происходит",
+      "Через 3–5 дней появится корень, потом росток. Нарисуй, как меняется фасоль каждый день"
+    ],
+    "skills_developed": ["терпение", "наблюдательность", "биология", "ведение дневника"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["растения", "биология", "долгий эксперимент", "наблюдение"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_006",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: glass jar with cotton and sprouting bean with root visible through glass, cartoon boy with brown hair drawing in notebook, sunny window background, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "experiments_007",
+    "title": "Радуга в стакане из сахара и воды",
+    "category": "experiments",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["4 стакана", "сахар", "вода", "4 пищевых красителя", "ложка", "высокий прозрачный стакан или бокал"],
+    "instructions": [
+      "В первый стакан насыпь 1 ложку сахара, во второй — 2, в третий — 3, в четвёртый — 4",
+      "Во все стаканы налей одинаковое количество тёплой воды и перемешай",
+      "Каждый стакан подкрась в свой цвет",
+      "Теперь аккуратно ложкой переливай в высокий стакан: сначала самый сладкий, потом следующий — так, чтобы цвета не смешивались",
+      "Получится радуга! Секрет в том, что более сладкая вода тяжелее и остаётся снизу"
+    ],
+    "skills_developed": ["химия", "аккуратность", "понимание плотности", "терпение"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["радуга", "плотность", "красиво", "химия"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_007",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: tall glass with 4 colorful liquid layers (red, yellow, green, blue) like rainbow, cartoon girl with pigtails holding spoon, vibrant colors, clean shapes"
+      },
+      {
+        "type": "video",
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=9hGgtEmYptg",
+        "cover": false,
+        "caption": "YouTube: sugar water density rainbow experiment"
+      }
+    ]
+  },
+  {
+    "id": "experiments_008",
+    "title": "Яйцо: тонет или плавает?",
+    "category": "experiments",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["2 прозрачных стакана", "вода", "соль", "2 сырых яйца", "ложка"],
+    "instructions": [
+      "В первый стакан налей обычную воду и опусти яйцо — оно упадёт на дно",
+      "Во второй стакан налей воду и размешай 5–6 ложек соли",
+      "Опусти второе яйцо в солёную воду — оно плавает!",
+      "Объяснение: солёная вода плотнее, она держит яйцо как море держит человека",
+      "Попробуй добавить пресную воду сверху очень аккуратно — яйцо зависнет посередине"
+    ],
+    "skills_developed": ["физика", "понимание плотности", "эксперимент"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["вода", "соль", "плотность", "физика"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_008",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: two glasses of water side by side, one egg sinking in one, egg floating in the other, cartoon boy with brown hair pointing in amazement, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "experiments_009",
+    "title": "Чёрный перец и волшебное мыло",
+    "category": "experiments",
+    "age_groups": ["3-5", "6-8"],
+    "duration_minutes": 10,
+    "difficulty": "easy",
+    "materials": ["тарелка с водой", "молотый чёрный перец", "жидкое мыло или моющее средство", "зубочистка или палец"],
+    "instructions": [
+      "Налей в тарелку воды",
+      "Насыпь сверху молотый перец — он будет плавать по всей поверхности",
+      "Окуни зубочистку в жидкое мыло",
+      "Коснись мыльной зубочисткой воды в центре тарелки",
+      "Перец мгновенно «убежит» к краям! Это из-за поверхностного натяжения воды"
+    ],
+    "skills_developed": ["физика", "наблюдательность", "быстрый эксперимент"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["вода", "мыло", "поверхностное натяжение", "волшебство"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_009",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: plate of water with black pepper scattered, a finger with soap touching the center, pepper running to the edges, cartoon girl with pigtails watching surprised, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "experiments_010",
+    "title": "Как сохранить лёд как можно дольше",
+    "category": "experiments",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["3 одинаковых кубика льда", "3 разных контейнера или упаковки: фольга, полотенце, пустая банка", "часы или таймер"],
+    "instructions": [
+      "Возьми 3 одинаковых кубика льда",
+      "Положи первый в фольгу, второй заверни в полотенце, третий — в банку без крышки",
+      "Поставь всё на стол при комнатной температуре и засеки время",
+      "Каждые 5 минут проверяй — какой растаял больше всего?",
+      "Подумай, какой материал лучше держит холод и почему. Это называется теплоизоляция!"
+    ],
+    "skills_developed": ["научный метод", "наблюдательность", "физика тепла"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["лёд", "теплоизоляция", "научный метод", "эксперимент"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_010",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: three ice cubes in different wraps (foil, towel, open jar) on a table with a timer, cartoon boy with brown hair looking at stopwatch, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "experiments_011",
+    "title": "Дождь в банке",
+    "category": "experiments",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["прозрачная банка", "горячая вода", "тарелка", "кубики льда"],
+    "instructions": [
+      "🔥 Попроси родителей налить в банку горячую воду — примерно треть банки",
+      "Накрой банку тарелкой и подожди 2 минуты",
+      "Положи на тарелку несколько кубиков льда",
+      "Смотри внутрь банки: от стенок пойдут капельки — это мини-дождик!",
+      "Так работает и в природе: тёплый воздух поднимается, охлаждается — и падает дождь"
+    ],
+    "skills_developed": ["понимание погоды", "физика", "наблюдательность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["погода", "дождь", "круговорот воды", "наглядно"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_011",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: glass jar with steam and water droplets inside, plate with ice cubes on top, cartoon girl with pigtails looking closely, vibrant colors, clean shapes"
+      }
+    ]
+  },
+  {
+    "id": "experiments_012",
+    "title": "Что тонет, а что плавает?",
+    "category": "experiments",
+    "age_groups": ["3-5", "6-8"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["большая миска или таз с водой", "разные мелкие предметы: пробка, монетка, ложка, кусочек яблока, пластиковая крышка, карандаш, ключ"],
+    "instructions": [
+      "Налей в миску воды",
+      "До того как опустить предмет — угадай: утонет или поплывёт?",
+      "Теперь опусти по одному и проверь",
+      "Раздели предметы на две кучки: «плавают» и «тонут»",
+      "Подумай: почему лёгкие предметы плавают, а тяжёлые тонут? А форма влияет?"
+    ],
+    "skills_developed": ["предсказание", "классификация", "физика", "любознательность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["вода", "плавает", "тонет", "физика"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_012",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: big bowl of water with cork floating, coin sinking, apple piece floating, cartoon boy and girl pointing, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "experiments_013",
+    "title": "Почему небо голубое: опыт с фонариком",
+    "category": "experiments",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 15,
+    "difficulty": "medium",
+    "materials": ["прозрачный стакан с водой", "молоко", "фонарик или телефон со светом"],
+    "instructions": [
+      "Налей в стакан воды и добавь пару капель молока — вода станет чуть мутной",
+      "В тёмной комнате свети фонариком сбоку через стакан",
+      "С того боку, где светишь, вода будет голубоватой",
+      "А если смотреть прямо на фонарик через стакан — свет будет оранжевым",
+      "Вот так же рассеивается свет в атмосфере: днём мы видим голубое небо, на закате — оранжевое!"
+    ],
+    "skills_developed": ["физика света", "наблюдательность", "понимание природы"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["свет", "небо", "физика", "цвет"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_013",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: glass of milky water in dark room with flashlight shining from side, blue glow effect, cartoon girl with pigtails holding flashlight, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "experiments_014",
+    "title": "Самодельная лава-лампа",
+    "category": "experiments",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["прозрачная бутылка или банка", "растительное масло", "вода", "пищевой краситель", "шипучая таблетка (витамин С или антацид)"],
+    "instructions": [
+      "Налей в бутылку воду — на одну четверть",
+      "Сверху налей растительное масло — ещё на три четверти",
+      "Добавь несколько капель пищевого красителя — он пройдёт сквозь масло и окрасит воду",
+      "Брось шипучую таблетку (можно разломать пополам)",
+      "Смотри: цветные пузыри поднимаются и опускаются как в настоящей лава-лампе!"
+    ],
+    "skills_developed": ["химия", "физика", "наблюдательность", "красиво"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["лава-лампа", "масло", "вода", "красиво"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_014",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: transparent bottle with oil and blue water, colorful bubbles rising like lava lamp, cartoon boy with brown hair amazed, vibrant colors, clean shapes"
+      },
+      {
+        "type": "video",
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=IR9DkP4m260",
+        "cover": false,
+        "caption": "YouTube: homemade lava lamp for kids"
+      }
+    ]
+  },
+  {
+    "id": "experiments_015",
+    "title": "Самодельный фильтр для грязной воды",
+    "category": "experiments",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["пластиковая бутылка", "ножницы", "вата", "активированный уголь (если есть) или чистые камешки", "песок", "мелкие камешки", "грязная вода (с землёй)"],
+    "instructions": [
+      "🔥 Попроси родителей разрезать бутылку пополам — верхнюю часть переверни горлышком вниз",
+      "В горлышко вложи вату — она будет удерживать материалы",
+      "Насыпь слоями: песок, потом уголь/мелкие камешки, потом крупные камешки",
+      "Поставь верхнюю часть в нижнюю (горлышком вниз)",
+      "Налей сверху грязную воду и жди — она потечёт чистой!",
+      "Важно: эту воду всё равно нельзя пить без кипячения — но мы увидели, как работает фильтр"
+    ],
+    "skills_developed": ["экология", "инженерное мышление", "физика", "аккуратность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["фильтр", "вода", "экология", "инженерия"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_015",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: plastic bottle cut in half with layers of sand, charcoal, stones visible, dirty water going in top, clean water coming out bottom, cartoon girl with pigtails holding it, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "experiments_016",
+    "title": "Бумажная спираль над лампой",
+    "category": "experiments",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["лист бумаги", "ножницы", "нитка", "настольная лампа (не LED — обычная лампа накаливания греется)"],
+    "instructions": [
+      "Нарисуй на бумаге круг и разрежь его спиралью — от края к центру",
+      "Проколи дырочку в центре и привяжи нитку",
+      "Включи настольную лампу — только не LED, нам нужна тёплая",
+      "Держи спираль над лампой (не касаясь!) на 20–30 см выше",
+      "Спираль начнёт крутиться сама! Это тёплый воздух поднимается и толкает её"
+    ],
+    "skills_developed": ["физика", "конвекция", "творчество"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["воздух", "тепло", "конвекция", "бумага"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_016",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: paper spiral spinning above desk lamp, cartoon boy with brown hair holding string, room setting, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "experiments_017",
+    "title": "Воздушный шарик-ракета",
+    "category": "experiments",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["воздушный шарик", "трубочка для коктейля", "длинная нитка или леска", "скотч"],
+    "instructions": [
+      "Протяни нитку через всю комнату и привяжи концы к двум стульям — натяни",
+      "Продень нитку через трубочку так, чтобы трубочка могла скользить",
+      "Надуй шарик, зажми отверстие пальцами (не завязывай!)",
+      "Приклей шарик скотчем к трубочке",
+      "Отпусти палец — шарик помчится по нитке как настоящая ракета!",
+      "Это третий закон Ньютона: воздух вылетает назад, а шарик летит вперёд"
+    ],
+    "skills_developed": ["физика", "законы Ньютона", "инженерия", "действие-противодействие"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["ракета", "шарик", "физика", "Ньютон"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_017",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: red balloon taped to straw on a string across a room, motion lines showing it flying fast, cartoon boy and girl cheering, vibrant colors"
+      },
+      {
+        "type": "video",
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=IFxLou4p_3E",
+        "cover": false,
+        "caption": "YouTube: balloon rocket experiment"
+      }
+    ]
+  },
+  {
+    "id": "experiments_018",
+    "title": "Самодельный компас",
+    "category": "experiments",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 20,
+    "difficulty": "medium",
+    "materials": ["швейная игла", "магнит", "кусочек пробки или пенопласта", "миска с водой"],
+    "instructions": [
+      "Проведи иглой по магниту в одну сторону 30 раз — так игла намагнитится",
+      "Положи иглу на кусочек пробки и осторожно опусти на воду",
+      "Игла плавно повернётся — и покажет на север!",
+      "Проверь, сравнив с компасом в телефоне",
+      "Ты сделал настоящий компас как древние путешественники"
+    ],
+    "skills_developed": ["физика", "магнетизм", "история науки", "наблюдательность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["компас", "магнит", "изобретение", "навигация"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_018",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: bowl of water with needle on cork floating, pointing north, cartoon boy with brown hair comparing with phone compass, vibrant colors, clean shapes"
+      }
+    ]
+  },
+  {
+    "id": "experiments_019",
+    "title": "Парашют: какой лучше?",
+    "category": "experiments",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["полиэтиленовые пакеты разных размеров или салфетки", "нитки", "маленькая фигурка или скрепка", "ножницы", "стул или лестница"],
+    "instructions": [
+      "Вырежи квадрат из пакета — примерно 20x20 см",
+      "Привяжи к углам 4 нитки одинаковой длины",
+      "Снизу привяжи нитки к фигурке — это пассажир",
+      "Залезь на стул (с родителями рядом) и отпусти парашют",
+      "Сделай несколько парашютов разных размеров и сравни: какой падает медленнее?",
+      "Подумай, почему большой парашют лучше замедляет — он ловит больше воздуха"
+    ],
+    "skills_developed": ["инженерия", "физика воздуха", "эксперимент", "сравнение"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["парашют", "воздух", "инженерия", "физика"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_019",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: small parachute made of plastic bag with toy figure falling slowly, cartoon girl with pigtails on chair dropping it, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "experiments_020",
+    "title": "Мосты из бумаги: какой выдержит больше?",
+    "category": "experiments",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 45,
+    "difficulty": "medium",
+    "materials": ["несколько листов бумаги А4", "2 книги или коробки одинаковой высоты", "монетки или мелкие грузики"],
+    "instructions": [
+      "Поставь две книги на расстоянии 15 см — это опоры моста",
+      "Положи сверху лист бумаги — это первый мост. Клади монетки и считай, сколько выдержит",
+      "Теперь сложи лист гармошкой (веером) и положи так же — испытай снова",
+      "Сверни лист в трубочку, положи несколько трубочек рядом — новый мост",
+      "Запиши результаты: какой мост самый крепкий?",
+      "Ты понял главный секрет инженеров: форма важнее количества материала!"
+    ],
+    "skills_developed": ["инженерное мышление", "эксперимент", "сравнение", "запись результатов"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["мост", "инженерия", "бумага", "прочность"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_020",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: three paper bridges between two books — flat, accordion, rolled tubes — with coins piled on each, cartoon boy with brown hair writing in notebook, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "experiments_021",
+    "title": "Закон Мёрфи: бутерброд всегда падает маслом вниз?",
+    "category": "experiments",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["несколько кусочков хлеба", "что-то, что можно намазать с одной стороны (сметана, джем)", "тарелка", "блокнот"],
+    "instructions": [
+      "Намажь 10 кусочков хлеба с одной стороны",
+      "По одному подбрасывай их со стола и смотри, как упал",
+      "Записывай: «маслом вниз» или «маслом вверх»",
+      "Посчитай: какой результат чаще?",
+      "Это настоящая наука — статистика. А ещё физика падения: высота стола часто как раз такова, что кусок делает пол-оборота"
+    ],
+    "skills_developed": ["статистика", "научный метод", "запись данных", "физика"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["статистика", "эксперимент", "закон Мёрфи", "физика"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_021",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: piece of bread with jam falling off a table, cartoon girl with pigtails holding clipboard tallying, kitchen background, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "experiments_022",
+    "title": "Тест на память: запомни 15 предметов",
+    "category": "experiments",
+    "age_groups": ["6-8", "9-12", "13-16"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["15 разных мелких предметов", "поднос", "полотенце", "бумага и ручка", "таймер"],
+    "instructions": [
+      "Разложи на подносе 15 предметов — можно от игрушек до канцелярии",
+      "Смотри на поднос ровно 1 минуту — постарайся запомнить всё",
+      "Накрой поднос полотенцем",
+      "Напиши на бумаге все предметы, которые смог вспомнить",
+      "Открой и проверь: сколько угадал? Попробуй снова через день — улучшился результат?",
+      "Психологи называют это упражнение «метод Кима» — его используют даже разведчики"
+    ],
+    "skills_developed": ["память", "внимание", "концентрация", "научный метод"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["память", "мозг", "психология", "тренировка"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_022",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: tray with many small objects (keys, eraser, toy, spoon, button), cartoon boy with brown hair concentrating and looking hard, timer nearby, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "experiments_023",
+    "title": "Симметрия и зеркало",
+    "category": "experiments",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["маленькое зеркало", "бумага", "карандаши", "разные мелкие предметы"],
+    "instructions": [
+      "Поставь зеркало вертикально на лист бумаги",
+      "Нарисуй половинку бабочки прямо у зеркала — смотри, вторая половинка появляется в отражении!",
+      "Попробуй приставить зеркало к картинке — какие части получаются симметричными?",
+      "Приставь зеркало к своему лицу вертикально посередине — у тебя симметричное лицо?",
+      "Поищи симметрию в комнате: окна, мебель, твои руки. Симметрия — это повтор одной половины через линию"
+    ],
+    "skills_developed": ["геометрия", "наблюдательность", "рисование", "симметрия"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["симметрия", "зеркало", "геометрия", "рисование"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_023",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: half-drawn butterfly on paper with small vertical mirror completing the other half in reflection, cartoon girl with pigtails drawing, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "experiments_024",
+    "title": "Невидимые чернила из молока",
+    "category": "experiments",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["молоко", "ватные палочки", "белая бумага", "настольная лампа или фен"],
+    "instructions": [
+      "Обмакни ватную палочку в молоко — это твоя секретная ручка",
+      "Напиши или нарисуй что-то на белой бумаге — будет невидимо, когда высохнет",
+      "Отдай послание другу — пусть попробует прочесть",
+      "Секрет: нагрей бумагу над горячей лампой или феном — буквы станут коричневыми!",
+      "Молоко содержит жиры и белки — они темнеют от нагрева раньше, чем бумага"
+    ],
+    "skills_developed": ["химия", "творчество", "хитрость", "секретность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["невидимые чернила", "молоко", "шпион", "химия"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_024",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: white paper with brown secret message appearing under lamp, cartoon boy with brown hair holding it carefully, cotton swab and milk glass nearby, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "experiments_025",
+    "title": "Диск Бенхэма: чёрно-белое превращается в цветное",
+    "category": "experiments",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 20,
+    "difficulty": "medium",
+    "materials": ["картон или плотная бумага", "ножницы", "чёрный маркер", "карандаш или спичка"],
+    "instructions": [
+      "Вырежи из картона ровный круг — размером с блюдце",
+      "Закрась половину круга чёрным",
+      "На белой половине нарисуй несколько чёрных дуг разной формы",
+      "Проткни карандашом центр и закрепи — это будет волчок",
+      "Быстро раскрути его и смотри — появятся цвета! Это называется оптическая иллюзия диска Бенхэма"
+    ],
+    "skills_developed": ["оптика", "физиология зрения", "творчество", "иллюзии"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["оптика", "иллюзия", "цвет", "волчок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_025",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: spinning black and white disk on pencil with rainbow colors appearing, cartoon girl with pigtails watching amazed, vibrant colors, clean shapes"
+      },
+      {
+        "type": "video",
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=pftOonbIMSQ",
+        "cover": false,
+        "caption": "YouTube: Benham disk illusion"
+      }
+    ]
+  },
+  {
+    "id": "experiments_026",
+    "title": "Статическое электричество и шарик",
+    "category": "experiments",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["воздушный шарик", "шерстяной свитер или волосы", "мелкие кусочки бумаги", "пустая алюминиевая банка"],
+    "instructions": [
+      "Надуй шарик и завяжи",
+      "Потри шарик об волосы или свитер — минимум 20 секунд",
+      "Поднеси шарик к мелким бумажкам — они прилипнут!",
+      "Поставь пустую банку на бок и поднеси шарик — банка покатится за ним",
+      "А ещё попробуй прилипить шарик к стене: он останется висеть. Так работает статическое электричество"
+    ],
+    "skills_developed": ["физика", "электричество", "наблюдательность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["электричество", "шарик", "статика", "физика"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_026",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: balloon rubbed on hair sticking to wall with tiny paper pieces flying up to it, cartoon boy with brown hair with hair standing up, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "experiments_027",
+    "title": "Давление воздуха: стакан, вода и бумажка",
+    "category": "experiments",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 10,
+    "difficulty": "medium",
+    "materials": ["стакан", "вода", "плотный лист бумаги или открытка", "поднос или раковина для страховки"],
+    "instructions": [
+      "Налей полный стакан воды — до краёв",
+      "Накрой стакан плотным листом бумаги",
+      "Осторожно переверни стакан над подносом или раковиной — листок держит воду!",
+      "Ничего не падает, потому что давление воздуха снизу сильнее, чем вес воды",
+      "Если шевельнуть рукой — сюрприз будет мокрый, поэтому держи над раковиной :)"
+    ],
+    "skills_developed": ["физика", "давление воздуха", "смелость эксперимента"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["воздух", "давление", "вода", "фокус"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:experiments_027",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: upside-down glass of water with paper holding water inside by air pressure, over sink, cartoon girl with pigtails holding carefully, surprised face, vibrant colors"
+      },
+      {
+        "type": "video",
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=65T4ReLkjCg",
+        "cover": false,
+        "caption": "YouTube: water glass paper air pressure experiment"
+      }
+    ]
+  }
+]

@@ -1,25 +1,33 @@
 [
   {
     "id": "creativity_001",
-    "title": "Рисунок из обведенной ладошки/ступни",
+    "title": "Рисунок из обведённой ладошки",
     "category": "creativity",
     "age_groups": ["3-5", "6-8"],
     "duration_minutes": 15,
     "difficulty": "easy",
     "materials": ["карандаши", "фломастеры", "бумага"],
     "instructions": [
-      "Обведи свою ладонь по контуру",
-      "Посмотри внимательно: на что она похожа? Может, на букет цветов или какое-то диковинное животное?",
-      "Дорисуй так, чтобы все увидели, на что похож контур твоей ладошки",
-      "Можно обвести две руки, или ногу. А можно взять любой предмет и придумать, на что похож его контур"
+      "Обведи свою ладонь по контуру карандашом",
+      "Посмотри внимательно: на что она похожа? На букет цветов? Павлина? Осьминога?",
+      "Дорисуй детали так, чтобы получилась картинка",
+      "Можно обвести две руки или даже ступню — получится целая композиция"
     ],
     "skills_developed": ["мелкая моторика", "рисование", "фантазия"],
     "season": "any",
     "location": "indoor",
     "premium": false,
-    "tags": ["творчество", "фантазия"],
+    "tags": ["творчество", "фантазия", "рисование"],
     "rating": 0,
-    "times_completed": 0
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_001",
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair tracing his hand on paper, colorful pencils, turning the outline into a peacock. Vibrant colors, clean shapes, white background."
+      }
+    ]
   },
   {
     "id": "creativity_002",
@@ -28,21 +36,29 @@
     "age_groups": ["6-8", "9-12"],
     "duration_minutes": 30,
     "difficulty": "medium",
-    "materials": ["втулка от туалетной бумаги", "цветная бумага", "клей", "ножницы", "краски"],
+    "materials": ["втулка от туалетной бумаги", "цветная бумага", "клей ПВА", "ножницы", "краски"],
     "instructions": [
       "Обклей втулку цветной бумагой или раскрась красками",
-      "Вырежи детали для животного: ушки, лапки, хвостик",
-      "Приклей детали к втулке",
+      "Вырежи детали животного: ушки, лапки, хвост",
+      "Приклей детали к втулке клеем ПВА",
       "Нарисуй или приклей глазки и носик",
-      "Добавь декоративные элементы по желанию"
+      "Сделай несколько животных — получится целый зоопарк"
     ],
-    "skills_developed": ["творчество", "мелкая моторика", "планирование", "работа с инструментами"],
+    "skills_developed": ["творчество", "мелкая моторика", "планирование"],
     "season": "any",
     "location": "indoor",
     "premium": false,
-    "tags": ["поделки", "переработка", "животные", "объемное"],
+    "tags": ["поделки", "переработка", "животные"],
     "rating": 0,
-    "times_completed": 0
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_002",
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails making animals from toilet paper rolls, a cute owl and fox on the table, scissors and paper nearby. Vibrant colors, clean shapes, white background."
+      }
+    ]
   },
   {
     "id": "creativity_003",
@@ -51,13 +67,13 @@
     "age_groups": ["3-5", "6-8"],
     "duration_minutes": 25,
     "difficulty": "easy",
-    "materials": ["листья разных деревьев", "краски", "кисточки", "бумага", "салфетки"],
+    "materials": ["листья разных деревьев", "гуашь", "кисточки", "бумага", "салфетки"],
     "instructions": [
-      "Собери красивые листья разной формы",
+      "Собери на прогулке красивые листья разной формы",
       "Нанеси краску на одну сторону листа кисточкой",
-      "Аккуратно приложи лист к бумаге краской вниз",
-      "Прижми лист и осторожно убери его",
-      "Создай композицию из разных отпечатков"
+      "Приложи лист к бумаге краской вниз, прижми салфеткой",
+      "Осторожно убери лист — останется отпечаток с прожилками",
+      "Сделай композицию: осенний лес, букет, узор"
     ],
     "skills_developed": ["наблюдательность", "мелкая моторика", "изучение природы"],
     "season": "autumn",
@@ -65,7 +81,15 @@
     "premium": false,
     "tags": ["природа", "отпечатки", "осень", "листья"],
     "rating": 0,
-    "times_completed": 0
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_003",
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair pressing a painted autumn leaf onto paper, colorful leaf prints in red, orange, yellow. Vibrant colors, clean shapes, white background."
+      }
+    ]
   },
   {
     "id": "creativity_004",
@@ -74,22 +98,30 @@
     "age_groups": ["6-8", "9-12"],
     "duration_minutes": 45,
     "difficulty": "medium",
-    "materials": ["цветная бумага", "ножницы", "клей", "карандаш", "линейка"],
+    "materials": ["цветная бумага", "ножницы", "клей ПВА", "карандаш"],
     "instructions": [
       "Нарисуй простой рисунок на листе бумаги",
-      "Нарежь цветную бумагу на маленькие квадратики",
+      "Нарежь цветную бумагу на маленькие квадратики 1×1 см",
       "Нанеси клей на небольшой участок рисунка",
       "Приклеивай квадратики близких цветов на этот участок",
       "Продолжай, пока весь рисунок не будет заполнен",
-      "Дай высохнуть и полюбуйся результатом!"
+      "Дай высохнуть и полюбуйся результатом"
     ],
-    "skills_developed": ["терпение", "планирование", "цветовосприятие", "аккуратность"],
+    "skills_developed": ["терпение", "планирование", "цветовосприятие"],
     "season": "any",
     "location": "indoor",
     "premium": false,
     "tags": ["мозаика", "терпение", "цвета", "бумага"],
     "rating": 0,
-    "times_completed": 0
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_004",
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails gluing small colored paper squares onto a butterfly drawing, paper scraps around. Vibrant colors, clean shapes, white background."
+      }
+    ]
   },
   {
     "id": "creativity_005",
@@ -98,21 +130,761 @@
     "age_groups": ["9-12", "13-16"],
     "duration_minutes": 60,
     "difficulty": "hard",
-    "materials": ["картонная трубка", "3 прямоугольных зеркала", "прозрачная пленка", "цветные бусины", "скотч"],
+    "materials": ["картонная трубка", "3 полоски зеркальной плёнки или фольги на картоне", "прозрачная плёнка", "цветные бусины или пуговицы", "скотч"],
     "instructions": [
-      "Склей 3 зеркала треугольником зеркальной стороной внутрь",
-      "Вставь зеркальную конструкцию в трубку",
-      "Заклей один конец трубки прозрачной пленкой",
-      "Насыпь немного цветных бусин между пленкой и зеркалами",
+      "Сложи 3 полоски зеркальной плёнки треугольником отражающей стороной внутрь",
+      "Вставь треугольник внутрь картонной трубки",
+      "Заклей один конец трубки прозрачной плёнкой",
+      "Насыпь цветные бусины между плёнкой и зеркалами",
       "Заклей второй конец, оставив маленькое отверстие для просмотра",
-      "Крути калейдоскоп и наслаждайся узорами!"
+      "Крути калейдоскоп и смотри на узоры"
     ],
-    "skills_developed": ["понимание оптики", "терпение", "работа с инструментами", "следование инструкциям"],
+    "skills_developed": ["понимание оптики", "терпение", "работа с инструментами"],
     "season": "any",
     "location": "indoor",
     "premium": true,
-    "tags": ["оптика", "наука", "сложно", "красиво"],
+    "tags": ["оптика", "наука", "сложно"],
     "rating": 0,
-    "times_completed": 0
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_005",
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair looking through a homemade cardboard kaleidoscope, geometric colorful patterns visible. Vibrant colors, clean shapes, white background."
+      },
+      {
+        "type": "video",
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=YzsgT7_aaTc",
+        "caption": "Как сделать калейдоскоп своими руками"
+      }
+    ]
+  },
+  {
+    "id": "creativity_006",
+    "title": "Пальчиковая живопись",
+    "category": "creativity",
+    "age_groups": ["3-5", "6-8"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["гуашь или пальчиковые краски", "бумага", "тарелочка для красок", "влажные салфетки"],
+    "instructions": [
+      "Вылей краски разных цветов на тарелочку",
+      "Обмакни палец в краску и сделай отпечаток на бумаге",
+      "Соединяй отпечатки — получится гусеница, рыбки, цветы, солнце",
+      "Тонкой кистью или карандашом дорисуй глазки и лапки",
+      "После работы сразу помой руки"
+    ],
+    "skills_developed": ["мелкая моторика", "тактильное восприятие", "воображение"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["рисование", "малыши", "пальчиковые"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_006",
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair finger-painting, colorful fingerprints forming a caterpillar on paper. Vibrant colors, clean shapes, white background."
+      }
+    ]
+  },
+  {
+    "id": "creativity_007",
+    "title": "Рисование солью и акварелью",
+    "category": "creativity",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["плотная бумага (акварельная)", "клей ПВА", "крупная соль", "акварельные краски", "кисточка", "стаканчик с водой"],
+    "instructions": [
+      "Нарисуй клеем ПВА контуры рисунка на бумаге: снежинку, звезду, цветок",
+      "Посыпь клей солью, лишнюю стряхни",
+      "Подожди 5 минут, чтобы соль прилипла",
+      "Набери акварель на кисточку и прикоснись к солёной линии — краска растечётся как по волшебству",
+      "Используй разные цвета на разных участках",
+      "Дай высохнуть"
+    ],
+    "skills_developed": ["аккуратность", "эксперимент с материалами", "цветовосприятие"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["рисование", "акварель", "необычная техника"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_007",
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails painting a salt-and-watercolor snowflake, watercolor bleeding along white salt lines. Vibrant colors, clean shapes, white background."
+      }
+    ]
+  },
+  {
+    "id": "creativity_008",
+    "title": "Бумажный кораблик-оригами",
+    "category": "creativity",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["лист бумаги А4", "фломастеры для украшения"],
+    "instructions": [
+      "Сложи лист пополам по длинной стороне, потом ещё раз пополам и разверни",
+      "Загни два верхних угла к центральной линии — получится треугольник с прямоугольником снизу",
+      "Отогни нижние полоски вверх с двух сторон",
+      "Раскрой получившийся треугольник и сложи в квадрат",
+      "Отогни нижние углы квадрата вверх, снова раскрой и вытяни — получится кораблик",
+      "Укрась кораблик и пусти его в ванну или лужу"
+    ],
+    "skills_developed": ["оригами", "следование инструкции", "пространственное мышление"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["оригами", "бумага", "классика"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_008",
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair folding a paper boat, finished blue paper boat next to him. Vibrant colors, clean shapes, white background."
+      },
+      {
+        "type": "video",
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=KZvsfrhvy0k",
+        "caption": "Как сложить бумажный кораблик — оригами"
+      }
+    ]
+  },
+  {
+    "id": "creativity_009",
+    "title": "Прыгающая лягушка-оригами",
+    "category": "creativity",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "medium",
+    "materials": ["квадратный лист бумаги (желательно зелёный)", "фломастеры"],
+    "instructions": [
+      "Сложи квадрат по диагоналям и по горизонтали, затем собери в треугольник",
+      "Загни два нижних угла треугольника вверх к вершине — это передние лапки",
+      "Загни боковые стороны нижнего прямоугольника к центру",
+      "Сложи нижний край вверх, затем отогни половину вниз — зигзагом, это пружинка",
+      "Нарисуй лягушке глазки",
+      "Нажми пальцем на заднюю часть — лягушка прыгнет"
+    ],
+    "skills_developed": ["оригами", "ловкость", "пространственное мышление"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["оригами", "игра", "прыжки"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_009",
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails making a green origami frog jump on the table. Vibrant colors, clean shapes, white background."
+      },
+      {
+        "type": "video",
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=CCMZl3KvAos",
+        "caption": "Прыгающая лягушка из бумаги"
+      }
+    ]
+  },
+  {
+    "id": "creativity_010",
+    "title": "Рисование по мокрой бумаге",
+    "category": "creativity",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["акварельная или плотная бумага", "акварель", "широкая кисть", "стакан воды", "губка или вата"],
+    "instructions": [
+      "Намочи бумагу с обеих сторон губкой или широкой мокрой кистью",
+      "Пока бумага мокрая, набери акварель и нанеси пятна разных цветов",
+      "Смотри, как краски растекаются и смешиваются сами",
+      "Добавляй капли другого цвета — рисунок будет меняться",
+      "Дай высохнуть на ровной поверхности",
+      "Когда высохнет, тонкой кистью можно дорисовать детали: облака превратятся в горы, пятна — в рыб"
+    ],
+    "skills_developed": ["работа с акварелью", "наблюдение", "воображение"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["акварель", "техника", "абстракция"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_010",
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair painting wet-on-wet watercolor, colors bleeding into a sunset scene. Vibrant colors, clean shapes, white background."
+      }
+    ]
+  },
+  {
+    "id": "creativity_011",
+    "title": "Отпечатки овощей",
+    "category": "creativity",
+    "age_groups": ["3-5", "6-8"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["половинки картофеля, моркови, болгарского перца", "гуашь", "тарелочка", "бумага", "нож (для родителя)"],
+    "instructions": [
+      "🔥 Попроси родителя разрезать картофель, морковь, перец пополам и вырезать на картофеле простую фигурку: звёздочку, сердечко",
+      "Нанеси гуашь на срез овоща кисточкой или макни в тарелочку с краской",
+      "Приложи овощ к бумаге — останется отпечаток",
+      "Повторяй с разными овощами и цветами, делай узоры",
+      "Попробуй сделать открытку или упаковочную бумагу"
+    ],
+    "skills_developed": ["творчество", "композиция", "цветовосприятие"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["отпечатки", "штампы", "овощи"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_011",
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails making vegetable stamp prints, potato heart stamps in red paint on paper. Vibrant colors, clean shapes, white background."
+      }
+    ]
+  },
+  {
+    "id": "creativity_012",
+    "title": "Коллаж из старых журналов",
+    "category": "creativity",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 40,
+    "difficulty": "easy",
+    "materials": ["старые журналы или газеты", "ножницы", "клей-карандаш", "лист картона"],
+    "instructions": [
+      "Придумай тему коллажа: твоя мечта, любимое блюдо, город будущего",
+      "Просмотри журналы и вырезай картинки, буквы, фактуры, подходящие к теме",
+      "Раскладывай вырезки на картоне, двигай их, пока не найдёшь композицию",
+      "Приклеивай по одной детали клеем-карандашом",
+      "Добавь надпись, нарисуй детали фломастерами",
+      "Подпиши работу и поставь дату"
+    ],
+    "skills_developed": ["композиция", "переработка", "креативное мышление"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["коллаж", "переработка", "журналы"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_012",
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair cutting pictures from magazines and gluing them into a dream collage. Vibrant colors, clean shapes, white background."
+      }
+    ]
+  },
+  {
+    "id": "creativity_013",
+    "title": "Рисунок на камне",
+    "category": "creativity",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 35,
+    "difficulty": "medium",
+    "materials": ["гладкие камни", "акриловые краски или гуашь с ПВА", "тонкие кисти", "лак для ногтей прозрачный (по желанию)"],
+    "instructions": [
+      "Помой камни и дай им высохнуть",
+      "Если краска гуашь — смешай её с ПВА 50/50, так рисунок будет держаться",
+      "Нанеси фон одним цветом и дай подсохнуть",
+      "Тонкой кистью нарисуй картинку: божью коровку, совёнка, кактус, цветок",
+      "Когда высохнет, можно покрыть прозрачным лаком",
+      "Разложи камни в саду, на подоконнике или подари"
+    ],
+    "skills_developed": ["мелкая моторика", "точность", "терпение"],
+    "season": "any",
+    "location": "any",
+    "premium": false,
+    "tags": ["камни", "природа", "живопись"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_013",
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails painting cute ladybug and owl on smooth stones, brushes and paint nearby. Vibrant colors, clean shapes, white background."
+      }
+    ]
+  },
+  {
+    "id": "creativity_014",
+    "title": "Монотипия через стекло",
+    "category": "creativity",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["гладкая поверхность (файл, стекло, пластиковая крышка)", "гуашь", "кисть", "бумага"],
+    "instructions": [
+      "Нанеси на гладкую поверхность несколько пятен гуаши разных цветов",
+      "Пальцем или палочкой проведи по краске, размажь в узор",
+      "Аккуратно накрой сверху листом бумаги, прижми ладонью",
+      "Снимай бумагу — на ней отпечатается зеркальный узор",
+      "Один рисунок — всегда уникальный, повторить нельзя",
+      "Когда высохнет, можно дорисовать детали"
+    ],
+    "skills_developed": ["наблюдательность", "художественный эксперимент", "цветосмешение"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["монотипия", "печать", "эксперимент"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_014",
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair lifting paper off a glass plate with paint print, colorful abstract pattern. Vibrant colors, clean shapes, white background."
+      }
+    ]
+  },
+  {
+    "id": "creativity_015",
+    "title": "Скульптура из фольги",
+    "category": "creativity",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["пищевая фольга (рулон)", "проволока (опционально)", "ножницы"],
+    "instructions": [
+      "Оторви большой кусок фольги",
+      "Скомкай его в плотный ком — это основа будущей фигуры",
+      "Отрывай новые кусочки и прилепляй к основе, формируй части тела: животное, рыцаря, робота",
+      "Для тонких деталей (лапки, усики) сверни фольгу в жгут и прикрути",
+      "Разглаживай блестящие поверхности, сминай шершавые — играй фактурой",
+      "Фигурка не требует высыхания — сразу готова к игре"
+    ],
+    "skills_developed": ["объёмное моделирование", "мелкая моторика", "пространственное мышление"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["скульптура", "фольга", "объёмное"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_015",
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails sculpting a shiny foil dragon, bits of aluminum foil around. Vibrant colors, clean shapes, white background."
+      }
+    ]
+  },
+  {
+    "id": "creativity_016",
+    "title": "Набрызг зубной щёткой",
+    "category": "creativity",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["старая зубная щётка", "гуашь", "бумага", "шаблоны (листья, вырезанные фигурки)", "газета под рабочую зону"],
+    "instructions": [
+      "Застели стол газетой — техника «брызгучая»",
+      "Положи на бумагу шаблон: вырезанную звезду, листок, силуэт зайца",
+      "Обмакни зубную щётку в гуашь",
+      "Держи щётку над бумагой и проведи пальцем по щетине — краска разбрызгается",
+      "Меняй цвета и шаблоны",
+      "Аккуратно сними шаблон — под ним останется чистое место в форме фигуры"
+    ],
+    "skills_developed": ["работа с негативом", "аккуратность", "планирование"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["техника", "брызги", "трафарет"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_016",
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair flicking a toothbrush with paint over a leaf stencil on paper. Vibrant colors, clean shapes, white background."
+      }
+    ]
+  },
+  {
+    "id": "creativity_017",
+    "title": "Силуэт-портрет в профиль",
+    "category": "creativity",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["лист бумаги А3", "лампа или фонарик (телефон)", "чёрная бумага", "карандаш", "ножницы", "клей"],
+    "instructions": [
+      "Приклей лист бумаги на стену",
+      "Посади «модель» боком близко к стене",
+      "Направь лампу или фонарик телефона так, чтобы тень профиля легла на бумагу",
+      "Аккуратно обведи карандашом контур тени",
+      "Вырежи силуэт по контуру и наклей на чёрную или цветную бумагу",
+      "Подпиши имя и дату — получится портрет-силуэт"
+    ],
+    "skills_developed": ["наблюдение", "точность", "понимание пропорций лица"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["портрет", "силуэт", "тень"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_017",
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails tracing her friend's shadow profile on paper, desk lamp casting the shadow. Vibrant colors, clean shapes, white background."
+      }
+    ]
+  },
+  {
+    "id": "creativity_018",
+    "title": "Секретный рисунок воском",
+    "category": "creativity",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["белая восковая свеча или белый восковой мелок", "плотная бумага", "акварель", "широкая кисть"],
+    "instructions": [
+      "Нарисуй свечкой или белым восковым мелком на белой бумаге — рисунок будет невидимым",
+      "Набери акварель и широкой кистью закрась всю бумагу одним или несколькими цветами",
+      "Краска не ложится на воск — и секретный рисунок проявляется",
+      "Попробуй написать тайное послание другу или нарисовать сюрприз",
+      "Можно сделать «открытку-загадку» для родителей"
+    ],
+    "skills_developed": ["эксперимент с материалами", "воображение", "понимание физики"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["воск", "акварель", "секрет"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_018",
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair painting watercolor over wax drawing, hidden white message appearing. Vibrant colors, clean shapes, white background."
+      }
+    ]
+  },
+  {
+    "id": "creativity_019",
+    "title": "Рисунок ниткой",
+    "category": "creativity",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 25,
+    "difficulty": "medium",
+    "materials": ["шерстяная нитка 30-40 см", "гуашь", "тарелочка", "лист А4, сложенный пополам"],
+    "instructions": [
+      "Налей на тарелочку краску и обмакни в неё нитку, оставив чистым только один конец",
+      "Разложи нитку извилисто на одной половинке бумаги, оставив чистый конец торчать наружу",
+      "Накрой второй половинкой листа и прижми рукой",
+      "Медленно вытягивай нитку из-под сложенного листа",
+      "Разверни бумагу — увидишь зеркальный узор",
+      "Используй 2-3 цвета, чтобы получился пёстрый эффект"
+    ],
+    "skills_developed": ["эксперимент", "наблюдательность", "координация"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["нитка", "симметрия", "необычно"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_019",
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails pulling paint-covered string from folded paper, symmetrical pattern emerging. Vibrant colors, clean shapes, white background."
+      }
+    ]
+  },
+  {
+    "id": "creativity_020",
+    "title": "Марионетка из носка",
+    "category": "creativity",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 35,
+    "difficulty": "medium",
+    "materials": ["старый носок", "2 пуговицы или кружочки фетра", "цветная бумага", "клей ПВА (💥 можно заменить термопистолетом с помощью родителя)", "фломастеры"],
+    "instructions": [
+      "Надень носок на руку пяткой к верху ладони — это будет «голова» куклы",
+      "Согни пальцы и большой палец — место сгиба станет ртом",
+      "Приклей пуговицы или кружочки фетра в качестве глаз над ртом",
+      "Вырежи из цветной бумаги ушки, язык, волосы и приклей",
+      "Нарисуй детали фломастером",
+      "Устрой кукольный театр для семьи"
+    ],
+    "skills_developed": ["творчество", "актёрское мастерство", "переработка"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["кукла", "театр", "переработка"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_020",
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair performing with a sock puppet on his hand, googly eyes and red felt tongue. Vibrant colors, clean shapes, white background."
+      }
+    ]
+  },
+  {
+    "id": "creativity_021",
+    "title": "Воздушный змей из пакета",
+    "category": "creativity",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 60,
+    "difficulty": "hard",
+    "materials": ["большой пластиковый пакет или плотный полиэтилен", "2 деревянные шпажки для шашлыка", "нитки толстые", "скотч", "ножницы", "фломастеры"],
+    "instructions": [
+      "Вырежи из пакета ромб со сторонами 40×40 см",
+      "Скрести две шпажки в виде креста, длинная вертикально, короткая горизонтально",
+      "Зафиксируй крест скотчем посередине и прикрепи к ромбу по углам",
+      "В центре сделай маленькое отверстие и привяжи к шпажкам нитку-поводок длиной 1 метр",
+      "На задний конец привяжи «хвост» из полоски пакета 1-2 метра",
+      "Раскрась змея фломастерами и иди запускать в ветреный день"
+    ],
+    "skills_developed": ["работа руками", "понимание аэродинамики", "конструирование"],
+    "season": "spring",
+    "location": "outdoor",
+    "premium": false,
+    "tags": ["змей", "улица", "ветер"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_021",
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails flying a handmade diamond kite in a sunny sky, long colorful tail. Vibrant colors, clean shapes, white background."
+      },
+      {
+        "type": "video",
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=WvDl8G-OXmA",
+        "caption": "Как сделать воздушного змея дома"
+      }
+    ]
+  },
+  {
+    "id": "creativity_022",
+    "title": "Аппликация из ватных дисков",
+    "category": "creativity",
+    "age_groups": ["3-5", "6-8"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["ватные диски", "цветной картон", "клей ПВА", "ножницы", "фломастеры"],
+    "instructions": [
+      "Придумай картинку: овечка, снеговик, облако, одуванчик",
+      "Раздели ватные диски на части или оставь целыми",
+      "Приклеивай диски на картон клеем ПВА, формируя тело",
+      "Фломастером или цветной бумагой дорисуй мордочку, лапки, глаза",
+      "Для «снежной» картинки можно приклеить целый диск как снеговика",
+      "Подпиши работу"
+    ],
+    "skills_developed": ["мелкая моторика", "объёмная аппликация", "воображение"],
+    "season": "winter",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["аппликация", "вата", "малыши"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_022",
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair gluing cotton pads onto blue paper, fluffy sheep and snowman taking shape. Vibrant colors, clean shapes, white background."
+      }
+    ]
+  },
+  {
+    "id": "creativity_023",
+    "title": "Декупаж банки салфетками",
+    "category": "creativity",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 45,
+    "difficulty": "medium",
+    "materials": ["стеклянная банка (от варенья)", "бумажные салфетки с рисунком", "клей ПВА", "кисточка", "вода", "акриловый лак (опционально)"],
+    "instructions": [
+      "Помой банку и обсуши",
+      "Отдели верхний цветной слой салфетки (у неё обычно 2-3 слоя)",
+      "Оторви кусочки салфетки с подходящими деталями рисунка",
+      "Разведи клей ПВА с водой 1:1",
+      "Прикладывай салфетку к банке и сверху промазывай клеевой смесью от центра к краям",
+      "Покрой всю банку, дай полностью высохнуть",
+      "По желанию покрой лаком — банка станет вазой или подставкой для карандашей"
+    ],
+    "skills_developed": ["аккуратность", "декор", "работа с хрупкими материалами"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["декупаж", "декор", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_023",
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails decoupaging a glass jar with floral napkins, brushing PVA glue. Vibrant colors, clean shapes, white background."
+      }
+    ]
+  },
+  {
+    "id": "creativity_024",
+    "title": "Рисунок ватными палочками (пуантилизм)",
+    "category": "creativity",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 40,
+    "difficulty": "easy",
+    "materials": ["ватные палочки", "гуашь", "палитра или тарелочка", "бумага"],
+    "instructions": [
+      "Нарисуй карандашом простой контур: дерево, рыбу, воздушный шар",
+      "Налей краски на палитру",
+      "Обмакни кончик ватной палочки в краску и поставь точку на бумаге",
+      "Ставь точки близко друг к другу, заполняя контур",
+      "Используй разные цвета в разных частях рисунка",
+      "Это техника великого художника Жоржа Сёра — пуантилизм"
+    ],
+    "skills_developed": ["терпение", "тонкая моторика", "цветовосприятие"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["пуантилизм", "техника", "точки"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_024",
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair creating pointillism art with cotton swabs, colorful dots forming a tree. Vibrant colors, clean shapes, white background."
+      }
+    ]
+  },
+  {
+    "id": "creativity_025",
+    "title": "Пластилиновая картина",
+    "category": "creativity",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 50,
+    "difficulty": "medium",
+    "materials": ["цветной пластилин", "плотный картон (основа)", "карандаш", "стек или пластиковый нож"],
+    "instructions": [
+      "Нарисуй карандашом на картоне эскиз: пейзаж, подводный мир, ракета",
+      "Отщипывай маленькие кусочки пластилина и размазывай пальцем по картону в нужной части рисунка",
+      "Меняй цвета как будто раскрашиваешь красками",
+      "Для деталей катай тонкие колбаски и выкладывай линии",
+      "Делай фактуру стеком: волны, чешую, траву",
+      "Картина получается объёмной — её можно поставить в рамку"
+    ],
+    "skills_developed": ["мелкая моторика", "композиция", "работа с объёмом"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["пластилин", "объём", "живопись"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_025",
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails smearing colorful plasticine onto cardboard, underwater scene with fish. Vibrant colors, clean shapes, white background."
+      }
+    ]
+  },
+  {
+    "id": "creativity_026",
+    "title": "Бумажная гирлянда из снежинок",
+    "category": "creativity",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 45,
+    "difficulty": "medium",
+    "materials": ["белая бумага (5-10 квадратных листов)", "ножницы", "нитка", "скотч"],
+    "instructions": [
+      "Сложи квадратный лист бумаги пополам по диагонали — получится треугольник",
+      "Сложи треугольник ещё раз пополам, затем трижды от центра",
+      "По краям вырежи зубцы и узоры (но не отрезай всё)",
+      "Разверни — получится снежинка. Повтори с разными узорами",
+      "Сделай 5-10 снежинок разного размера",
+      "Прикрепи снежинки к длинной нитке скотчем — получится гирлянда для комнаты"
+    ],
+    "skills_developed": ["симметрия", "работа с ножницами", "планирование"],
+    "season": "winter",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["снежинки", "декор", "зима"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_026",
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair cutting paper snowflakes, a garland of white snowflakes hanging in the room. Vibrant colors, clean shapes, white background."
+      },
+      {
+        "type": "video",
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=eLvF9CTT_dI",
+        "caption": "Как вырезать снежинки из бумаги"
+      }
+    ]
+  },
+  {
+    "id": "creativity_027",
+    "title": "Поделки из пробок",
+    "category": "creativity",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["винные или пластиковые пробки (5-10 штук)", "клей ПВА (💥 можно заменить термопистолетом с помощью родителя)", "цветная бумага", "ножницы", "фломастеры"],
+    "instructions": [
+      "Разложи пробки и придумай, что из них сделать: лодку, жирафа, гусеницу, пингвинов",
+      "Для лодки склей 3-4 пробки рядом, сверху приклей бумажный парус на зубочистке",
+      "Для пингвина поставь пробку вертикально, обклей белым овалом животика, приклей крылья и клюв",
+      "Для гусеницы склей пробки в ряд, нарисуй рожицу, приклей усики из проволочки",
+      "Используй фломастеры для деталей",
+      "Сделай мини-сценку и поиграй с фигурками"
+    ],
+    "skills_developed": ["переработка", "3D-конструирование", "креативность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["пробки", "переработка", "фигурки"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:creativity_027",
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails making penguins and a boat from wine corks, glue and paper sails nearby. Vibrant colors, clean shapes, white background."
+      }
+    ]
   }
 ]

@@ -20,7 +20,16 @@
     "premium": false,
     "tags": ["танцы", "музыка", "веселье", "группа"],
     "rating": 0,
-    "times_completed": 0
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_001",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: kids dancing frozen in silly poses, music notes around, cartoon boy with brown hair and girl with pigtails laughing, vibrant colors"
+      }
+    ]
   },
   {
     "id": "active_002",
@@ -44,7 +53,16 @@
     "premium": false,
     "tags": ["препятствия", "ловкость", "спорт", "время"],
     "rating": 0,
-    "times_completed": 0
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_002",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: child crawling under chair obstacle course with pillows and rope, cartoon girl with pigtails running, vibrant colors"
+      }
+    ]
   },
   {
     "id": "active_003",
@@ -68,6 +86,812 @@
     "premium": false,
     "tags": ["йога", "растяжка", "животные", "спокойствие"],
     "rating": 0,
-    "times_completed": 0
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_003",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair doing animal yoga pose on mat, soft zen colors, vibrant"
+      }
+    ]
+  },
+  {
+    "id": "active_004",
+    "title": "Баскетбол с корзиной из коробки",
+    "category": "active_games",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["картонная коробка или ведро", "мягкий мяч или носок-комок"],
+    "instructions": [
+      "Поставь коробку в угол комнаты — это корзина",
+      "Отметь линию на полу скотчем или верёвкой — штрафная",
+      "Бросай мяч в корзину — 10 попыток",
+      "Посчитай попадания — это твой рекорд",
+      "Отодвинь линию дальше — трудно, но интересно",
+      "Играй один или с братьями/сёстрами"
+    ],
+    "skills_developed": ["меткость", "координация", "спорт", "терпение"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["баскетбол", "мяч", "меткость", "спорт"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_004",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails throwing sock ball into cardboard box basket, tape line on floor, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_005",
+    "title": "Пол — это лава",
+    "category": "active_games",
+    "age_groups": ["3-5", "6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["подушки, стулья, ковры, пледы — «острова безопасности»"],
+    "instructions": [
+      "Кричи: «Пол — это лава!»",
+      "Все должны быстро забраться на подушки, стулья, диван — это острова",
+      "На пол нельзя наступать ни пальцем!",
+      "Теперь попробуй перебраться с одного острова на другой — ставь подушки как мостики",
+      "Можно двигать подушки ногами, не касаясь пола",
+      "Кто упал — выбывает. Последний оставшийся — победитель"
+    ],
+    "skills_developed": ["ловкость", "координация", "планирование", "баланс"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["лава", "классика", "ловкость", "веселье"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_005",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: kids jumping between pillows and couch, orange 'lava' on floor, cartoon boy with brown hair balancing, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_006",
+    "title": "Классики на полу (скотчем)",
+    "category": "active_games",
+    "age_groups": ["3-5", "6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["цветной скотч", "маленький камешек или пуговица"],
+    "instructions": [
+      "Наклей скотчем на пол классики: 1 квадрат, два рядом, снова один, два — всего 8–10",
+      "Подпиши каждый номер",
+      "Брось камешек на клетку «1»",
+      "Прыгай по клеткам, пропуская ту, где камешек",
+      "Дойдя до конца — повернись и возвращайся",
+      "Забери камешек и переходи к клетке «2»",
+      "Побеждает тот, кто первый пройдёт все 10 клеток"
+    ],
+    "skills_developed": ["прыгучесть", "баланс", "координация", "счёт"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["классики", "прыжки", "во дворе", "традиция"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_006",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: hopscotch squares made with colored tape on floor, cartoon girl with pigtails jumping, numbered squares, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_007",
+    "title": "Бумажный самолётик на дальность",
+    "category": "active_games",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["бумага A4 (несколько листов)", "рулетка или линейка", "широкое пространство"],
+    "instructions": [
+      "Сделай 3–5 разных моделей бумажных самолётиков",
+      "По очереди запускай каждый — мерь расстояние полёта",
+      "Запиши результат каждого",
+      "Какая модель летит дальше? Узнай, почему — форма крыльев важна",
+      "Проведи турнир с братом/сестрой или другом — у кого самолёт улетит дальше",
+      "Так инженеры тестируют настоящие самолёты"
+    ],
+    "skills_developed": ["инженерия", "физика", "аккуратность", "эксперимент"],
+    "season": "any",
+    "location": "any",
+    "premium": false,
+    "tags": ["самолётики", "бумага", "турнир", "физика"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_007",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair throwing paper plane, different designs lined up, measuring tape on floor, vibrant colors"
+      },
+      {
+        "type": "video",
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=YfUEmlIn3jc",
+        "cover": false,
+        "caption": "YouTube: best paper airplane designs"
+      }
+    ]
+  },
+  {
+    "id": "active_008",
+    "title": "Мяч под музыку (горячая картошка)",
+    "category": "active_games",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["мяч или мягкая игрушка", "музыка", "минимум 3 игрока"],
+    "instructions": [
+      "Сядьте в круг",
+      "Включи музыку и передавайте мяч по кругу — быстро, как «горячую картошку»",
+      "Когда музыка останавливается — у кого мяч, тот выбывает",
+      "Играйте, пока не останется один победитель",
+      "Можно делать паузы разной длины — так смешнее",
+      "Классическая детская игра из прошлых веков"
+    ],
+    "skills_developed": ["реакция", "координация", "взаимодействие", "самоконтроль"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["мяч", "музыка", "группа", "классика"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_008",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: group of kids in circle passing ball with music notes around, cartoon boy with brown hair mid-pass, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_009",
+    "title": "Охота на сокровища дома",
+    "category": "active_games",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["бумага для записок", "ручка", "маленькое 'сокровище' (конфета, игрушка)"],
+    "instructions": [
+      "Родители или старший брат пишут 5–7 записок с подсказками",
+      "Первая ведёт к следующей, последняя — к «сокровищу»",
+      "Подсказки могут быть в стихах или загадками: «Ищи там, где моют руки»",
+      "Ищущий бегает по квартире, читает загадки, думает",
+      "Когда находит сокровище — победа!",
+      "Потом поменяйтесь ролями и сделай сам подсказки для родителей"
+    ],
+    "skills_developed": ["логика", "чтение", "беготня", "фантазия"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["квест", "сокровище", "подсказки", "семья"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_009",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails reading clue note with arrows pointing in house, treasure chest peeking out, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_010",
+    "title": "Скакалка: 10 способов прыгать",
+    "category": "active_games",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "medium",
+    "materials": ["скакалка", "свободное место"],
+    "instructions": [
+      "Попробуй прыгать разными способами:",
+      "1) Обычно на двух ногах",
+      "2) На одной ноге — сначала на правой, потом на левой",
+      "3) Крест-накрест — руки скрещиваешь",
+      "4) Назад — верёвку крути в другую сторону",
+      "5) Двойной оборот — скакалка проходит 2 раза за один прыжок",
+      "Посчитай, сколько ты можешь прыгнуть подряд. Попытайся побить свой рекорд"
+    ],
+    "skills_developed": ["координация", "выносливость", "ритм", "прыгучесть"],
+    "season": "summer",
+    "location": "any",
+    "premium": false,
+    "tags": ["скакалка", "прыжки", "спорт", "рекорд"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_010",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair jumping rope mid-air, counter showing '50' above, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_011",
+    "title": "Сделай бросок в стакан",
+    "category": "active_games",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["несколько стаканчиков или мисок", "мелкие предметы для бросания (монеты, скомканные бумажки)"],
+    "instructions": [
+      "Выставь стаканы в ряд — ближние и дальние",
+      "На каждом напиши очки: 1, 2, 3, 5, 10",
+      "Встань у черты и бросай по одной монете — цель: попасть в стакан с наибольшим числом очков",
+      "Бросай 10 раз — считай сумму",
+      "Играй против брата/сестры или родителя — у кого больше очков"
+    ],
+    "skills_developed": ["меткость", "координация", "математика"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["меткость", "игра", "очки", "семья"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_011",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: row of cups labeled with points, coin flying toward '10', cartoon girl with pigtails aiming, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_012",
+    "title": "Симон говорит",
+    "category": "active_games",
+    "age_groups": ["3-5", "6-8"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["ничего", "минимум 2 человека"],
+    "instructions": [
+      "Один — ведущий. Он даёт команды: «Симон говорит — прыгни!», «Симон говорит — подними левую руку»",
+      "Все должны выполнять только те команды, которые начинаются с «Симон говорит»",
+      "Если ведущий скажет просто «Прыгни» без «Симон говорит» — нельзя выполнять!",
+      "Кто ошибся — выбывает",
+      "Меняйте ведущего — теперь ты придумываешь команды. Можно посмешнее: «Покажи язык», «Крутись как юла»"
+    ],
+    "skills_developed": ["внимание", "самоконтроль", "понимание речи", "реакция"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["внимание", "команды", "ловушка", "классика"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_012",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair as leader with speech bubble 'Simon says!', girl with pigtails raising hand, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_013",
+    "title": "Битва на подушках (с правилами)",
+    "category": "active_games",
+    "age_groups": ["3-5", "6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["2 мягкие подушки", "диван или ковёр"],
+    "instructions": [
+      "Правила безопасности: бить только по телу (не по голове!), не очень сильно, не по лицу",
+      "Выбери 'арену' — кровать или ковёр",
+      "Каждый берёт подушку",
+      "Победа, когда противник «падает» или сдаётся (смеясь)",
+      "Лучше играть под присмотром родителей",
+      "Эта 'битва' отлично даёт выплеснуть энергию — и все смеются"
+    ],
+    "skills_developed": ["эмоциональная разгрузка", "реакция", "координация"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["подушки", "веселье", "энергия", "братья"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_013",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: two cartoon kids — boy with brown hair and girl with pigtails — having playful pillow fight on bed, feathers flying, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_014",
+    "title": "Растяжка к шпагату",
+    "category": "active_games",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 20,
+    "difficulty": "medium",
+    "materials": ["коврик", "удобная одежда"],
+    "instructions": [
+      "Разогрейся 5 минут — попрыгай, покрутись",
+      "Сядь на коврик и тянись к носкам — до ощущения приятного натяжения",
+      "Сделай «бабочку»: ступни вместе, колени в стороны, наклоняйся вперёд",
+      "Поставь одну ногу вперёд, другую назад — скользи вниз сколько можешь",
+      "Не торопись! Каждый день понемногу растягивайся — через месяц сядешь в шпагат",
+      "Главное — без резких движений и без боли"
+    ],
+    "skills_developed": ["гибкость", "терпение", "регулярность", "телесное осознание"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["шпагат", "растяжка", "гибкость"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_014",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails stretching toward splits on mat, calm relaxing colors, vibrant"
+      }
+    ]
+  },
+  {
+    "id": "active_015",
+    "title": "Эстафета-смешанка дома",
+    "category": "active_games",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 25,
+    "difficulty": "medium",
+    "materials": ["ложка", "шарик пинг-понга или теннисный", "полотенце", "карандаш"],
+    "instructions": [
+      "Раздели комнату на 3 зоны с разными заданиями:",
+      "Зона 1: Пронеси шарик на ложке, не уронив",
+      "Зона 2: Ползи на четвереньках с карандашом на спине",
+      "Зона 3: Намотай полотенце на руку, как мумия, и пройди",
+      "Засеки время — пробеги все 3 этапа",
+      "Попытайся побить свой рекорд или играй в двойках"
+    ],
+    "skills_developed": ["координация", "ловкость", "баланс", "скорость"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["эстафета", "ловкость", "время"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_015",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair carrying spoon with ball, obstacle course around him, timer in corner, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_016",
+    "title": "Снежная битва (или бумажная зимой)",
+    "category": "active_games",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 40,
+    "difficulty": "easy",
+    "materials": ["снег (зимой) или скомканные газеты дома", "тёплая одежда зимой"],
+    "instructions": [
+      "Зимой: разделитесь на две команды. Постройте небольшие 'крепости' из снега",
+      "Лепите снежки заранее — 10 штук каждый",
+      "Бросайте — попали в противника — он делает шаг назад",
+      "Правило: не в лицо!",
+      "Дома: тот же принцип, но снежки — скомканные газеты, и крепости из подушек",
+      "Весело всей семьёй"
+    ],
+    "skills_developed": ["меткость", "координация", "командная игра", "стратегия"],
+    "season": "winter",
+    "location": "any",
+    "premium": false,
+    "tags": ["снег", "битва", "команда", "зима"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_016",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: two kids behind snow forts in winter throwing snowballs, cartoon boy with brown hair ducking, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_017",
+    "title": "Танцевальный батл под песню",
+    "category": "active_games",
+    "age_groups": ["6-8", "9-12", "13-16"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["музыка", "минимум 2 танцора", "зеркало (по желанию)"],
+    "instructions": [
+      "Выберите 1 энергичную песню — на 3 минуты",
+      "Разделитесь на 'зрителей' и 'танцоров' — или танцуйте по очереди",
+      "Каждый танцор показывает 15 секунд — нужно делать самые крутые движения",
+      "Зрители оценивают: 0–10 за стиль, 0–10 за энергию",
+      "Суммируй очки — кто набрал больше, тот победил",
+      "Можно танцевать под одну песню много раз, пробуя разные стили"
+    ],
+    "skills_developed": ["танцы", "креативность", "уверенность", "артистизм"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["танцы", "батл", "музыка"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_017",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails breakdancing with cartoon boy watching, music notes, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_018",
+    "title": "Прятки наоборот (сардины)",
+    "category": "active_games",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["большая квартира или дом", "минимум 3 игрока"],
+    "instructions": [
+      "В обычных прятках — один прячется, другие ищут",
+      "В «сардинах» — наоборот: один прячется, а остальные ищут по одному",
+      "Кто нашёл, ПРЯЧЕТСЯ РЯДОМ с ним — молча",
+      "Все постепенно собираются в одном тайнике",
+      "Последний игрок один бегает по дому, не понимая, куда все делись!",
+      "Весело: под кроватью набивается куча смеющихся детей"
+    ],
+    "skills_developed": ["логика", "терпение", "молчание", "поиск"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["прятки", "сардины", "игра", "веселье"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_018",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: several kids hiding under bed together squished, cartoon girl with pigtails peeking out, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_019",
+    "title": "Пятнашки с усложнениями",
+    "category": "active_games",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "medium",
+    "materials": ["свободное пространство", "минимум 3 игрока"],
+    "instructions": [
+      "Обычные пятнашки: водящий бегает за другими, касается — те становятся водящими",
+      "Усложнение 1: Кто стоит на цветном коврике — в безопасности, но только 5 секунд",
+      "Усложнение 2: «Замороженные пятнашки» — кого коснулись, тот замирает как статуя. Другие могут 'разморозить', проползя под ним",
+      "Усложнение 3: «Хвостатые пятнашки» — у всех торчит 'хвост' из полотенца сзади. Водящий должен его вытянуть",
+      "Выбирайте правила каждый раз новые"
+    ],
+    "skills_developed": ["выносливость", "реакция", "координация", "стратегия"],
+    "season": "any",
+    "location": "any",
+    "premium": false,
+    "tags": ["пятнашки", "бег", "ловкость"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_019",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair chasing cartoon girl with pigtails outdoors, motion lines, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_020",
+    "title": "Лабиринт из бумажек-следов",
+    "category": "active_games",
+    "age_groups": ["3-5", "6-8"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["плотная бумага или картон", "ножницы", "скотч"],
+    "instructions": [
+      "Вырежи 20 следов из бумаги — как отпечатки ног",
+      "Разложи их по полу в виде извилистого пути от точки А до точки Б",
+      "Задача: пройти весь путь, не наступая мимо следов",
+      "Можно усложнять: только на следы в виде левой ноги, или прыгать через один",
+      "Играйте с малышами — они обожают"
+    ],
+    "skills_developed": ["баланс", "координация", "планирование", "ловкость"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["лабиринт", "следы", "для малышей"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_020",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: trail of paper foot cutouts on floor through room, cartoon girl with pigtails following footsteps, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_021",
+    "title": "Боулинг из пластиковых бутылок",
+    "category": "active_games",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["10 пустых пластиковых бутылок", "небольшой мяч", "немного воды (для утяжеления кегли)"],
+    "instructions": [
+      "Налей в каждую бутылку немного воды — чтобы не падали от ветерка",
+      "Расставь их треугольником — как кегли в боулинге (4-3-2-1)",
+      "Отойди на 3–4 метра — это линия броска",
+      "Катай мяч, стараясь сбить как можно больше",
+      "Считай: сколько сбил за 5 попыток — это твой счёт",
+      "Играй с братом/сестрой по очереди — кто больше собьёт"
+    ],
+    "skills_developed": ["меткость", "координация", "физика", "семейная игра"],
+    "season": "any",
+    "location": "any",
+    "premium": false,
+    "tags": ["боулинг", "кегли", "меткость"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_021",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: plastic bottles arranged like bowling pins, ball rolling toward them, cartoon boy with brown hair cheering, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_022",
+    "title": "Дартс мягкий (из носков)",
+    "category": "active_games",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["бумага или картон для мишени", "фломастеры", "скотч", "чистые носки (скомкать в шарики)"],
+    "instructions": [
+      "Нарисуй мишень на большом листе: центр = 10 очков, потом 8, 6, 4, 2",
+      "Повесь мишень на стену — на уровне глаз",
+      "Скомкай пары носков — это 'дротики'",
+      "Отойди на 3–4 метра и бросай носок в мишень",
+      "Считай очки — 5 попыток",
+      "Соревнуйся с братьями/сёстрами. Никакие стены и мебель не пострадают — носки мягкие!"
+    ],
+    "skills_developed": ["меткость", "координация", "математика", "спорт"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["дартс", "меткость", "безопасно"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_022",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: paper dartboard on wall with scored rings, sock balls flying toward bullseye, cartoon girl with pigtails aiming, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_023",
+    "title": "Балансир с книгой на голове",
+    "category": "active_games",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["несколько книг", "свободное пространство"],
+    "instructions": [
+      "Положи книгу на голову",
+      "Попробуй пройти через комнату, не уронив её",
+      "Теперь сложнее: обойди стул, сядь и встань — книга всё ещё на голове?",
+      "Две книги — ещё сложнее. Три — почти невозможно",
+      "Так тренируются балерины и принцессы — для осанки",
+      "Сделай челлендж: брат против сестры — кто дольше удержит"
+    ],
+    "skills_developed": ["баланс", "осанка", "координация", "самоконтроль"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["баланс", "книги", "осанка"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_023",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair walking carefully with 3 books balanced on his head, arms out, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_024",
+    "title": "Лимбо: под какой палочкой пройти?",
+    "category": "active_games",
+    "age_groups": ["6-8", "9-12", "13-16"],
+    "duration_minutes": 20,
+    "difficulty": "medium",
+    "materials": ["длинная палка (швабра или верёвка, натянутая между стульями)", "музыка"],
+    "instructions": [
+      "Один держит палку высоко, другой проходит под ней, прогнувшись назад — не задев",
+      "С каждым разом палку опускай ниже",
+      "Нельзя касаться палки. Нельзя руками касаться пола. Только спина — назад",
+      "Включи весёлую музыку — лучше всего карибскую",
+      "Побеждает тот, кто проходит ниже всех",
+      "Это традиционная карибская игра"
+    ],
+    "skills_developed": ["гибкость", "координация", "баланс", "спина"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["лимбо", "гибкость", "карибы"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_024",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails bending backward under stick held by cartoon boy, music notes, vibrant tropical colors"
+      }
+    ]
+  },
+  {
+    "id": "active_025",
+    "title": "Крокодил-шарады",
+    "category": "active_games",
+    "age_groups": ["6-8", "9-12", "13-16"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["бумажки с словами (животные, профессии, действия)", "шляпа или коробка"],
+    "instructions": [
+      "Приготовьте 30 бумажек со словами: 'кенгуру', 'парикмахер', 'спит', 'печёт пирог'",
+      "Участники по очереди тянут бумажку и показывают слово — только движениями, без звуков",
+      "Остальные угадывают — у кого быстрее",
+      "Таймер 1 минута — не угадали, слово пропадает",
+      "Побеждает тот, кто угадал больше всех",
+      "Готов к тому, что все будут смеяться — это нормально"
+    ],
+    "skills_developed": ["актёрство", "фантазия", "выразительность", "командная игра"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["шарады", "крокодил", "актёрство"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_025",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair acting like kangaroo, others guessing, paper slips in hat, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_026",
+    "title": "Прыжки в длину с места",
+    "category": "active_games",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "medium",
+    "materials": ["линия старта (скотч)", "рулетка или линейка", "мел или скотч (для отметки)"],
+    "instructions": [
+      "Начерти линию на полу — это старт",
+      "Встань на линию, прыгай как можешь далеко с места",
+      "Отметь, куда приземлились пятки — мерь расстояние",
+      "Запиши свой рекорд",
+      "Попробуй 5 попыток — какая дальше?",
+      "Через неделю повтори — увидишь, как улучшаешься. Ты настоящий спортсмен!"
+    ],
+    "skills_developed": ["прыгучесть", "сила ног", "координация", "цели"],
+    "season": "any",
+    "location": "any",
+    "premium": false,
+    "tags": ["прыжки", "спорт", "рекорд"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_026",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails jumping mid-air over starting line with measuring tape, motion lines, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "active_027",
+    "title": "Зеркало: повторяй за мной",
+    "category": "active_games",
+    "age_groups": ["3-5", "6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["2 человека", "свободное пространство"],
+    "instructions": [
+      "Встаньте друг против друга",
+      "Один начинает — делает медленные движения: поднимает руку, поворачивается, наклоняется",
+      "Второй старается делать то же самое — как зеркало",
+      "Затем меняйтесь ролями",
+      "Потом усложнение: делайте движения одновременно — как будто вы синхронные танцоры",
+      "Классная игра-знакомство и игра на связь"
+    ],
+    "skills_developed": ["координация", "внимание", "эмпатия", "телесность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["зеркало", "импровизация", "семья"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:active_027",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair and girl with pigtails mirroring each other's poses, dotted line between them, vibrant colors"
+      }
+    ]
   }
 ]

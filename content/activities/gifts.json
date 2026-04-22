@@ -1,1 +1,898 @@
-[] 
+[
+  {
+    "id": "gifts_001",
+    "title": "Открытка с объёмным сердцем",
+    "category": "gifts",
+    "age_groups": ["3-5", "6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["плотная цветная бумага", "ножницы", "клей", "фломастеры"],
+    "instructions": [
+      "Сложи лист бумаги пополам — это будет открытка",
+      "Из другого листа вырежи одинаковых сердечек — штук 5",
+      "Сложи каждое сердечко пополам",
+      "Склей их между собой за половинки — получится объёмное 3D-сердце",
+      "Приклей его на открытку и напиши тёплые слова внутри"
+    ],
+    "skills_developed": ["мелкая моторика", "творчество", "эмпатия", "аккуратность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["открытка", "сердце", "подарок", "любовь"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_001",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: folded greeting card with pop-up 3D red heart, cartoon girl with pigtails holding it, vibrant colors, clean shapes"
+      }
+    ]
+  },
+  {
+    "id": "gifts_002",
+    "title": "Закладка с кисточкой из ниток",
+    "category": "gifts",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["плотный картон", "ножницы", "дырокол или шило", "нитки мулине или шерсть", "фломастеры"],
+    "instructions": [
+      "Вырежи из картона полоску 5x15 см — это закладка",
+      "Укрась её с двух сторон: рисуй, пиши имя, делай узоры",
+      "В верхнем углу проделай дырочку",
+      "Чтобы сделать кисточку: намотай нитки на 2 пальца, сними и свяжи посередине",
+      "Разрежь нитки по одному концу петли — получилась кисточка. Привяжи к закладке"
+    ],
+    "skills_developed": ["мелкая моторика", "творчество", "рукоделие"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["закладка", "книги", "рукоделие", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_002",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: decorated bookmark with colorful yarn tassel, cartoon boy with brown hair putting it in a book, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_003",
+    "title": "Баночка с пожеланиями",
+    "category": "gifts",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["чистая стеклянная банка", "цветная бумага", "ножницы", "ручка", "ленточка"],
+    "instructions": [
+      "Нарежь полосками цветную бумагу — штук 30",
+      "На каждой полоске напиши доброе пожелание: «Ты супер», «Улыбнись», «Ты у меня лучший»",
+      "Сверни каждую в трубочку",
+      "Сложи все в банку",
+      "Завяжи на горлышко ленточку. Получается чудесный подарок — на 30 дней хорошего настроения"
+    ],
+    "skills_developed": ["эмпатия", "творчество", "письмо", "забота"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["банка пожеланий", "подарок", "письмо", "забота"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_003",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: glass jar filled with colorful rolled paper notes, ribbon on top, cartoon girl with pigtails placing notes, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_004",
+    "title": "Рамка для фото из картона и пуговиц",
+    "category": "gifts",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["картон", "ножницы", "клей ПВА (или 💥 термопистолет с помощью взрослых)", "пуговицы", "фото или рисунок", "краски или фломастеры"],
+    "instructions": [
+      "Вырежи из картона прямоугольник чуть больше твоего фото",
+      "Вырежи внутри окошко под фото",
+      "Раскрась рамку или оклей цветной бумагой",
+      "Приклей пуговицы по всему периметру — чем их больше и разнее, тем красивее",
+      "Приклей фото сзади. Подарок готов! Бабушка или мама точно будут в восторге"
+    ],
+    "skills_developed": ["мелкая моторика", "творчество", "аккуратность", "эстетика"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["рамка", "фото", "пуговицы", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_004",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cardboard photo frame decorated with colorful buttons around the edge, photo of family in middle, cartoon boy with brown hair gluing, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_005",
+    "title": "Магнит на холодильник из солёного теста",
+    "category": "gifts",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 60,
+    "difficulty": "medium",
+    "materials": ["1 стакан муки", "1 стакан соли", "полстакана воды", "краски", "магниты (можно от старых сувениров)", "клей ПВА"],
+    "instructions": [
+      "Смешай муку и соль, постепенно добавляй воду — замеси тесто",
+      "Лепи что хочешь: зверушку, цветок, сердце (небольшое — размером с ладошку)",
+      "🔥 Попроси родителей высушить в духовке при 100°C 1 час (или положи на батарею на сутки)",
+      "Раскрась высохшую фигурку красками",
+      "Приклей сзади магнит клеем ПВА — держи 10 минут, пока схватится. Подарок готов!"
+    ],
+    "skills_developed": ["лепка", "творчество", "терпение", "работа в духовке"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["магнит", "солёное тесто", "лепка", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_005",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: painted salt dough magnets in shapes of heart, cat, flower, cartoon girl with pigtails holding one up, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_006",
+    "title": "Браслет дружбы из ниток",
+    "category": "gifts",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 45,
+    "difficulty": "medium",
+    "materials": ["4 разных цвета ниток мулине", "ножницы", "скотч (чтобы закрепить на столе)"],
+    "instructions": [
+      "Отрежь 4 нити по 80 см разных цветов",
+      "Свяжи их узлом вместе с одного конца и приклей к столу скотчем",
+      "Возьми левую нить и завяжи на следующей двойной узел. Потяни наверх",
+      "Повтори на третьей и четвёртой нити. Левая стала правой — теперь бери новую левую",
+      "Продолжай плести, и цвета будут чередоваться косой линией",
+      "Когда браслет нужной длины — завяжи узел и подари другу"
+    ],
+    "skills_developed": ["мелкая моторика", "плетение", "терпение", "математика узоров"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["браслет", "дружба", "плетение", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_006",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: hands weaving colorful friendship bracelet with diagonal stripes, cartoon boy and girl mascot wearing matching bracelets, vibrant colors"
+      },
+      {
+        "type": "video",
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=dTZ58HliYLs",
+        "cover": false,
+        "caption": "YouTube: friendship bracelet diagonal stripe tutorial"
+      }
+    ]
+  },
+  {
+    "id": "gifts_007",
+    "title": "Ваза из стеклянной банки",
+    "category": "gifts",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["стеклянная банка", "нитки или джутовая верёвка", "клей ПВА", "бусины или пуговицы", "краска или акрил (по желанию)"],
+    "instructions": [
+      "Помой банку и просуши",
+      "Намажь банку клеем ПВА снизу",
+      "Наматывай верёвку или толстые нитки по кругу, прижимая к клею",
+      "Продолжай, пока вся банка не будет обмотана",
+      "Приклей бусины или пуговицы как украшение",
+      "Когда высохнет — поставь цветы. Красивая ваза для мамы или бабушки"
+    ],
+    "skills_developed": ["мелкая моторика", "творчество", "эстетика", "переработка"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["ваза", "банка", "эко", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_007",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: glass jar wrapped with twine, decorated with buttons, flowers inside, cartoon girl with pigtails admiring it, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_008",
+    "title": "Книжка-раскладушка с рисунками",
+    "category": "gifts",
+    "age_groups": ["3-5", "6-8"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["длинная полоска бумаги (склей 2–3 листа)", "цветные карандаши и фломастеры", "ножницы"],
+    "instructions": [
+      "Сложи длинную полоску бумаги гармошкой — страницы по 10 см",
+      "На каждой странице нарисуй что-то: для мамы — мамины любимые цветы, для папы — дом, машину",
+      "Можно сделать историю: первая картинка — начало, последняя — конец",
+      "На обложке напиши «Для самой лучшей мамы» или имя получателя",
+      "Сверни обратно в книжку — подарок компактный и очень личный"
+    ],
+    "skills_developed": ["рисование", "творчество", "эмпатия", "рассказывание историй"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["книжка", "рисование", "подарок", "история"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_008",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: accordion folded paper book with colorful drawings unfolded, cartoon boy with brown hair drawing on one page, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_009",
+    "title": "Купон на доброе дело",
+    "category": "gifts",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["цветная бумага", "ножницы", "фломастеры", "лента или ниточка"],
+    "instructions": [
+      "Нарежь 10 одинаковых карточек из цветной бумаги",
+      "На каждой напиши доброе дело: «Помогу помыть посуду», «Погуляю с собакой», «Расскажу стихотворение»",
+      "Укрась каждый купон рисунками",
+      "Сделай дыроколом отверстие в углу и собери все на ленточку",
+      "Получается книжечка-подарок. Получатель может использовать любой купон, когда захочет"
+    ],
+    "skills_developed": ["эмпатия", "творчество", "планирование", "забота"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["купоны", "доброта", "подарок", "семья"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_009",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: stack of colorful coupons tied with ribbon, each showing a nice deed drawing, cartoon girl with pigtails handing them over, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_010",
+    "title": "Эко-сумка с рисунком",
+    "category": "gifts",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 45,
+    "difficulty": "medium",
+    "materials": ["простая хлопковая сумка-шоппер (можно купить в магазине за копейки)", "ткани́е краски или акрил", "кисти", "картон (положить внутрь сумки)"],
+    "instructions": [
+      "Положи картон внутрь сумки — чтобы краска не пропитала вторую сторону",
+      "Нарисуй на сумке что-то простое: сердце, цветы, смешное лицо, надпись",
+      "Дай высохнуть — 2 часа",
+      "Если краска для ткани — прогладь утюгом через ткань (попроси родителей)",
+      "Сумка готова. Полезный экологичный подарок, который будет служить долго"
+    ],
+    "skills_developed": ["рисование", "творчество", "экология", "аккуратность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["эко-сумка", "рисование", "экология", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_010",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cotton tote bag with hand-painted flowers and heart, cartoon boy with brown hair proud holding it, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_011",
+    "title": "Раскрашенные камешки",
+    "category": "gifts",
+    "age_groups": ["3-5", "6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["гладкие камешки (собери на улице и помой)", "акриловые краски или маркеры", "лак (по желанию, для защиты)"],
+    "instructions": [
+      "Хорошо помой камешки и просуши",
+      "Закрась каждый в основной цвет — пусть высохнет",
+      "Рисуй на них что хочешь: божьих коровок, рыбок, сердечки, буквы, зверушек",
+      "Подожди, пока краска высохнет",
+      "Если есть лак — покрой сверху (попроси родителей). Подари набор из 3–5 камешков в красивой коробочке"
+    ],
+    "skills_developed": ["рисование", "творчество", "мелкая моторика"],
+    "season": "summer",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["камни", "роспись", "природа", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_011",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: group of colorful painted pebbles with ladybug, fish, heart designs, cartoon girl with pigtails painting one, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_012",
+    "title": "Новогодний шар из ниток",
+    "category": "gifts",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 60,
+    "difficulty": "medium",
+    "materials": ["воздушный шарик (маленький)", "нитки мулине (белые или цветные)", "клей ПВА", "миска"],
+    "instructions": [
+      "Надуй шарик небольшого размера — размером с яблоко",
+      "В миске смешай клей ПВА с небольшим количеством воды",
+      "Обмакивай нитки в клей и наматывай на шарик хаотично",
+      "Постарайся, чтобы оставались прорехи — это красиво",
+      "Дай высохнуть 24 часа (лучше дольше)",
+      "Лопни шарик иголкой и аккуратно вытяни сквозь дырочки. Получился ажурный шар для ёлки!"
+    ],
+    "skills_developed": ["терпение", "творчество", "мелкая моторика", "планирование"],
+    "season": "winter",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["новогодний", "шар", "нитки", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_012",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: lacey white yarn christmas ornament hanging on tree, cartoon boy with brown hair admiring, holiday colors, clean shapes"
+      },
+      {
+        "type": "video",
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=RoRJRSgMjxI",
+        "cover": false,
+        "caption": "YouTube: yarn balloon christmas ornament DIY"
+      }
+    ]
+  },
+  {
+    "id": "gifts_013",
+    "title": "Венок из листьев для двери",
+    "category": "gifts",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 40,
+    "difficulty": "medium",
+    "materials": ["красивые листья и жёлуди/шишки", "круг из картона (вырежи серединку)", "клей ПВА (или 💥 термопистолет со взрослыми)", "лента"],
+    "instructions": [
+      "Вырежи из картона кольцо — примерно 20 см в диаметре, внутри дырка 10 см",
+      "Собери красивые осенние листья разных цветов",
+      "Приклеивай листья по кругу, прикрывая картон",
+      "Добавь жёлуди и шишки — пусть будет объёмно",
+      "Приклей сверху ленточку-петельку",
+      "Подари бабушке или маме — такой венок украсит любую дверь"
+    ],
+    "skills_developed": ["наблюдательность", "творчество", "эстетика", "работа с природными материалами"],
+    "season": "autumn",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["венок", "осень", "листья", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_013",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: autumn door wreath with colorful leaves, acorns, pinecones, cartoon girl with pigtails hanging it on door, cozy vibes, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_014",
+    "title": "Бомбочки для ванны",
+    "category": "gifts",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["1 стакан соды", "полстакана лимонной кислоты", "пищевой краситель", "эфирное масло (любое)", "форма — силиконовая или ячейки от яиц", "немного воды"],
+    "instructions": [
+      "Смешай соду и лимонную кислоту в миске",
+      "Добавь пару капель красителя и масла — перемешай",
+      "Понемногу добавляй воду из пульверизатора — смесь не должна шипеть. Должна слегка слипаться",
+      "Плотно утрамбуй в формочки",
+      "Оставь на 2 часа сохнуть",
+      "Аккуратно достань — бомбочки готовы. Ложишься в ванну, кидаешь — и ванна шипит радугой!"
+    ],
+    "skills_developed": ["химия", "точность", "творчество", "аккуратность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["бомбочки", "ванна", "химия", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_014",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: colorful handmade bath bombs in pink, blue, yellow, cartoon boy with brown hair molding one in silicone form, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_015",
+    "title": "Картина из природных материалов",
+    "category": "gifts",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 45,
+    "difficulty": "medium",
+    "materials": ["картон или плотная бумага", "листья, семечки, макароны, крупы", "клей ПВА", "краски (по желанию)"],
+    "instructions": [
+      "Нарисуй на картоне контур: дерево, цветок, портрет, солнце",
+      "Намажь одну часть клеем — например, крону дерева",
+      "Приклеивай листочки или крупу, покрывая эту часть",
+      "Переходи к следующей части: ствол — макароны-спагетти, небо — пшено, земля — гречка",
+      "Дай высохнуть — и оформи в рамку. Очень красиво и экологично!"
+    ],
+    "skills_developed": ["творчество", "мелкая моторика", "планирование", "эстетика"],
+    "season": "autumn",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["картина", "природа", "мозаика", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_015",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: picture collage made of leaves, seeds, pasta forming a tree, cartoon girl with pigtails gluing seeds, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_016",
+    "title": "Игольница-кекс из ткани",
+    "category": "gifts",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 45,
+    "difficulty": "medium",
+    "materials": ["кусок ткани 15x15 см", "синтепон или вата", "нитки, иголка", "маленькая баночка или стаканчик (форма 'кекс')", "пуговица или бусина для украшения"],
+    "instructions": [
+      "Вырежи из ткани круг диаметром 15 см",
+      "Сшей по краю простым стежком по кругу — но не затягивай",
+      "Положи внутрь синтепон как начинку",
+      "Потяни нитку — ткань соберётся в шарик. Завяжи крепко",
+      "Вставь шарик в банку как 'кекс' в форму",
+      "Пришей сверху бусину — «вишенка на торте». Идеальный подарок маме или бабушке"
+    ],
+    "skills_developed": ["шитьё", "мелкая моторика", "терпение", "творчество"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["игольница", "шитьё", "рукоделие", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_016",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: fabric pincushion looking like a pink cupcake with button cherry on top, cartoon girl with pigtails sewing, vibrant colors, clean shapes"
+      }
+    ]
+  },
+  {
+    "id": "gifts_017",
+    "title": "Снежный шар своими руками",
+    "category": "gifts",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["маленькая стеклянная банка с крышкой", "маленькая фигурка (лего или игрушка из киндера)", "блёстки", "глицерин (из аптеки) или сироп", "вода", "клей (водостойкий)"],
+    "instructions": [
+      "Приклей фигурку ко внутренней стороне крышки банки — дай высохнуть час",
+      "Налей в банку воду почти до краёв",
+      "Добавь глицерин (примерно ложку) — чтобы блёстки падали медленно",
+      "Насыпь блёстки — штук 2 столовых ложки",
+      "Закрой крышкой плотно и переверни. Снежный шар готов!"
+    ],
+    "skills_developed": ["творчество", "точность", "физика", "планирование"],
+    "season": "winter",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["снежный шар", "зима", "волшебство", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_017",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: glass jar snow globe with tiny figurine inside and glitter falling, cartoon boy with brown hair shaking it, winter magic, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_018",
+    "title": "Ключница из деревянной палочки",
+    "category": "gifts",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 45,
+    "difficulty": "medium",
+    "materials": ["плоская деревянная дощечка или кусок фанеры", "2–3 крючка или прищепки", "краски", "клей ПВА или 💥 термопистолет (со взрослыми)", "верёвочка для петельки"],
+    "instructions": [
+      "Раскрась дощечку — можно нарисовать узор или написать «Ключи»",
+      "Дай высохнуть",
+      "Приклей крючки или прищепки снизу, на равном расстоянии",
+      "Сзади приклей верёвочку-петельку для гвоздика",
+      "Практичный подарок папе или бабушке — для ключей от дома или дачи"
+    ],
+    "skills_developed": ["планирование", "рисование", "практичность", "творчество"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["ключница", "дерево", "практично", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_018",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: wooden key holder board with 3 hooks painted with flowers, keys hanging, cartoon girl with pigtails hanging it, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_019",
+    "title": "Открытка-взрывашка (Explosion box)",
+    "category": "gifts",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 60,
+    "difficulty": "hard",
+    "materials": ["плотная цветная бумага", "ножницы", "клей", "фото или рисунки", "линейка"],
+    "instructions": [
+      "Вырежи 3 квадрата: один 15x15, второй 12x12, третий 9x9 см",
+      "Каждый квадрат сложи пополам в обе стороны — будут линии сгиба",
+      "Разрежь по линиям до центра — но только с одной стороны (чтобы получились «лепестки»)",
+      "Сложи по сгибам в коробочку — она должна «открываться, как цветок»",
+      "Наклей на лепестки рисунки, фото, пожелания — много слоёв",
+      "Сложи коробочки одна в другую и закрой крышкой. При открывании все взрывается фотографиями!"
+    ],
+    "skills_developed": ["точность", "планирование", "творчество", "геометрия", "эмпатия"],
+    "season": "any",
+    "location": "indoor",
+    "premium": true,
+    "tags": ["открытка", "взрывашка", "фото", "сложно"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_019",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: colorful explosion box opened with photos, notes, hearts spilling out, cartoon boy with brown hair surprised looking inside, vibrant colors"
+      },
+      {
+        "type": "video",
+        "source": "youtube",
+        "url": "https://www.youtube.com/watch?v=1TAnWFPSfgE",
+        "cover": false,
+        "caption": "YouTube: explosion box card tutorial"
+      }
+    ]
+  },
+  {
+    "id": "gifts_020",
+    "title": "Сухие духи-саше в мешочке",
+    "category": "gifts",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["кусочек ткани 15x15 см (можно пришить мешочек или просто сложить в узелок)", "сушёные травы: лаванда, мята, цедра апельсина", "эфирное масло (1–2 капли, по желанию)", "ленточка"],
+    "instructions": [
+      "Смешай в миске сушёные травы — как красивая ароматная смесь",
+      "Капни 1–2 капли эфирного масла (можно и без него)",
+      "Положи смесь в центр ткани",
+      "Собери края ткани наверх и крепко завяжи лентой",
+      "Мешочек можно положить в шкаф — вещи будут приятно пахнуть. Отличный подарок с душой"
+    ],
+    "skills_developed": ["планирование", "эстетика", "работа с запахами"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["саше", "аромат", "травы", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_020",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: small fabric sachet tied with ribbon filled with lavender, citrus peel, cartoon girl with pigtails smelling it, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_021",
+    "title": "Подставка под чашку из картона и войлока",
+    "category": "gifts",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["плотный картон", "кусочки цветного войлока или фетра", "ножницы", "клей ПВА"],
+    "instructions": [
+      "Вырежи из картона круг 10 см в диаметре",
+      "Вырежи такой же круг из фетра — он будет верхом",
+      "Вырежи из фетра другого цвета узор: сердечко, ягодку, цветок",
+      "Склей: картон + фетр + узор",
+      "Сделай набор из 4 штук — практичный подарок для взрослых"
+    ],
+    "skills_developed": ["мелкая моторика", "эстетика", "планирование", "практичность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["подставки", "фетр", "кофе", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_021",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: set of 4 colorful felt coasters with heart, flower, strawberry designs, cartoon boy with brown hair arranging them, cozy table, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_022",
+    "title": "Папа-супергерой: именная футболка",
+    "category": "gifts",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 40,
+    "difficulty": "medium",
+    "materials": ["простая однотонная футболка", "краски для ткани или фломастеры по ткани", "картон (положить в футболку)", "трафарет (можно вырезать самому)"],
+    "instructions": [
+      "Положи картон внутрь футболки — чтобы не было потёков на вторую сторону",
+      "Придумай надпись: «Лучший папа», «Супергерой», имя",
+      "Сделай трафарет из бумаги — вырежи буквы",
+      "Приложи трафарет и закрась через него",
+      "Добавь рисунки — плащ супергероя, звезду, молнию",
+      "Дай высохнуть и прогладь утюгом через ткань (взрослые)"
+    ],
+    "skills_developed": ["планирование", "творчество", "рисование", "работа с трафаретом"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["футболка", "папа", "подарок", "рисование"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_022",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: hand-painted tshirt with 'Super Dad' and cape drawing, cartoon girl with pigtails holding it up, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_023",
+    "title": "Рисунок-секрет: нужно перевернуть",
+    "category": "gifts",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["лист бумаги", "цветные карандаши", "фломастеры"],
+    "instructions": [
+      "Нарисуй первую картинку вверху листа: например, лицо девочки, которая грустит",
+      "Внизу — такая же девочка, но уже улыбается",
+      "Добавь ключ-деталь: когда переворачиваешь лист, лицо меняется с грустного на весёлое",
+      "Или: облако → солнце, яблоко на земле → на дереве, пустая чашка → полная",
+      "Получается двойной рисунок — подари его близкому как загадку"
+    ],
+    "skills_developed": ["рисование", "творчество", "планирование", "фантазия"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["рисунок", "загадка", "творчество", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_023",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: paper with two drawings — sad face on top, happy face on bottom, cartoon boy with brown hair flipping paper, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_024",
+    "title": "Календарь на год с рисунками",
+    "category": "gifts",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 90,
+    "difficulty": "medium",
+    "materials": ["12 листов плотной бумаги", "карандаши и фломастеры", "линейка", "дырокол", "колечко или ленточка для сборки"],
+    "instructions": [
+      "На каждом листе разлинуй календарную сетку на месяц (7 колонок, 5–6 строк)",
+      "Впиши числа — можно скопировать из обычного календаря",
+      "На верхней половине каждого листа нарисуй свою картинку к месяцу: январь — снеговик, март — первые цветы, июль — море",
+      "Обведи цветом дни рождения семьи",
+      "Собери все листы дыроколом и проведи ленту или колечко",
+      "Мама или бабушка будет видеть твои рисунки целый год"
+    ],
+    "skills_developed": ["планирование", "рисование", "математика", "терпение", "эмпатия"],
+    "season": "any",
+    "location": "indoor",
+    "premium": true,
+    "tags": ["календарь", "подарок", "рисование", "долгий проект"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_024",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: handmade calendar with seasonal drawing (snowman, flowers, summer) above month grid, cartoon girl with pigtails drawing, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_025",
+    "title": "Колье из макарон",
+    "category": "gifts",
+    "age_groups": ["3-5", "6-8"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["макароны с дырочкой (трубочки, рожки, бантики)", "краски или пищевые красители", "длинная нитка или шнурок", "миска"],
+    "instructions": [
+      "Покрась макароны: можно в миске с водой и красителем — быстро и весело",
+      "Разложи на бумагу и дай высохнуть",
+      "Нанизывай крашеные макароны на нитку как бусины",
+      "Делай узоры — чередуй цвета и формы",
+      "Завяжи концы нитки. Сестрёнке или подружке будет весело носить такое колье!"
+    ],
+    "skills_developed": ["мелкая моторика", "цветовосприятие", "творчество", "планирование узора"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["макароны", "колье", "для малышей", "подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_025",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: necklace made of colorful painted pasta tubes and bows, cartoon girl with pigtails wearing one, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_026",
+    "title": "Домик для птиц из пакета и семечек",
+    "category": "gifts",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["пустой пакет из-под сока или молока (чистый)", "ножницы", "краски", "веточка для жёрдочки", "семечки для птиц", "верёвка"],
+    "instructions": [
+      "🔥 Попроси родителей вырезать в пакете большое окно с трёх сторон — одна сторона остаётся снизу как полка",
+      "Раскрась пакет снаружи",
+      "Проткни под окном отверстие — вставь веточку как жёрдочку",
+      "Прорежь в крышке отверстия и проведи верёвку — это петля",
+      "Насыпь внутрь семечек и повесь на дерево",
+      "Это подарок не человеку, а природе — бабушке и дедушке очень понравится"
+    ],
+    "skills_developed": ["экология", "забота о природе", "творчество", "практичность"],
+    "season": "winter",
+    "location": "outdoor",
+    "premium": false,
+    "tags": ["кормушка", "птицы", "экология", "природа"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_026",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: bird feeder made from painted milk carton hanging on tree branch, two small birds nearby, cartoon boy with brown hair pouring seeds, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "gifts_027",
+    "title": "Мини-сад в стеклянной банке",
+    "category": "gifts",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 40,
+    "difficulty": "medium",
+    "materials": ["прозрачная банка с широким горлом", "мелкие камешки", "земля для растений", "маленькие суккуленты или мох", "декор: ракушки, фигурки, палочки"],
+    "instructions": [
+      "Промой банку и высуши",
+      "На дно насыпь слой камешков — 2 см (это дренаж, чтобы корни не гнили)",
+      "Сверху насыпь земли — 3–4 см",
+      "Сделай в земле ямки и посади суккуленты или мох",
+      "Укрась: положи ракушки, поставь фигурки, палочки как дерево",
+      "Немного полей. Живой мини-сад — самый тёплый подарок"
+    ],
+    "skills_developed": ["ботаника", "планирование", "эстетика", "забота о живом"],
+    "season": "any",
+    "location": "indoor",
+    "premium": true,
+    "tags": ["растения", "суккуленты", "сад", "живой подарок"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:gifts_027",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: glass jar terrarium with succulents, moss, small figurines, cartoon girl with pigtails admiring it, vibrant greens"
+      }
+    ]
+  }
+]

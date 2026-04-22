@@ -1,1 +1,891 @@
-[] 
+[
+  {
+    "id": "reading_001",
+    "title": "Сочини историю по 5 словам",
+    "category": "reading_stories",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["бумага", "ручка", "словарь (по желанию)"],
+    "instructions": [
+      "Напиши 5 случайных слов: 'дракон', 'бутерброд', 'ракета', 'бабушка', 'носок'",
+      "Теперь твоя задача — сочинить историю, где встречаются все 5 слов",
+      "Начни: «Однажды бабушка...»",
+      "Не редактируй по ходу — пиши что приходит в голову",
+      "Закончи историю и прочти её вслух — с выражением!",
+      "Чем неожиданнее сочетание слов — тем смешнее получается"
+    ],
+    "skills_developed": ["фантазия", "письмо", "связность речи", "импровизация"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["сочинение", "фантазия", "история"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_001",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails writing at desk with 5 word cards floating above — dragon, rocket, sandwich, sock, grandma, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_002",
+    "title": "Читай маме: 10 минут с выражением",
+    "category": "reading_stories",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["любимая книга", "удобное место", "мама или папа рядом"],
+    "instructions": [
+      "Выбери книгу, которую ты любишь. Лучше с диалогами",
+      "Садись рядом с мамой или папой",
+      "Читай вслух 10 минут — с разными голосами для разных персонажей",
+      "Когда говорит ёжик — писклявым голосом. Волк — низким и грозным",
+      "Пауза для интриги перед важным моментом — это секрет актёров",
+      "В конце спроси маму: какой момент ей понравился больше всего?"
+    ],
+    "skills_developed": ["выразительное чтение", "связь с родителями", "актёрство", "дикция"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["чтение", "семья", "голос", "ежедневно"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_002",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair reading book aloud to mother on couch, cozy lamp, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_003",
+    "title": "Книжный дневник на месяц",
+    "category": "reading_stories",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["тетрадь или блокнот", "ручка", "фломастеры"],
+    "instructions": [
+      "Оформи первую страницу тетради: «Мой книжный дневник»",
+      "На каждую книгу заполняй: название, автор, даты чтения, 3 любимых цитаты, твои мысли",
+      "Ставь книге оценку от 1 до 10",
+      "Нарисуй обложку каждой книги",
+      "Через год у тебя будет красивая коллекция прочитанного",
+      "Перечитать старые записи — значит снова пережить книгу"
+    ],
+    "skills_developed": ["анализ текста", "письмо", "регулярность", "память"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["дневник", "книги", "чтение"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_003",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: open notebook with drawn book covers and notes, cartoon girl with pigtails writing review, stack of books nearby, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_004",
+    "title": "Напиши письмо любимому персонажу",
+    "category": "reading_stories",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["бумага", "ручка", "конверт (по желанию)"],
+    "instructions": [
+      "Выбери любимого героя книги: Гарри Поттера, Пеппи, Карлсона, Муми-тролля",
+      "Начни письмо: «Дорогой (имя героя), меня зовут...»",
+      "Расскажи, почему он тебе нравится",
+      "Задай ему 3 вопроса, которые давно хотел задать",
+      "Нарисуй рисунок или картинку в конце",
+      "Попробуй написать ответ от имени этого героя — что бы он тебе сказал?"
+    ],
+    "skills_developed": ["эмпатия", "письмо", "фантазия", "понимание персонажей"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["персонаж", "письмо", "эмпатия"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_004",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair writing letter at desk, imaginary book character floating nearby, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_005",
+    "title": "Комикс своими руками на 6 клеток",
+    "category": "reading_stories",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 40,
+    "difficulty": "medium",
+    "materials": ["бумага", "линейка", "карандаш", "фломастеры"],
+    "instructions": [
+      "Разлинуй лист на 6 квадратов",
+      "Придумай короткую историю с началом, серединой и концом",
+      "Первые 2 клетки — завязка (где и кто)",
+      "Средние 2 — какая-то проблема",
+      "Последние 2 — как всё решается",
+      "В каждой клетке нарисуй сцену и добавь речь в облачках",
+      "Покажи родителям — они должны понять историю только по картинкам"
+    ],
+    "skills_developed": ["повествование", "рисование", "планирование", "творчество"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["комикс", "рисование", "история"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_005",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: paper divided in 6 comic panels with drawings and speech bubbles, cartoon girl with pigtails drawing at desk, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_006",
+    "title": "Алфавитная история: каждое следующее слово с новой буквы",
+    "category": "reading_stories",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["бумага", "ручка"],
+    "instructions": [
+      "Напиши текст, где первое слово начинается на А, второе — на Б, третье — на В, и так по алфавиту",
+      "Например: 'Аня бежала, везя гусей, дразнила ежа, фыркая...'",
+      "Правил почти нет — но слова могут быть любые",
+      "Можно пропускать трудные буквы (Ъ, Ы)",
+      "Попробуй рассказать осмысленную сцену — это очень сложно и очень весело",
+      "Покажи друзьям — пусть тоже попробуют"
+    ],
+    "skills_developed": ["словарный запас", "творчество", "логика языка", "терпение"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["алфавит", "сочинение", "язык"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_006",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: paper with words written each starting with next alphabet letter, cartoon boy with brown hair thinking hard, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_007",
+    "title": "Напиши конец сказки заново",
+    "category": "reading_stories",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["знакомая сказка", "бумага", "ручка"],
+    "instructions": [
+      "Выбери сказку, концовка которой тебя не устраивает: «Колобок» (он умирает — давай спасём!) или «Красная шапочка»",
+      "Напиши новую концовку — такую, какой хотел бы ты",
+      "Вдруг колобок удрал от лисы, потому что...?",
+      "А если бабушка в «Красной шапочке» сама оказалась кунг-фу мастером?",
+      "Читай вслух родителям свою версию",
+      "Писатели постоянно так играют с сюжетами — ты настоящий писатель"
+    ],
+    "skills_developed": ["творчество", "переосмысление", "писательство", "сюжетное мышление"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["сказки", "сочинение", "переделка"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_007",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails writing on open storybook, fairy tale characters nearby with question marks, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_008",
+    "title": "Стихотворение с одной рифмой",
+    "category": "reading_stories",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 25,
+    "difficulty": "medium",
+    "materials": ["бумага", "ручка"],
+    "instructions": [
+      "Придумай 5 слов, которые рифмуются: «солнце», «оконце», «крыльцо» (почти), «кольцо», «лицо»",
+      "Напиши 5 строчек — в конце каждой одно из этих слов",
+      "Каждая строчка должна быть связана по смыслу",
+      "Пример: «Выходит мальчик на крыльцо, / Сияет тёплое кольцо, / И весело блестит лицо, / Смотрит солнце в оконце, / Встаёт на земле солнце»",
+      "Не бойся, если будет коряво — это нормально. Поэты тоже так начинали",
+      "Прочитай вслух — стихи должны звучать"
+    ],
+    "skills_developed": ["поэзия", "рифма", "чувство ритма", "творчество"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["стихи", "рифма", "поэзия"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_008",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair writing poem with rhyming words floating in clouds, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_009",
+    "title": "Читай в темноте с фонариком — уютный вечер",
+    "category": "reading_stories",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["книга", "фонарик или ночник", "одеяло", "палатка из подушек (по желанию)"],
+    "instructions": [
+      "Выключи свет в комнате",
+      "Устрой себе уютное гнездо: подушки, одеяло. Можно построить 'палатку' из пледа",
+      "Залезь в убежище с книгой и фонариком",
+      "Читай — свет фонарика делает историю волшебной",
+      "Можно читать страшные истории — в темноте они звучат иначе",
+      "Это простой способ превратить обычное чтение в приключение"
+    ],
+    "skills_developed": ["атмосфера чтения", "воображение", "самостоятельность"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["чтение", "уют", "фонарик", "приключение"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_009",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails in blanket fort reading book with flashlight, cozy darkness, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_010",
+    "title": "Интервью у члена семьи: запиши реальную историю",
+    "category": "reading_stories",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 40,
+    "difficulty": "medium",
+    "materials": ["блокнот", "ручка", "бабушка/дедушка/родители"],
+    "instructions": [
+      "Найди старшего родственника — бабушку, дедушку",
+      "Подготовь 5 вопросов: 'Какое самое яркое воспоминание детства?', 'Какая самая смешная история?', 'Что было трудным?'",
+      "Возьми интервью — слушай внимательно, записывай",
+      "Затем напиши от этой истории рассказ от первого лица",
+      "Покажи бабушке/дедушке — они будут тронуты",
+      "Это пример настоящей семейной литературы"
+    ],
+    "skills_developed": ["эмпатия", "слушание", "письмо", "связь поколений"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["семья", "интервью", "история", "письмо"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_010",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair listening carefully to grandmother telling story, notebook in hand, cozy room, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_011",
+    "title": "Мини-книга: склей свою первую книгу",
+    "category": "reading_stories",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 45,
+    "difficulty": "medium",
+    "materials": ["5–10 листов бумаги А4", "степлер или нитка и иголка", "плотная обложка из картона", "фломастеры"],
+    "instructions": [
+      "Согни листы пополам — это будут страницы книги",
+      "Сделай обложку из картона — тоже согнутого пополам",
+      "Вложи страницы в обложку и скрепи степлером по сгибу (или сшей ниткой)",
+      "На обложке напиши название твоей книги и твою фамилию как автора",
+      "Теперь напиши и проиллюстрируй свою историю — по одной сцене на разворот",
+      "Подари книгу в семейную библиотеку. Ты настоящий писатель!"
+    ],
+    "skills_developed": ["письмо", "иллюстрирование", "рукоделие", "планирование"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["книга", "писательство", "рукоделие", "проект"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_011",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: handmade mini-book with illustrated pages, cartoon girl with pigtails proud as author, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_012",
+    "title": "Загадки собственного сочинения",
+    "category": "reading_stories",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["бумага", "ручка"],
+    "instructions": [
+      "Выбери 5 предметов вокруг: карандаш, часы, окно, подушка, яблоко",
+      "Для каждого придумай загадку: опиши, как выглядит, что делает, НЕ называя",
+      "Например, яблоко: «Румяное, круглое, растёт на дереве. Внутри есть косточки, а кожура может быть зелёной, красной или жёлтой»",
+      "Старайся, чтобы загадка была не слишком простая, но и не слишком сложная",
+      "Загадай родителям или друзьям — смогут ли отгадать?"
+    ],
+    "skills_developed": ["описательная речь", "логика", "творчество", "язык"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["загадки", "описание", "речь"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_012",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair with riddle scroll, mystery objects with question marks around, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_013",
+    "title": "История по картинкам из журнала",
+    "category": "reading_stories",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 35,
+    "difficulty": "medium",
+    "materials": ["старые журналы или рекламные буклеты", "ножницы", "клей", "лист картона", "ручка"],
+    "instructions": [
+      "Пересмотри старые журналы и вырежи 5–7 картинок: людей, зверей, места, предметы",
+      "Разложи их в любом порядке на картоне",
+      "Приклей по порядку",
+      "Теперь напиши под каждой картинкой предложение — так, чтобы получилась история",
+      "Идея: первая картинка — герой, вторая — куда он попадает, третья — что случается и т.д.",
+      "Это коллажная история — любимая техника некоторых писателей"
+    ],
+    "skills_developed": ["повествование", "творчество", "коллаж", "связь образов"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["коллаж", "история", "журналы"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_013",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: collage on cardboard with magazine cutouts and written story below, cartoon girl with pigtails gluing, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_014",
+    "title": "Аудиокнига от тебя: запиши голосом",
+    "category": "reading_stories",
+    "age_groups": ["6-8", "9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["телефон с диктофоном", "любимая книга или собственный рассказ"],
+    "instructions": [
+      "Выбери короткий отрывок из книги или свой рассказ",
+      "Найди тихое место — шум испортит запись",
+      "Включи диктофон и читай с выражением — меняй голос для разных персонажей",
+      "Добавь небольшие паузы перед важными моментами",
+      "Прослушай запись — доволен ли ты?",
+      "Отправь аудио бабушке или другу — это особенный подарок"
+    ],
+    "skills_developed": ["выразительное чтение", "дикция", "актёрство", "технологии"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["аудио", "чтение", "голос", "запись"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_014",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair reading book into phone microphone, sound waves floating, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_015",
+    "title": "Дневник твоего дня в 5 эмоциях",
+    "category": "reading_stories",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["тетрадь", "ручка", "фломастеры"],
+    "instructions": [
+      "Вечером сядь и вспомни 5 моментов дня — хоть маленьких",
+      "У каждого запиши, какую эмоцию ты испытал: радость, удивление, грусть, злость, гордость",
+      "Рядом нарисуй смайлик или эмодзи этой эмоции",
+      "В конце напиши одну фразу: «Самое лучшее за день было...»",
+      "Делай так каждый вечер. Через месяц прочитай — увидишь, как много всего было"
+    ],
+    "skills_developed": ["самоанализ", "эмоциональный интеллект", "регулярное письмо", "эмпатия"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["дневник", "эмоции", "рефлексия"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_015",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: notebook with diary entry and 5 emoji stickers (joy, sad, angry, proud, surprised), cartoon girl with pigtails writing, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_016",
+    "title": "Пьеса для игрушек: театр одного актёра",
+    "category": "reading_stories",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 40,
+    "difficulty": "medium",
+    "materials": ["мягкие игрушки или фигурки", "бумага для сценария", "ручка", "зрители (семья)"],
+    "instructions": [
+      "Выбери 3–4 игрушки — это персонажи пьесы",
+      "Придумай конфликт: мишка забыл про день рождения зайца",
+      "Напиши короткий сценарий — кто что говорит",
+      "Поставь игрушек в ряд и играй за каждого, меняя голос",
+      "Пригласи семью на премьеру",
+      "Это кукольный театр — жанр, которому тысячи лет"
+    ],
+    "skills_developed": ["драматургия", "актёрство", "голос", "планирование"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["театр", "пьеса", "игрушки", "актёрство"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_016",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair performing with plush toys in line, script in hand, family watching, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_017",
+    "title": "Семейное чтение по ролям",
+    "category": "reading_stories",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["книга с диалогами", "семья — минимум 2 человека"],
+    "instructions": [
+      "Выбери книгу с диалогами: сказки, Носов, Михалков",
+      "Распределите роли — кто за какого героя читает",
+      "Автор ведёт рассказ — это тоже роль",
+      "Читайте по очереди, стараясь менять голос",
+      "Остановитесь на самом интригующем месте и продолжите завтра",
+      "Это семейная традиция, которая запоминается надолго"
+    ],
+    "skills_developed": ["чтение", "семейное взаимодействие", "актёрство", "слушание"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["семья", "ролевое чтение", "традиция"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_017",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: family of 3-4 reading book together on couch, each person reading a different character's line, cozy, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_018",
+    "title": "Книжный челлендж: 30 дней — 30 страниц в день",
+    "category": "reading_stories",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["книга на выбор", "календарь или табличка на 30 дней", "ручка"],
+    "instructions": [
+      "Выбери интересную книгу. Например, 250–300 страниц",
+      "Напиши на бумаге или нарисуй календарь на 30 дней",
+      "Обязательство: каждый день читаешь минимум 10 страниц (если хочешь — больше)",
+      "После чтения ставь галочку и пиши одно предложение: что нового узнал или почувствовал",
+      "Через месяц ты прочитаешь целую книгу — это победа",
+      "Запусти следующий челлендж с новой книгой"
+    ],
+    "skills_developed": ["дисциплина", "регулярность", "чтение", "цели"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["челлендж", "книга", "регулярно"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_018",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: calendar with 30 day grid, checkmarks on days, book open nearby, cartoon girl with pigtails ticking off day, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_019",
+    "title": "Перепиши известное стихотворение в прозу",
+    "category": "reading_stories",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 25,
+    "difficulty": "medium",
+    "materials": ["стихотворение (Пушкин, Есенин, Чуковский)", "бумага", "ручка"],
+    "instructions": [
+      "Выбери знакомое стихотворение — например, «У лукоморья дуб зелёный»",
+      "Прочитай внимательно, представь картинку",
+      "Перепиши его как обычный рассказ — без рифмы, простыми предложениями",
+      "Что получается: «На берегу моря растёт большой зелёный дуб. На нём висит золотая цепь, а по цепи днём и ночью ходит учёный кот...»",
+      "Прочитай: без рифмы ощущение другое, но смысл остался",
+      "Так ты учишься различать форму и содержание"
+    ],
+    "skills_developed": ["анализ текста", "пересказ", "язык", "понимание поэзии"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["стихи", "пересказ", "язык"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_019",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: poem page and prose retelling next to it, cartoon boy with brown hair rewriting at desk, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_020",
+    "title": "Скороговорки на скорость",
+    "category": "reading_stories",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["список скороговорок (в интернете)", "секундомер"],
+    "instructions": [
+      "Выбери 3 скороговорки — например, 'Карл у Клары украл кораллы', 'Шла Саша по шоссе'",
+      "Читай каждую сначала медленно — правильно проговаривая все звуки",
+      "Потом всё быстрее — засекай время",
+      "Запиши свой рекорд и бьётся ли он завтра",
+      "Добавь 2 новые через неделю",
+      "Так развивают дикцию актёры и дикторы"
+    ],
+    "skills_developed": ["дикция", "скорость речи", "артикуляция", "весёлость"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["скороговорки", "речь", "дикция"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_020",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails with tongue stuck out funny, stopwatch beside her, tongue twister words floating, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_021",
+    "title": "Собственный словарь новых слов",
+    "category": "reading_stories",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["маленький блокнот", "ручка"],
+    "instructions": [
+      "Каждый раз, когда читаешь и встречаешь непонятное слово — записывай",
+      "В блокнот: слово — значение — где встретил — твоё предложение с ним",
+      "Например: 'Тщеславие — желание славы, гордыня. Встретил в 'Золушке'. Предложение: Мачеха заражалась тщеславием и хвасталась перед соседями'",
+      "Через месяц словарь станет толще",
+      "Перелистай его — увидишь, сколько нового узнал. Это твоё личное богатство"
+    ],
+    "skills_developed": ["словарный запас", "регулярное обучение", "язык", "чтение"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["словарь", "слова", "язык"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_021",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: small notebook with personal dictionary entries, open book nearby, cartoon boy with brown hair writing, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_022",
+    "title": "История в формате сообщений в мессенджере",
+    "category": "reading_stories",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["бумага", "ручка", "2 разных цвета ручек или фломастеров"],
+    "instructions": [
+      "Напиши историю в виде переписки 2 персонажей",
+      "Слева на странице — сообщения одного (одним цветом), справа — другого (другим)",
+      "Добавь эмодзи, голосовые сообщения (в описании), опечатки — как в реальной переписке",
+      "Пусть в диалоге будет интрига: кто-то что-то узнал, договорились встретиться, поссорились",
+      "Это современный формат — так пишут и писатели. И это весело",
+      "Попробуй переписку: 'Дракон и принцесса организуют побег'"
+    ],
+    "skills_developed": ["писательство", "диалоги", "современный язык", "творчество"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["мессенджер", "диалог", "современно"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_022",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: paper drawn like phone chat with blue and pink message bubbles, cartoon girl with pigtails writing, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_023",
+    "title": "Акростих: имя в столбик",
+    "category": "reading_stories",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["бумага", "ручка"],
+    "instructions": [
+      "Напиши своё имя вертикально — каждая буква на новой строчке",
+      "Например: А Н Я",
+      "Теперь к каждой букве придумай слово или фразу, описывающую тебя",
+      "А — активная / Н — нежная / Я — яркая",
+      "Можно о человеке, о городе, о празднике",
+      "Подари акростих как открытку другу или маме — с красивым оформлением"
+    ],
+    "skills_developed": ["поэзия", "самопознание", "творчество", "язык"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["акростих", "имя", "стих"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_023",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: paper with name written vertically and descriptive words next to each letter, cartoon boy with brown hair proud, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_024",
+    "title": "Читай книгу, которую читали твои родители",
+    "category": "reading_stories",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["книга из детства родителей"],
+    "instructions": [
+      "Спроси маму или папу: «Какая была твоя любимая книга в детстве?»",
+      "Найди её дома или в библиотеке",
+      "Читай и время от времени обсуждай с родителями: 'А ты помнишь этот момент?'",
+      "Спроси, что им нравилось больше всего",
+      "Представь: они когда-то читали это в твоём возрасте",
+      "Это настоящая связь поколений — самая глубокая"
+    ],
+    "skills_developed": ["чтение", "семейная связь", "история", "эмпатия"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["семья", "чтение", "поколения"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_024",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: old book with faded cover in child's hands, parent smiling and pointing to it, vintage colors, vibrant"
+      }
+    ]
+  },
+  {
+    "id": "reading_025",
+    "title": "Карточки памяти по прочитанной книге",
+    "category": "reading_stories",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["картон или плотная бумага", "ножницы", "ручка"],
+    "instructions": [
+      "После прочтения книги вырежи 10 карточек",
+      "На каждой напиши вопрос с одной стороны, ответ — с другой",
+      "Вопросы: кто главный герой? Где происходит действие? Какая любимая цитата? Что пришлось героям решить?",
+      "Через неделю вытащи карточки и проверь — помнишь?",
+      "Это техника активного чтения — так книга не забывается",
+      "Сделай карточки для каждой прочитанной книги — настоящая коллекция"
+    ],
+    "skills_developed": ["анализ текста", "память", "организация информации"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["карточки", "книга", "память"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_025",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: pile of question and answer flashcards next to book, cartoon girl with pigtails studying, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_026",
+    "title": "Книжный клуб на двоих",
+    "category": "reading_stories",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["книга, которую читаете вдвоём", "друг или брат/сестра", "чай и печенье"],
+    "instructions": [
+      "Выберите с другом одну книгу — читайте её параллельно",
+      "Договоритесь: за неделю каждый прочитает 50 страниц",
+      "Встречайтесь раз в неделю на 'книжный клуб': чай, печенье, обсуждение",
+      "Обсуждайте: что понравилось? Что удивило? Кто ваш любимый персонаж?",
+      "Чтение вместе — совершенно другой опыт",
+      "Это взрослая традиция, но дети могут её перенять"
+    ],
+    "skills_developed": ["обсуждение", "анализ", "дружба", "аргументация"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["клуб", "обсуждение", "дружба"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_026",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: two children (cartoon boy with brown hair and girl with pigtails) discussing book at cozy table with tea, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "reading_027",
+    "title": "Сказка наоборот: злодей хороший, герой плохой",
+    "category": "reading_stories",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 35,
+    "difficulty": "medium",
+    "materials": ["бумага", "ручка"],
+    "instructions": [
+      "Выбери знакомую сказку: 'Волк и семеро козлят', 'Три поросёнка', 'Красная шапочка'",
+      "Напиши её заново — только от имени 'злодея'",
+      "Может, волк просто хотел пообщаться, а его все гнали?",
+      "А Баба-Яга на самом деле мудрая старуха, которая защищает лес?",
+      "Такой приём называется 'точка зрения'. Писатели пользуются им постоянно",
+      "Прочитай родителям — узнают ли оригинал?"
+    ],
+    "skills_developed": ["переосмысление", "эмпатия", "творчество", "анализ"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["сказка", "переосмысление", "перспектива"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:reading_027",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: wolf with glasses writing autobiography 'my side of the story', cartoon girl with pigtails laughing reading it, vibrant colors"
+      }
+    ]
+  }
+]

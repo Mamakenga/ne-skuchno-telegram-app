@@ -1,1 +1,877 @@
-[] 
+[
+  {
+    "id": "cooking_001",
+    "title": "Овсяное печенье с бананом",
+    "category": "cooking",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 30,
+    "difficulty": "easy",
+    "materials": ["2 спелых банана", "1 стакан овсяных хлопьев", "горсть изюма или кусочки шоколада", "противень", "бумага для выпечки"],
+    "instructions": [
+      "Разомни бананы вилкой в миске — должна получиться кашица",
+      "Добавь овсянку и изюм, хорошо перемешай",
+      "Выложи ложкой маленькие лепёшки на противень с бумагой",
+      "🔥 Попроси родителей поставить в духовку на 15 минут при 180°C",
+      "Дай остыть — и угощай всех! Вместо сахара здесь банан: без лишнего сладкого"
+    ],
+    "skills_developed": ["приготовление теста", "работа с ингредиентами", "планирование", "здоровое питание"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["печенье", "без сахара", "банан", "овсянка"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_001",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: plate of oatmeal banana cookies with raisins, cartoon girl with pigtails holding cookie happily, kitchen background, vibrant colors, clean shapes"
+      }
+    ]
+  },
+  {
+    "id": "cooking_002",
+    "title": "Энергетические шарики из сухофруктов",
+    "category": "cooking",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["финики без косточек — 10 штук", "горсть грецких орехов или миндаля", "2 ложки какао", "кокосовая стружка для обваливания", "блендер или скалка"],
+    "instructions": [
+      "Если есть блендер — измельчи в нём финики и орехи до однородности. Если нет — мелко поруби ножом (только под присмотром взрослых)",
+      "Добавь какао и хорошо перемешай руками",
+      "Скатай из массы маленькие шарики размером с грецкий орех",
+      "Обваляй каждый шарик в кокосовой стружке",
+      "Убери в холодильник на 15 минут — и можно есть! Это вкусно и без добавленного сахара"
+    ],
+    "skills_developed": ["работа с блендером", "здоровое питание", "мелкая моторика"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["без сахара", "финики", "орехи", "полезно"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_002",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: plate of brown energy balls rolled in coconut flakes, cartoon boy with brown hair rolling one in his hands, kitchen table with dates and nuts, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_003",
+    "title": "Фруктовый салат с йогуртом",
+    "category": "cooking",
+    "age_groups": ["3-5", "6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["яблоко", "банан", "груша или апельсин", "виноград или ягоды", "натуральный йогурт", "мёд или финиковый сироп — по желанию"],
+    "instructions": [
+      "Помой все фрукты",
+      "Порежь яблоко и грушу на кубики (банан ломай пальцами)",
+      "Добавь виноград или ягоды",
+      "Полей 2 ложками йогурта и аккуратно перемешай",
+      "Если хочешь чуть слаще — добавь ложку мёда или финикового сиропа вместо сахара"
+    ],
+    "skills_developed": ["работа с ножом", "здоровое питание", "сервировка"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["фрукты", "салат", "йогурт", "легко"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_003",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: colorful fruit salad bowl with apple, banana, grapes and yogurt, cartoon girl with pigtails holding spoon, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_004",
+    "title": "Домашний лимонад без сахара",
+    "category": "cooking",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 10,
+    "difficulty": "easy",
+    "materials": ["2 лимона", "1 литр холодной воды", "листья мяты", "ксилит или эритрит — по вкусу (или мёд)", "лёд"],
+    "instructions": [
+      "Выжми сок из лимонов в кувшин",
+      "Добавь холодную воду и листья мяты",
+      "Добавляй подсластитель по чуть-чуть, пробуя — чтобы было не приторно",
+      "Брось несколько кубиков льда",
+      "Перемешай — и разливай по стаканам. Такой лимонад гораздо полезнее покупного"
+    ],
+    "skills_developed": ["работа с ингредиентами", "баланс вкуса", "здоровое питание"],
+    "season": "summer",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["лимонад", "лето", "без сахара", "освежает"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_004",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: pitcher of yellow lemonade with mint leaves and ice cubes, lemons on table, cartoon boy with brown hair pouring into glass, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_005",
+    "title": "Тосты-бутерброды со смешными лицами",
+    "category": "cooking",
+    "age_groups": ["3-5", "6-8"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["хлеб или тосты", "сливочное масло или творожный сыр", "огурец", "помидор", "морковь", "листья салата", "оливки"],
+    "instructions": [
+      "Намажь хлеб маслом или творожным сыром",
+      "Нарежь овощи тонкими кружочками",
+      "Собери на хлебе лицо: помидоры — щёки, огурцы — глаза, оливки — зрачки",
+      "Морковку потри на тёрке для 'волос'",
+      "Листик салата — бантик или шляпка. Придумай любимому персонажу свой облик!"
+    ],
+    "skills_developed": ["творчество", "мелкая моторика", "здоровое питание", "фантазия"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["бутерброды", "творчество", "овощи", "смешно"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_005",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: three toast sandwiches with funny faces made of vegetables — tomato cheeks, olive eyes, carrot hair, cartoon girl with pigtails giggling, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_006",
+    "title": "Фруктовое мороженое на палочке",
+    "category": "cooking",
+    "age_groups": ["3-5", "6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["замороженные или свежие ягоды", "банан", "натуральный йогурт", "формочки для мороженого или маленькие стаканчики", "деревянные палочки для мороженого"],
+    "instructions": [
+      "В блендере смешай банан, ягоды и йогурт до однородности",
+      "Если хочешь слаще — добавь немного мёда или финикового сиропа (сахар не нужен)",
+      "Разлей массу по формочкам",
+      "В каждую вставь палочку посередине",
+      "Поставь в морозилку на 4–6 часов (лучше на ночь)",
+      "Достань — и наслаждайся домашним фруктовым мороженым без лишнего сахара!"
+    ],
+    "skills_developed": ["работа с блендером", "планирование", "здоровое питание"],
+    "season": "summer",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["мороженое", "фрукты", "лето", "без сахара"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_006",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: pink and purple fruit popsicles on sticks, cartoon boy with brown hair licking one happily, summer kitchen background, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_007",
+    "title": "Банановые оладьи без муки",
+    "category": "cooking",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 20,
+    "difficulty": "medium",
+    "materials": ["2 банана", "2 яйца", "корица — щепотка", "сковорода", "немного масла"],
+    "instructions": [
+      "Разомни бананы вилкой в миске",
+      "Вбей яйца и добавь корицу, перемешай",
+      "🔥 Попроси родителей разогреть сковороду с небольшим количеством масла",
+      "Выкладывай ложкой маленькие оладушки и жарь по 1–2 минуты с каждой стороны",
+      "Подавай с ягодами или йогуртом — такие оладьи не требуют сахара"
+    ],
+    "skills_developed": ["готовка на плите", "планирование", "здоровое питание"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["оладьи", "без муки", "банан", "завтрак"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_007",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: stack of small banana pancakes with berries on top, cartoon girl with pigtails pouring yogurt, vibrant colors, kitchen background"
+      }
+    ]
+  },
+  {
+    "id": "cooking_008",
+    "title": "Запечённые яблоки с корицей",
+    "category": "cooking",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 40,
+    "difficulty": "easy",
+    "materials": ["2–3 яблока", "корица", "горсть изюма или рубленых орехов", "немного мёда или эритрита — по желанию", "форма для запекания"],
+    "instructions": [
+      "Помой яблоки и ложкой вырежи сердцевину (попроси взрослых, если нож скользит)",
+      "Заполни отверстие изюмом, орехами и посыпь корицей",
+      "Если любишь сладкое — капни немного мёда или посыпь эритритом (сахар не нужен)",
+      "🔥 Попроси родителей поставить яблоки в духовку на 20–25 минут при 180°C",
+      "Достань и дай немного остыть — получится домашний тёплый десерт"
+    ],
+    "skills_developed": ["работа в духовке", "здоровое питание", "терпение"],
+    "season": "autumn",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["яблоки", "духовка", "десерт", "без сахара"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_008",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: three baked apples with cinnamon and raisins on plate, steam rising, cartoon boy with brown hair excited, cozy kitchen, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_009",
+    "title": "Греческий салат — по-домашнему",
+    "category": "cooking",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["помидор", "огурец", "болгарский перец", "красный лук (немного)", "фета или брынза", "оливки", "оливковое масло", "орегано"],
+    "instructions": [
+      "Помой овощи и нарежь крупными кубиками — помидоры, огурцы, перец",
+      "Лук нарежь тонкими кольцами — совсем немного",
+      "Сложи всё в салатницу и добавь оливки",
+      "Сверху покроши фету или брынзу",
+      "Полей оливковым маслом и посыпь орегано — не перемешивай, чтобы сыр не раскрошился"
+    ],
+    "skills_developed": ["работа с ножом", "сервировка", "здоровое питание", "гастрономия"],
+    "season": "summer",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["салат", "греческий", "овощи", "ужин"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_009",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: colorful greek salad bowl with tomato, cucumber, feta cheese, olives, cartoon girl with pigtails holding wooden spoon proud, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_010",
+    "title": "Бутерброды-канапе на шпажках",
+    "category": "cooking",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["хлеб или крекеры", "сыр", "ветчина или варёное мясо", "огурец", "помидоры-черри", "оливки", "зубочистки"],
+    "instructions": [
+      "Нарежь хлеб маленькими квадратиками",
+      "Сыр и ветчину тоже нарежь небольшими кубиками",
+      "Нанизывай на зубочистку: хлеб — сыр — ветчину — помидорку — оливку",
+      "Придумай свои сочетания: например, огурец + сыр + ветчина",
+      "Разложи красиво на тарелке — готово угощение для гостей"
+    ],
+    "skills_developed": ["сервировка", "мелкая моторика", "работа с ножом", "эстетика"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["канапе", "гости", "быстро", "красиво"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_010",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: colorful canape on toothpicks with cherry tomato, cheese, ham stacked, cartoon boy with brown hair arranging on platter, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_011",
+    "title": "Сырники из творога на плите",
+    "category": "cooking",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 25,
+    "difficulty": "medium",
+    "materials": ["200 г творога", "1 яйцо", "2–3 ложки муки", "щепотка эритрита или ксилита (можно без подсластителя)", "сковорода", "масло"],
+    "instructions": [
+      "В миске смешай творог, яйцо и эритрит (сахар не нужен — эритрит вкуснее и полезнее)",
+      "Добавь муку и замеси мягкое тесто",
+      "Скатай шарики и приплюсни — получатся сырники",
+      "🔥 Попроси родителей разогреть сковороду с маслом",
+      "Жарь сырники по 2 минуты с каждой стороны до румяной корочки",
+      "Подавай с йогуртом или ягодами"
+    ],
+    "skills_developed": ["готовка на плите", "замес теста", "планирование", "здоровое питание"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["сырники", "творог", "завтрак", "без сахара"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_011",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: plate of golden cottage cheese pancakes with berries on top, cartoon girl with pigtails flipping one in a pan, kitchen stove, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_012",
+    "title": "Мюсли без сахара — делаем сами",
+    "category": "cooking",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 10,
+    "difficulty": "easy",
+    "materials": ["овсяные хлопья", "кукурузные хлопья", "сухофрукты: изюм, курага, финики", "орехи", "семечки", "банка с крышкой"],
+    "instructions": [
+      "Смешай в большой миске хлопья — сколько хочешь",
+      "Добавь нарезанные сухофрукты. Финики заменяют сахар и делают мюсли слаще",
+      "Насыпь орехи и семечки",
+      "Хорошо перемешай руками",
+      "Пересыпь в банку — хватит надолго. На завтрак залей молоком или йогуртом"
+    ],
+    "skills_developed": ["планирование", "здоровое питание", "сборка рецепта"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["мюсли", "завтрак", "без сахара", "заготовка"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_012",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: glass jar filled with homemade muesli — oats, dried fruit, nuts, cartoon boy with brown hair pouring from scoop, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_013",
+    "title": "Картофель по-деревенски",
+    "category": "cooking",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 45,
+    "difficulty": "medium",
+    "materials": ["4–5 картофелин", "оливковое масло", "соль", "паприка", "сушёный чеснок", "противень", "бумага для выпечки"],
+    "instructions": [
+      "Хорошо помой картофель щёткой — чистить не нужно",
+      "Разрежь каждую картофелину на 4–6 долек",
+      "Сложи в миску и полей маслом, добавь соль и специи",
+      "Перемешай руками — каждая долька должна быть в масле",
+      "🔥 Попроси родителей разложить картофель на противне и поставить в духовку на 30 минут при 200°C",
+      "Достань и подавай горячим — это полезнее магазинного фри"
+    ],
+    "skills_developed": ["работа в духовке", "работа с ножом", "планирование", "гастрономия"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["картофель", "духовка", "гарнир", "вкусно"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_013",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: tray of golden potato wedges with paprika, cartoon girl with pigtails holding oven mitt, steam rising, kitchen, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_014",
+    "title": "Фруктово-ягодный смузи",
+    "category": "cooking",
+    "age_groups": ["3-5", "6-8", "9-12"],
+    "duration_minutes": 10,
+    "difficulty": "easy",
+    "materials": ["банан", "горсть ягод (свежих или замороженных)", "молоко или натуральный йогурт", "лёд (по желанию)", "блендер"],
+    "instructions": [
+      "Разломай банан на кусочки и положи в блендер",
+      "Добавь ягоды и залей молоком или йогуртом",
+      "Положи пару кубиков льда — будет холоднее",
+      "Закрой крышку и включи блендер на 30 секунд",
+      "Перелей в стакан с трубочкой — смузи готов! Сахар не нужен: банан и ягоды сами сладкие"
+    ],
+    "skills_developed": ["работа с блендером", "здоровое питание"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["смузи", "фрукты", "быстро", "без сахара"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_014",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: tall glass of pink berry smoothie with straw, blender nearby, cartoon boy with brown hair drinking, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_015",
+    "title": "Домашняя гранола без сахара",
+    "category": "cooking",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 35,
+    "difficulty": "medium",
+    "materials": ["овсяные хлопья — 2 стакана", "орехи и семечки — 1 стакан", "мёд — 3 ложки (или финиковый сироп)", "растительное масло — 2 ложки", "корица", "противень", "бумага для выпечки"],
+    "instructions": [
+      "Смешай хлопья, орехи и семечки в миске",
+      "Растопи мёд с маслом (просто на тёплой воде — без кипячения), добавь корицу",
+      "Полей этой смесью хлопья и перемешай — каждая крупинка должна стать чуть влажной",
+      "🔥 Попроси родителей разложить на противне и поставить в духовку на 20 минут при 160°C. Помешивай каждые 5 минут",
+      "После запекания добавь сухофрукты (изюм, финики) — и пересыпь в банку. Хранится 2 недели"
+    ],
+    "skills_developed": ["работа в духовке", "планирование", "здоровое питание", "терпение"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["гранола", "завтрак", "без сахара", "духовка"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_015",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: tray of golden homemade granola clusters, cartoon girl with pigtails stirring with wooden spoon, vibrant kitchen, clean shapes"
+      }
+    ]
+  },
+  {
+    "id": "cooking_016",
+    "title": "Пицца на лаваше за 10 минут",
+    "category": "cooking",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["тонкий лаваш или большая тортилья", "томатная паста или кетчуп", "сыр (тёртый)", "ветчина или колбаса", "помидор", "оливки (по желанию)", "противень", "орегано"],
+    "instructions": [
+      "Положи лаваш на противень с бумагой",
+      "Намажь томатной пастой как основу",
+      "Разложи сверху ветчину, кружочки помидора, оливки",
+      "Посыпь тёртым сыром и орегано",
+      "🔥 Попроси родителей поставить в духовку на 7–10 минут при 200°C — пока сыр не расплавится",
+      "Достань, разрежь на кусочки — пицца готова!"
+    ],
+    "skills_developed": ["планирование", "сервировка", "работа в духовке"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["пицца", "лаваш", "быстро", "духовка"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_016",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: homemade lavash pizza with melted cheese and toppings cut into slices, cartoon boy with brown hair holding slice, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_017",
+    "title": "Фруктовый шашлык на шпажках",
+    "category": "cooking",
+    "age_groups": ["3-5", "6-8", "9-12"],
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "materials": ["банан", "киви", "клубника или ягоды", "виноград", "ананас или яблоко", "деревянные шпажки", "йогурт (для соуса)"],
+    "instructions": [
+      "Нарежь фрукты крупными кусочками, сохраняя ягоды целыми",
+      "Нанизывай на шпажку чередуя цвета: клубника — киви — банан — виноград",
+      "Сделай 5–6 разных шпажек",
+      "Разложи на тарелке как радугу",
+      "Подавай с йогуртом как соусом — обмакивать ягоды вкуснее, чем есть"
+    ],
+    "skills_developed": ["работа с ножом", "эстетика", "цветовосприятие", "здоровое питание"],
+    "season": "summer",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["фрукты", "шашлык", "красиво", "праздник"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_017",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: colorful fruit skewers with strawberry, kiwi, banana, grapes in rainbow order, yogurt dip bowl, cartoon girl with pigtails, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_018",
+    "title": "Сырные палочки из лаваша",
+    "category": "cooking",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 25,
+    "difficulty": "medium",
+    "materials": ["тонкий лаваш", "сыр (тёртый)", "сливочное масло", "кунжут или орегано", "противень", "бумага для выпечки"],
+    "instructions": [
+      "Разложи лаваш и намажь слегка растопленным сливочным маслом",
+      "Посыпь тёртым сыром и орегано",
+      "Накрой вторым листом лаваша и немного прижми скалкой",
+      "Нарежь на полоски шириной 2 см — это будут палочки",
+      "🔥 Попроси родителей поставить в духовку на 8 минут при 180°C до хрустящего состояния",
+      "Подавай тёплыми — отличный перекус"
+    ],
+    "skills_developed": ["работа в духовке", "работа с ножом", "планирование"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["сыр", "лаваш", "перекус", "духовка"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_018",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: crispy golden cheese lavash sticks on plate with sesame seeds, cartoon boy with brown hair biting one happily, kitchen background, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_019",
+    "title": "Летний салат из огурцов и помидоров",
+    "category": "cooking",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "materials": ["2 огурца", "2 помидора", "зелёный лук или укроп", "оливковое или подсолнечное масло", "соль", "лимон (по желанию)"],
+    "instructions": [
+      "Помой овощи и зелень",
+      "Нарежь огурцы и помидоры кружочками или кубиками — как больше нравится",
+      "Мелко поруби зелень",
+      "Сложи всё в салатницу, посоли, полей маслом",
+      "Можно добавить пару капель лимонного сока — будет свежее. Перемешай и подавай"
+    ],
+    "skills_developed": ["работа с ножом", "здоровое питание", "самостоятельность"],
+    "season": "summer",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["салат", "лето", "овощи", "быстро"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_019",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: fresh cucumber tomato salad in ceramic bowl with herbs, cartoon girl with pigtails proud, summer kitchen, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_020",
+    "title": "Парфе из йогурта, ягод и гранолы",
+    "category": "cooking",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 10,
+    "difficulty": "easy",
+    "materials": ["натуральный йогурт", "ягоды свежие или замороженные", "гранола или овсяные хлопья", "мёд (по желанию)", "высокий стакан или банка"],
+    "instructions": [
+      "Налей слой йогурта на дно стакана — примерно 2 ложки",
+      "Сверху положи слой ягод",
+      "Следующий слой — гранола",
+      "Повторяй слои до верха стакана",
+      "Если хочешь слаще — капни мёд. Это красиво выглядит и очень полезно. Вкуснее покупного йогурта с сахаром!"
+    ],
+    "skills_developed": ["эстетика", "планирование слоёв", "здоровое питание"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["парфе", "йогурт", "завтрак", "красиво"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_020",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: tall glass parfait with layers of white yogurt, red berries, granola, cartoon boy with brown hair holding spoon, vibrant colors, clean shapes"
+      }
+    ]
+  },
+  {
+    "id": "cooking_021",
+    "title": "Пышный омлет на сковороде",
+    "category": "cooking",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 15,
+    "difficulty": "medium",
+    "materials": ["3 яйца", "3 ложки молока", "соль", "перец", "зелень (по желанию)", "сковорода", "масло", "крышка"],
+    "instructions": [
+      "В миске разбей яйца и взбей вилкой с молоком и солью",
+      "Добавь мелко нарезанную зелень",
+      "🔥 Попроси родителей разогреть сковороду с маслом",
+      "Вылей яичную смесь и накрой крышкой",
+      "Жарь на тихом огне 5–7 минут — омлет поднимется пышным",
+      "Раздели лопаткой на порции и подавай горячим"
+    ],
+    "skills_developed": ["готовка на плите", "работа с яйцами", "планирование"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["омлет", "завтрак", "белок", "сытно"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_021",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: fluffy yellow omelette in a pan with herbs sprinkled, cartoon girl with pigtails proud, kitchen stove, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_022",
+    "title": "Печёные бананы с корицей",
+    "category": "cooking",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 25,
+    "difficulty": "easy",
+    "materials": ["2 спелых банана", "корица", "немного мёда (по желанию)", "орехи", "форма для запекания", "бумага для выпечки"],
+    "instructions": [
+      "Разрежь банан вдоль, не снимая кожуру",
+      "Посыпь срез корицей и капни немного мёда (сахар не нужен — банан и так сладкий)",
+      "Посыпь рублеными орехами",
+      "🔥 Попроси родителей поставить в духовку на 10–15 минут при 180°C",
+      "Достань и ешь ложечкой прямо из кожуры — как десерт"
+    ],
+    "skills_developed": ["работа в духовке", "здоровое питание", "эстетика"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["банан", "десерт", "духовка", "без сахара"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_022",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: baked banana split open with cinnamon and nuts, steam rising, cartoon boy with brown hair eating with spoon, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_023",
+    "title": "Творожная запеканка",
+    "category": "cooking",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 60,
+    "difficulty": "medium",
+    "materials": ["400 г творога", "2 яйца", "2 ложки манки", "2 ложки эритрита или ксилита", "ваниль", "изюм", "форма для запекания", "масло"],
+    "instructions": [
+      "Смешай в миске творог, яйца, манку и подсластитель (эритрит вместо сахара — без вреда для зубов)",
+      "Добавь ваниль и изюм, хорошо перемешай",
+      "Смажь форму маслом и выложи массу ровным слоем",
+      "🔥 Попроси родителей поставить в духовку на 35–40 минут при 180°C",
+      "Проверь: когда верх золотистый, а внутри не жидкое — готово",
+      "Дай остыть 10 минут, нарежь квадратиками — подавай с ягодами"
+    ],
+    "skills_developed": ["работа в духовке", "замес массы", "планирование", "терпение"],
+    "season": "any",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["запеканка", "творог", "десерт", "без сахара"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_023",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: golden cottage cheese casserole in baking dish, slice cut out with raisins, cartoon girl with pigtails holding plate, vibrant colors, cozy kitchen"
+      }
+    ]
+  },
+  {
+    "id": "cooking_024",
+    "title": "Домашний квас из хлеба и изюма",
+    "category": "cooking",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 20,
+    "difficulty": "medium",
+    "materials": ["черный хлеб — несколько кусочков", "2 литра воды", "горсть изюма", "щепотка эритрита (или 2 ложки мёда)", "сухие дрожжи — щепотка", "большая банка с марлей"],
+    "instructions": [
+      "🔥 Попроси родителей подсушить хлеб в духовке до сухарей (10 минут при 150°C)",
+      "Залей сухари тёплой кипячёной водой в большой банке",
+      "Добавь изюм, подсластитель и дрожжи",
+      "Накрой банку марлей (не крышкой — нужен воздух) и оставь в тёплом месте на 1–2 дня",
+      "Через день попробуй — когда вкус станет кисло-сладким, процеди через марлю",
+      "Перелей в бутылки и поставь в холодильник. Натуральный квас без газировочной химии готов!"
+    ],
+    "skills_developed": ["ферментация", "терпение", "домашние заготовки", "химия еды"],
+    "season": "summer",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["квас", "ферментация", "традиции", "лето"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_024",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: big glass jar of homemade bread kvass with raisins, covered with cloth, cartoon boy with brown hair watching fermentation, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_025",
+    "title": "Винегрет — самый русский салат",
+    "category": "cooking",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "materials": ["3 варёные картофелины", "2 варёные моркови", "1 варёная свёкла", "солёные огурцы — 2 шт", "квашеная капуста — 200 г", "подсолнечное масло", "лук (по желанию)"],
+    "instructions": [
+      "Помой руки — ты работаешь с уже варёными овощами",
+      "Почисти и нарежь картошку мелкими кубиками",
+      "Так же нарежь морковь и свёклу (лучше надень фартук — свёкла красится)",
+      "Солёные огурцы нарежь мелко",
+      "Сложи все овощи в миску, добавь квашеную капусту",
+      "Полей маслом и перемешай. Лук — по желанию. Русский салат из детства готов"
+    ],
+    "skills_developed": ["работа с ножом", "русская кухня", "планирование", "аккуратность"],
+    "season": "autumn",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["салат", "винегрет", "традиции", "овощи"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_025",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: big bowl of pink vinaigrette salad with beet, carrot, potato, cabbage, cartoon girl with pigtails mixing it, vibrant colors"
+      }
+    ]
+  },
+  {
+    "id": "cooking_026",
+    "title": "Хрустящие чипсы из яблок в духовке",
+    "category": "cooking",
+    "age_groups": ["6-8", "9-12"],
+    "duration_minutes": 90,
+    "difficulty": "easy",
+    "materials": ["2 яблока", "корица", "противень", "бумага для выпечки", "острый нож (работают родители)"],
+    "instructions": [
+      "🔥 Попроси родителей помочь нарезать яблоки очень тонкими кружочками поперёк",
+      "Разложи дольки на противне с бумагой в один слой",
+      "Посыпь корицей. Сахар не нужен — яблоко само сладкое",
+      "🔥 Попроси родителей поставить в духовку на 60–80 минут при 100°C (низкая температура)",
+      "Проверяй: как только чипсы станут сухими и хрустящими — готово",
+      "Остуди и храни в банке — полезный перекус"
+    ],
+    "skills_developed": ["работа в духовке", "терпение", "здоровое питание"],
+    "season": "autumn",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["чипсы", "яблоки", "без сахара", "полезно"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_026",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: thin apple chips drying on tray with cinnamon, cartoon boy with brown hair checking oven, vibrant colors, cozy kitchen"
+      }
+    ]
+  },
+  {
+    "id": "cooking_027",
+    "title": "Тыквенный суп-пюре",
+    "category": "cooking",
+    "age_groups": ["9-12", "13-16"],
+    "duration_minutes": 40,
+    "difficulty": "medium",
+    "materials": ["500 г тыквы", "1 морковь", "1 картофелина", "соль", "перец", "сливки или молоко — полстакана", "блендер", "кастрюля"],
+    "instructions": [
+      "Почисти тыкву, морковь и картошку, нарежь кубиками",
+      "🔥 Попроси родителей поставить кастрюлю на плиту, залить овощи водой, чтобы покрыла",
+      "Вари на среднем огне 20 минут — до мягкости",
+      "Слей лишнюю воду, оставив немного для густоты",
+      "Измельчи всё погружным блендером до пюре (или переложи в чашу блендера — осторожно, горячее!)",
+      "Добавь сливки, посоли, поперчи. Подавай с гренками или семечками"
+    ],
+    "skills_developed": ["готовка на плите", "работа с блендером", "планирование", "гастрономия"],
+    "season": "autumn",
+    "location": "indoor",
+    "premium": false,
+    "tags": ["суп", "тыква", "осень", "горячее"],
+    "rating": 0,
+    "times_completed": 0,
+    "media": [
+      {
+        "type": "image",
+        "source": "ai_generated",
+        "url": "pending:cooking_027",
+        "cover": true,
+        "caption": "Flat illustration, Duolingo style: orange pumpkin cream soup in bowl with seeds on top, steam rising, cartoon girl with pigtails holding spoon, cozy autumn kitchen, vibrant colors"
+      }
+    ]
+  }
+]

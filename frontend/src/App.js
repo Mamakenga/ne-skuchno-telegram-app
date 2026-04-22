@@ -27,8 +27,7 @@ function App() {
     try {
       const fetchedActivities = await apiService.getActivities({
         age: selectedAge,
-        category: category === 'surprise_me' ? undefined : category,
-        random: category === 'surprise_me' ? 'true' : undefined,
+        category: category,
         limit: 3
       });
       
