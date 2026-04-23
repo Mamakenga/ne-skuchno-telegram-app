@@ -2,7 +2,7 @@
 
 [phases.install]
 dependsOn = ["setup"]
-cmds = ["npm install --legacy-peer-deps"]
+cmds = ["cd backend && npm install --legacy-peer-deps"]
 cacheDirectories = []
 
 [phases.build]
@@ -10,4 +10,4 @@ dependsOn = ["install"]
 cmds = ["echo 'Build phase completed'"]
 
 [start]
-cmd = "npm start"
+cmd = "cd backend && npm start"
