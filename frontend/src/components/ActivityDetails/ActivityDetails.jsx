@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { WebApp } from '@twa-dev/sdk';
+import WebApp from '@twa-dev/sdk';
 import BackgroundShapes from '../common/BackgroundShapes';
 import { apiService } from '../../services/api';
 

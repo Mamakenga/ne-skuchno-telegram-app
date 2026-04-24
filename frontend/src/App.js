@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { WebApp } from '@twa-dev/sdk';
+import WebApp from '@twa-dev/sdk';
 
 // Импорт компонентов
 import AgeSelector from './components/AgeSelector/AgeSelector';
