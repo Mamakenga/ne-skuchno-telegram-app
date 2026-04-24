@@ -1,18 +1,13 @@
 import React, { useState, useEffect } from 'react';
-// Telegram WebApp — встроен автоматически в Telegram Mini App окружении
-const WebApp = window.Telegram?.WebApp || {};
-
-// Импорт компонентов
 import AgeSelector from './components/AgeSelector/AgeSelector';
 import CategorySelector from './components/CategorySelector/CategorySelector';
 import ResultsList from './components/ResultsList/ResultsList';
 import ActivityDetails from './components/ActivityDetails/ActivityDetails';
-
-// Импорт сервисов
 import { apiService } from './services/api';
-
-// Импорт стилей
 import './index.css';
+
+// Telegram WebApp — встроен автоматически в Telegram Mini App окружении
+const WebApp = window.Telegram?.WebApp || {};
 
 function App() {
   // Состояние приложения
