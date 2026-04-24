@@ -21,15 +21,7 @@
     "tags": ["танцы", "музыка", "веселье", "группа"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_001",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: kids dancing frozen in silly poses, music notes around, cartoon boy with brown hair and girl with pigtails laughing, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_001", "cover": true}]
   },
   {
     "id": "active_002",
@@ -54,15 +46,7 @@
     "tags": ["препятствия", "ловкость", "спорт", "время"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_002",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: child crawling under chair obstacle course with pillows and rope, cartoon girl with pigtails running, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_002", "cover": true}]
   },
   {
     "id": "active_003",
@@ -87,15 +71,7 @@
     "tags": ["йога", "растяжка", "животные", "спокойствие"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_003",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair doing animal yoga pose on mat, soft zen colors, vibrant"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_003", "cover": true}]
   },
   {
     "id": "active_004",
@@ -120,15 +96,7 @@
     "tags": ["баскетбол", "мяч", "меткость", "спорт"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_004",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails throwing sock ball into cardboard box basket, tape line on floor, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_004", "cover": true}]
   },
   {
     "id": "active_005",
@@ -153,15 +121,7 @@
     "tags": ["лава", "классика", "ловкость", "веселье"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_005",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: kids jumping between pillows and couch, orange 'lava' on floor, cartoon boy with brown hair balancing, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_005", "cover": true}]
   },
   {
     "id": "active_006",
@@ -187,15 +147,7 @@
     "tags": ["классики", "прыжки", "во дворе", "традиция"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_006",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: hopscotch squares made with colored tape on floor, cartoon girl with pigtails jumping, numbered squares, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_006", "cover": true}]
   },
   {
     "id": "active_007",
@@ -221,20 +173,8 @@
     "rating": 0,
     "times_completed": 0,
     "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_007",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair throwing paper plane, different designs lined up, measuring tape on floor, vibrant colors"
-      },
-      {
-        "type": "video",
-        "source": "youtube",
-        "url": "https://www.youtube.com/watch?v=YfUEmlIn3jc",
-        "cover": false,
-        "caption": "YouTube: best paper airplane designs"
-      }
+      {"type": "image", "source": "ai_generated", "url": "pending:active_007", "cover": true},
+      {"type": "video", "source": "youtube", "url": "https://www.youtube.com/watch?v=YfUEmlIn3jc", "cover": false}
     ]
   },
   {
@@ -260,15 +200,7 @@
     "tags": ["мяч", "музыка", "группа", "классика"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_008",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: group of kids in circle passing ball with music notes around, cartoon boy with brown hair mid-pass, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_008", "cover": true}]
   },
   {
     "id": "active_009",
@@ -293,15 +225,7 @@
     "tags": ["квест", "сокровище", "подсказки", "семья"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_009",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails reading clue note with arrows pointing in house, treasure chest peeking out, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_009", "cover": true}]
   },
   {
     "id": "active_010",
@@ -327,15 +251,7 @@
     "tags": ["скакалка", "прыжки", "спорт", "рекорд"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_010",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair jumping rope mid-air, counter showing '50' above, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_010", "cover": true}]
   },
   {
     "id": "active_011",
@@ -359,15 +275,7 @@
     "tags": ["меткость", "игра", "очки", "семья"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_011",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: row of cups labeled with points, coin flying toward '10', cartoon girl with pigtails aiming, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_011", "cover": true}]
   },
   {
     "id": "active_012",
@@ -391,15 +299,7 @@
     "tags": ["внимание", "команды", "ловушка", "классика"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_012",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair as leader with speech bubble 'Simon says!', girl with pigtails raising hand, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_012", "cover": true}]
   },
   {
     "id": "active_013",
@@ -424,15 +324,7 @@
     "tags": ["подушки", "веселье", "энергия", "братья"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_013",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: two cartoon kids — boy with brown hair and girl with pigtails — having playful pillow fight on bed, feathers flying, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_013", "cover": true}]
   },
   {
     "id": "active_014",
@@ -457,15 +349,7 @@
     "tags": ["шпагат", "растяжка", "гибкость"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_014",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails stretching toward splits on mat, calm relaxing colors, vibrant"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_014", "cover": true}]
   },
   {
     "id": "active_015",
@@ -490,15 +374,7 @@
     "tags": ["эстафета", "ловкость", "время"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_015",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair carrying spoon with ball, obstacle course around him, timer in corner, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_015", "cover": true}]
   },
   {
     "id": "active_016",
@@ -523,15 +399,7 @@
     "tags": ["снег", "битва", "команда", "зима"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_016",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: two kids behind snow forts in winter throwing snowballs, cartoon boy with brown hair ducking, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_016", "cover": true}]
   },
   {
     "id": "active_017",
@@ -556,15 +424,7 @@
     "tags": ["танцы", "батл", "музыка"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_017",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails breakdancing with cartoon boy watching, music notes, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_017", "cover": true}]
   },
   {
     "id": "active_018",
@@ -589,15 +449,7 @@
     "tags": ["прятки", "сардины", "игра", "веселье"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_018",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: several kids hiding under bed together squished, cartoon girl with pigtails peeking out, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_018", "cover": true}]
   },
   {
     "id": "active_019",
@@ -621,15 +473,7 @@
     "tags": ["пятнашки", "бег", "ловкость"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_019",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair chasing cartoon girl with pigtails outdoors, motion lines, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_019", "cover": true}]
   },
   {
     "id": "active_020",
@@ -653,15 +497,7 @@
     "tags": ["лабиринт", "следы", "для малышей"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_020",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: trail of paper foot cutouts on floor through room, cartoon girl with pigtails following footsteps, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_020", "cover": true}]
   },
   {
     "id": "active_021",
@@ -686,15 +522,7 @@
     "tags": ["боулинг", "кегли", "меткость"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_021",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: plastic bottles arranged like bowling pins, ball rolling toward them, cartoon boy with brown hair cheering, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_021", "cover": true}]
   },
   {
     "id": "active_022",
@@ -719,15 +547,7 @@
     "tags": ["дартс", "меткость", "безопасно"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_022",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: paper dartboard on wall with scored rings, sock balls flying toward bullseye, cartoon girl with pigtails aiming, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_022", "cover": true}]
   },
   {
     "id": "active_023",
@@ -752,15 +572,7 @@
     "tags": ["баланс", "книги", "осанка"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_023",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair walking carefully with 3 books balanced on his head, arms out, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_023", "cover": true}]
   },
   {
     "id": "active_024",
@@ -785,15 +597,7 @@
     "tags": ["лимбо", "гибкость", "карибы"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_024",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails bending backward under stick held by cartoon boy, music notes, vibrant tropical colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_024", "cover": true}]
   },
   {
     "id": "active_025",
@@ -818,15 +622,7 @@
     "tags": ["шарады", "крокодил", "актёрство"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_025",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair acting like kangaroo, others guessing, paper slips in hat, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_025", "cover": true}]
   },
   {
     "id": "active_026",
@@ -851,15 +647,7 @@
     "tags": ["прыжки", "спорт", "рекорд"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_026",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: cartoon girl with pigtails jumping mid-air over starting line with measuring tape, motion lines, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_026", "cover": true}]
   },
   {
     "id": "active_027",
@@ -884,14 +672,6 @@
     "tags": ["зеркало", "импровизация", "семья"],
     "rating": 0,
     "times_completed": 0,
-    "media": [
-      {
-        "type": "image",
-        "source": "ai_generated",
-        "url": "pending:active_027",
-        "cover": true,
-        "caption": "Flat illustration, Duolingo style: cartoon boy with brown hair and girl with pigtails mirroring each other's poses, dotted line between them, vibrant colors"
-      }
-    ]
+    "media": [{"type": "image", "source": "ai_generated", "url": "pending:active_027", "cover": true}]
   }
 ]

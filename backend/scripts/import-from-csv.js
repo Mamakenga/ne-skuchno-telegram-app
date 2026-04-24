@@ -58,8 +58,23 @@ async function importFromCSV() {
     console.log(`📊 Существующих записей: ${existingCount.rows[0].count}`);
     
     const activities = [];
-    const csvPath = path.join(__dirname, '../..', 'activities-detailed.csv'); // Путь к вашему CSV файлу
-    
+
+    // CSV-путь: env CSV_PATH → первый существующий из списка кандидатов.
+    const candidates = [
+      process.env.CSV_PATH,
+      path.join(__dirname, '../..', 'activities-detailed.csv'), // запуск из корня проекта
+      path.join(__dirname, '..', 'activities-detailed.csv'),    // Railway: backend/ = app root
+      path.join(__dirname, 'activities-detailed.csv'),          // рядом со скриптом
+      path.join(process.cwd(), 'activities-detailed.csv'),      // текущий рабочий каталог
+    ].filter(Boolean);
+
+    const csvPath = candidates.find(p => fs.existsSync(p));
+    if (!csvPath) {
+      throw new Error(
+        'activities-detailed.csv не найден. Проверял: \n  ' + candidates.join('\n  ')
+      );
+    }
+
     console.log('📂 Reading CSV from:', csvPath);
     
     return new Promise((resolve, reject) => {
