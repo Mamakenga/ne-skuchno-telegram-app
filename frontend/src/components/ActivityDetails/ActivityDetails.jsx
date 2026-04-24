@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import WebApp from '@twa-dev/sdk';
+// Telegram WebApp — встроен автоматически в Telegram Mini App окружении
+const WebApp = window.Telegram?.WebApp || {};
 import BackgroundShapes from '../common/BackgroundShapes';
 import { apiService } from '../../services/api';
 

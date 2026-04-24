@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import WebApp from '@twa-dev/sdk';
+// Telegram WebApp — встроен автоматически в Telegram Mini App окружении
+const WebApp = window.Telegram?.WebApp || {};
 
 // Импорт компонентов
 import AgeSelector from './components/AgeSelector/AgeSelector';
