@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-// Telegram WebApp — встроен автоматически в Telegram Mini App окружении
-const WebApp = window.Telegram?.WebApp || {};
 import BackgroundShapes from '../common/BackgroundShapes';
 import { apiService } from '../../services/api';
+
+// Telegram WebApp — встроен автоматически в Telegram Mini App окружении
+const WebApp = window.Telegram?.WebApp || {};
 
 const showAlert = (msg) => {
   try { WebApp.showAlert(msg); } catch { console.warn(msg); }

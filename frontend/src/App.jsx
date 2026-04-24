@@ -17,11 +17,11 @@ function App() {
   const [activities, setActivities] = useState([]);
   const [selectedActivity, setSelectedActivity] = useState(null);
   const [user, setUser] = useState(null);
-  
+
   // Данные из API
   const [ageGroups, setAgeGroups] = useState([]);
   const [categories, setCategories] = useState([]);
-  
+
   // Состояния загрузки
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -36,16 +36,16 @@ function App() {
   const initializeTelegramApp = () => {
     try {
       // Инициализация Telegram Web App
-      WebApp.ready();
-      WebApp.expand();
-      
+      WebApp.ready?.();
+      WebApp.expand?.();
+
       // Настройка цветов под наш дизайн
-      WebApp.setHeaderColor('#081a26');
-      WebApp.setBackgroundColor('#081a26');
-      
+      WebApp.setHeaderColor?.('#081a26');
+      WebApp.setBackgroundColor?.('#081a26');
+
       // Отключаем вертикальные свайпы для лучшей работы анимаций
-      WebApp.disableVerticalSwipes();
-      
+      WebApp.disableVerticalSwipes?.();
+
       // Устанавливаем CSS переменные для Telegram
       if (WebApp.themeParams) {
         document.documentElement.style.setProperty('--tg-theme-bg-color', '#081a26');
@@ -53,10 +53,10 @@ function App() {
         document.documentElement.style.setProperty('--tg-theme-button-color', '#e2bd48');
         document.documentElement.style.setProperty('--tg-theme-button-text-color', '#081a26');
       }
-      
+
       // Добавляем класс для Telegram viewport
       document.body.classList.add('telegram-viewport');
-      
+
       console.log('Telegram Web App initialized');
     } catch (error) {
       console.error('Error initializing Telegram Web App:', error);
@@ -67,21 +67,21 @@ function App() {
   const loadReferenceData = async () => {
     setLoading(true);
     setError(null);
-    
+
     try {
       const [ageGroupsData, categoriesData] = await Promise.all([
         apiService.getAgeGroups(),
         apiService.getCategories()
       ]);
-      
+
       setAgeGroups(ageGroupsData.data || ageGroupsData);
       setCategories(categoriesData.data || categoriesData);
-      
+
       console.log('Reference data loaded:', { ageGroupsData, categoriesData });
     } catch (error) {
       console.error('Error loading reference data:', error);
       setError('Ошибка загрузки данных. Проверьте подключение к интернету.');
-      
+
       // В случае ошибки показываем alert через Telegram
       if (WebApp.showAlert) {
         WebApp.showAlert('Ошибка загрузки данных');
@@ -95,7 +95,7 @@ function App() {
   const handleAgeSelect = (ageId) => {
     setSelectedAge(ageId);
     setCurrentScreen('category');
-    
+
     console.log('Age selected:', ageId);
   };
 
@@ -104,24 +104,24 @@ function App() {
     setSelectedCategory(categoryId);
     setLoading(true);
     setError(null);
-    
+
     try {
       console.log('Fetching activities for:', { age: selectedAge, category: categoryId });
-      
+
       const response = await apiService.getActivities({
         age: selectedAge,
         category: categoryId
       });
-      
+
       setActivities(response.activities || []);
       setUser(response.user || null);
       setCurrentScreen('results');
-      
+
       console.log('Activities loaded:', response);
     } catch (error) {
       console.error('Error fetching activities:', error);
       setError('Не удалось загрузить активности. Попробуйте еще раз.');
-      
+
       if (WebApp.showAlert) {
         WebApp.showAlert('Ошибка загрузки активностей');
       }
@@ -139,10 +139,10 @@ function App() {
       }
       return;
     }
-    
+
     setSelectedActivity(activity);
     setCurrentScreen('details');
-    
+
     console.log('Activity selected:', activity);
   };
 
@@ -181,7 +181,7 @@ function App() {
           <div style={{ fontSize: '48px', marginBottom: '16px' }}>😞</div>
           <div style={{ fontSize: '18px', marginBottom: '8px' }}>Упс! Что-то пошло не так</div>
           <div style={{ fontSize: '14px', marginBottom: '20px' }}>{error}</div>
-          <button 
+          <button
             className="button-primary"
             onClick={loadReferenceData}
           >
@@ -197,16 +197,16 @@ function App() {
     <div className="app-container">
       {/* Экран выбора возраста */}
       {currentScreen === 'age' && (
-        <AgeSelector 
+        <AgeSelector
           ageGroups={ageGroups}
           onSelect={handleAgeSelect}
           loading={loading}
         />
       )}
-      
+
       {/* Экран выбора категории */}
       {currentScreen === 'category' && (
-        <CategorySelector 
+        <CategorySelector
           categories={categories}
           onSelect={handleCategorySelect}
           onBack={handleBack}
@@ -214,10 +214,10 @@ function App() {
           loading={loading}
         />
       )}
-      
+
       {/* Экран списка результатов */}
       {currentScreen === 'results' && (
-        <ResultsList 
+        <ResultsList
           activities={activities}
           user={user}
           onActivitySelect={handleActivitySelect}
@@ -226,10 +226,10 @@ function App() {
           loading={loading}
         />
       )}
-      
+
       {/* Экран деталей активности */}
       {currentScreen === 'details' && (
-        <ActivityDetails 
+        <ActivityDetails
           activity={selectedActivity}
           user={user}
           onBack={handleBack}

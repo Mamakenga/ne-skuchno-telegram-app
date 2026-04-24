@@ -1,9 +1,9 @@
 // api.js - Полный API сервис для Telegram Mini App
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://ne-skuchno-telegram-app-production.up.railway.app/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://ne-skuchno-telegram-app-production.up.railway.app/api';
 
 console.log('🔗 API_BASE_URL:', API_BASE_URL);
-console.log('🔗 process.env.REACT_APP_API_URL:', process.env.REACT_APP_API_URL);
+console.log('🔗 import.meta.env.VITE_API_URL:', import.meta.env.VITE_API_URL);
 
 export const apiService = {
   // ========== ОСНОВНЫЕ МЕТОДЫ ДЛЯ АКТИВНОСТЕЙ ==========
