@@ -299,26 +299,7 @@ const server = app.listen(PORT, '0.0.0.0', () => {
   console.log(`   - Health: http://localhost:${PORT}/health`);
   console.log(`   - Debug: http://localhost:${PORT}/debug`);
   console.log(`   - API: http://localhost:${PORT}/api/categories`);
-
-  // Запускаем импорт CSV асинхронно ПОСЛЕ старта сервера, чтобы не блокировать health check
-  if (pool) {
-    const path = require('path');
-    const fs = require('fs');
-    const csvImportPath = path.join(__dirname, 'scripts', 'import-from-csv.js');
-    if (fs.existsSync(csvImportPath)) {
-      console.log('📥 Triggering async CSV import...');
-      const importFromCSV = require('./scripts/import-from-csv');
-      importFromCSV().then(() => {
-        console.log('✅ CSV import completed');
-      }).catch((err) => {
-        console.error('⚠️ CSV import failed (non-fatal):', err.message);
-      });
-    } else {
-      console.log('⚠️ import-from-csv.js not found, skipping import');
-    }
-  } else {
-    console.log('⚠️ No DB pool, skipping CSV import');
-  }
+  // CSV импорт запускается вручную локально: node scripts/import-from-csv.js
 });
 
 // Heartbeat
